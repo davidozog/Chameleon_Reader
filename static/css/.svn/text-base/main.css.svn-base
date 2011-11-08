@@ -1,0 +1,123 @@
+span.hl { background: yellow; }
+
+ul{border:0; margin:0; padding:0;}
+
+#pagination-flickr li{
+border:0; margin:0; padding:0;
+font-size:11px;
+list-style:none;
+}
+#pagination-flickr a{
+border:solid 1px #DDDDDD;
+margin-right:2px;
+}
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off {
+color:#666666;
+display:block;
+float:left;
+font-weight:bold;
+padding:3px 4px;
+}
+#pagination-flickr .next a,
+#pagination-flickr .previous a {
+font-weight:bold;
+border:solid 1px #FFFFFF;
+} 
+#pagination-flickr .active{
+color:#ff0084;
+font-weight:bold;
+display:block;
+float:left;
+padding:4px 6px;
+}
+li.active{
+margin-top: 0px!important;
+margin-right: -1px !important;
+background-color: red;
+padding: 0!important;
+}
+#pagination-flickr a:link,
+#pagination-flickr a:visited {
+color:#0063e3;
+display:block;
+float:left;
+padding:3px 6px;
+text-decoration:none;
+}
+#pagination-flickr a:hover{
+border:solid 1px #666666;
+}
+.toc-list{
+margin-left:0px;
+}
+
+div.beginner {
+margin-left: 50px !important;
+}
+div.expert {
+margin-left: 50px !important;
+}
+
+h1.btitle {
+margin-left: -50px;
+}
+h1.etitle {
+margin-left: -50px;
+}
+
+div.toc-title {
+margin-left: -35px;
+}
+
+span#here_books {
+color: red;
+}
+
+div.book_list {
+margin-left: 20px;
+margin-top: 7px;
+}
+
+span#bookname {
+font-size: 25px;
+font-weight: bold;
+}
+
+span.art_title{
+margin-left: 20px;
+margin-top: 10px!important;
+}
+
+div#note-content{
+margin-left: 20px;
+margin-top:10px;
+}
+
+div.notes-list{
+margin-left: 15px;
+width: 500px;
+background-color: #cccccc;
+padding: 10px 0 10px 10px;
+margin-top:15px;
+margin-bottom: -10px;
+}
+
+div.achievements{
+background-color: #99cc99;
+margin-left: 15px;
+width: 300px;
+padding: 13px 13px 13px 13px;
+}
+
+div.mypanel{
+background-color: #ffcccc;
+float: right;
+margin-right: 100px;
+padding: 15px 15px 15px 15px;
+}
+
+ul.ach_list{
+margin-left:30px;
+margin-top: 10px;
+}

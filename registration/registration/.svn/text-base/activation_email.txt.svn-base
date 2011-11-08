@@ -1,0 +1,4 @@
+Welcome to Chameleon Reader.
+
+You have {{ expiration_days }} days to complete the activation of your account by visiting this link:
+{{ site }}/{{ activation_key }}

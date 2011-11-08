@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/cis522f11_2g/!svn/ver/66/trunk/GameReader/registration/registration
+END
+registration_form.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/cis522f11_2g/!svn/ver/66/trunk/GameReader/registration/registration/registration_form.html
+END
+activate.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/cis522f11_2g/!svn/ver/49/trunk/GameReader/registration/registration/activate.html
+END
+profile.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/cis522f11_2g/!svn/ver/4/trunk/GameReader/registration/registration/profile.html
+END
+activation_email_subject.txt
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/cis522f11_2g/!svn/ver/4/trunk/GameReader/registration/registration/activation_email_subject.txt
+END
+registration_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cis522f11_2g/!svn/ver/60/trunk/GameReader/registration/registration/registration_complete.html
+END
+activation_email.txt
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/cis522f11_2g/!svn/ver/4/trunk/GameReader/registration/registration/activation_email.txt
+END
+login.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cis522f11_2g/!svn/ver/49/trunk/GameReader/registration/registration/login.html
+END
+activation_complete.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/cis522f11_2g/!svn/ver/49/trunk/GameReader/registration/registration/activation_complete.html
+END
+logout.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/cis522f11_2g/!svn/ver/4/trunk/GameReader/registration/registration/logout.html
+END

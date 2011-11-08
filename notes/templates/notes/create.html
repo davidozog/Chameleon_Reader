@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+</br>
+<form action="" method="post">{% csrf_token %}
+    {{ form.non_field_errors }}
+    <div class="fieldWrapper">
+        {{ form.user.errors }}
+        <label for="id_user"></label>
+    </div>
+    {{ form.non_field_errors }}
+    <div class="fieldWrapper">
+        {{ form.title.errors }}
+        <label for="id_title">Title:</label>
+        {{ form.title }}
+    </div>
+    <div class="fieldWrapper">
+        {{ form.content.errors }}
+        <label for="id_content">Content:</label>
+        {{ form.content }}
+    </div>
+    <p><input type="submit" value="Continue &rarr;" /></p>
+</form>
+
+<!--
+<form action="" method="post"><div style="display:none"><input type="hidden" name="csrfmiddlewaretoken" value="0247c276ea16e4144a20817e3e1c22f2"></div>
+        <p><label for="id_user">User:</label> <select name="user" id="id_user">
+<option value="" selected="selected">---------</option>
+<option value="4">some_username</option>
+<option value="1">ozog</option>
+<option value="2">test_username</option>
+</select></p>
+<p><label for="id_title">Title:</label> <input id="id_title" type="text" name="title" maxlength="255"></p>
+<p><label for="id_content">Content:</label> <textarea id="id_content" rows="10" cols="40" name="content"></textarea></p>    
+        <p><input type="submit" value="Continue →"></p>
+    </form>
+-->
+
+{% endblock %}

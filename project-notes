@@ -1,0 +1,11 @@
+To start postgres (as user 'ozog')
+
+- log in
+- type:
+  $ . postgres-data/config.sh
+  $ pg_ctl start -l logfile
+
+To stop the server:
+
+- type 
+  $ pg_ctl stop

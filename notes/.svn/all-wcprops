@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/cis522f11_2g/!svn/ver/69/trunk/GameReader/notes
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cis522f11_2g/!svn/ver/17/trunk/GameReader/notes/admin.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cis522f11_2g/!svn/ver/62/trunk/GameReader/notes/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/cis522f11_2g/!svn/ver/17/trunk/GameReader/notes/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cis522f11_2g/!svn/ver/17/trunk/GameReader/notes/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/cis522f11_2g/!svn/ver/17/trunk/GameReader/notes/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/cis522f11_2g/!svn/ver/17/trunk/GameReader/notes/urls.py
+END
+forms.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/cis522f11_2g/!svn/ver/62/trunk/GameReader/notes/forms.py
+END

@@ -1,0 +1,2 @@
+Jquery font resizer:
+http://nettuts.com/tutorials/javascript-ajax/use-the-jquery-ui-to-control-the-size-of-your-text/

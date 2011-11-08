@@ -1,0 +1,1114 @@
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+
+	    <script type="text/javascript" src="/static/js/jquery-1.6.4.js"> </script>
+
+      <script>
+         $(document).ready(function(){
+
+           $("div.page2").hide();
+           $("div.page3").hide();
+           $("div.expert").hide();
+
+	         {% if achieved_all == 'True' %}
+             $("div.beginner").hide();
+             $("div.expert").show();
+           {% endif %}
+
+           $("a.sb").click(function(event){
+	            event.preventDefault();
+          	  $("div.beginner").show();	
+              $("div.expert").hide();
+           });
+
+           $("a.se").click(function(event){
+	            event.preventDefault();
+          	  $("div.expert").show();	
+              $("div.beginner").hide();
+           });
+
+           $("a.ch").click(function(event){
+	            event.preventDefault();
+          	  $("span.hl").contents().unwrap();	
+           });
+
+           $("a.save").click(function(event){
+	            event.preventDefault();
+              alert("You must register to save documents. \nPlease click 'register' in the rop right corner...  ;)");
+           });
+
+           $("a.save_user").click(function(event){
+	            event.preventDefault();
+              alert("Your document has been saved.");
+           });
+       	   $("a.page1").click(function(event){
+       	            event.preventDefault();
+       	      $("li#li2").removeClass("active");
+       	      $("li#li2 a").addClass("page2").attr("href", "page2");
+       	      $("li#li3").removeClass("active");
+       	      $("li#li3 a").addClass("page3").attr("href", "page3");
+       	      $(this).parent().addClass("active");
+       	      $("div.page1").show();	
+       	      $("div.page2").hide();
+       	      $("div.page3").hide();
+       	   });
+//     	     $("li.previous > a.page1").click(function(event){
+//     	            event.preventDefault();
+//     	    	  $("div.page1").show();	
+//     	        $("div.page2").hide();
+//     	        $("div.page3").hide();
+//     	        $("div.page4").hide();
+//     	     });
+       	   $("a.page2").click(function(event){
+       	            event.preventDefault();
+//     	    	  $("li.previous-off").removeClass().addClass("previous");
+//     	    	  $("li.previous").wrapInner("<a></a>");
+//     	    	  $("li.previous a").addClass("page1");
+//     	    	  $("li.previous a.page1").attr("href", "page1");
+       	      $("li#li1").removeClass("active");
+       	      $("li#li1 a").addClass("page1").attr("href", "page1");
+       	      $("li#li3").removeClass("active");
+       	      $("li#li3 a").addClass("page3").attr("href", "page3");
+       	      $(this).parent().addClass("active");
+       	      $("div.page1").hide();	
+       	      $("div.page2").show();
+       	      $("div.page3").hide();
+       	   });
+       	   $("a.page3").click(function(event){
+       	            event.preventDefault();
+       	      $("li#li2").removeClass("active");
+       	      $("li#li2 a").addClass("page2").attr("href", "page2");
+       	      $("li#li1").removeClass("active");
+       	      $("li#li1 a").addClass("page1").attr("href", "page1");
+       	      $(this).parent().addClass("active");
+       	      $("div.page1").hide();	
+       	      $("div.page2").hide();
+       	      $("div.page3").show();
+       	   });
+       	   $("a.binstall").click(function(event){
+       	      $("li#li2").removeClass("active");
+       	      $("li#li2 a").addClass("page2").attr("href", "page2");
+       	      $("li#li3").removeClass("active");
+       	      $("li#li3 a").addClass("page3").attr("href", "page3");
+       	      $("a.page1").parent().addClass("active");
+       	      $("div.page1").show();	
+       	      $("div.page2").hide();
+       	      $("div.page3").hide();
+       	   });
+       	   $("a.bintro").click(function(event){
+       	      $("li#li2").removeClass("active");
+       	      $("li#li2 a").addClass("page2").attr("href", "page2");
+       	      $("li#li3").removeClass("active");
+       	      $("li#li3 a").addClass("page3").attr("href", "page3");
+       	      $("a.page1").parent().addClass("active");
+       	      $("div.page1").show();	
+       	      $("div.page2").hide();
+       	      $("div.page3").hide();
+       	   });
+       	   $("a.bstarting").click(function(event){
+              // Should add a function for all this later if needed:
+       	         $("li#li2").removeClass("active");
+       	         $("li#li2 a").addClass("page2").attr("href", "page2");
+       	         $("li#li3").removeClass("active");
+       	         $("li#li3 a").addClass("page3").attr("href", "page3");
+       	         $("a.page1").parent().addClass("active");
+       	         $("div.page1").show();	
+       	         $("div.page2").hide();
+       	         $("div.page3").hide();
+       	   });
+       	   $("a.bchargen").click(function(event){
+              // Should add a function for all this later if needed:
+       	         $("li#li1").removeClass("active");
+       	         $("li#li1 a").addClass("page1").attr("href", "page1");
+       	         $("li#li3").removeClass("active");
+       	         $("li#li3 a").addClass("page3").attr("href", "page3");
+       	         $("a.page2").parent().addClass("active");
+       	         $("div.page1").hide();	
+       	         $("div.page2").show();
+       	         $("div.page3").hide();
+       	   });
+       	   $("a.bcontrols").click(function(event){
+              // Should add a function for all this later if needed:
+       	         $("li#li1").removeClass("active");
+       	         $("li#li1 a").addClass("page1").attr("href", "page1");
+       	         $("li#li2").removeClass("active");
+       	         $("li#li2 a").addClass("page2").attr("href", "page2");
+       	         $("a.page3").parent().addClass("active");
+       	         $("div.page1").hide();	
+       	         $("div.page2").hide();
+       	         $("div.page3").show();
+       	   });
+       	   $("a.echargen").click(function(event){
+       	      $("li#li2").removeClass("active");
+       	      $("li#li2 a").addClass("page2").attr("href", "page2");
+       	      $("li#li3").removeClass("active");
+       	      $("li#li3 a").addClass("page3").attr("href", "page3");
+       	      $("a.page1").parent().addClass("active");
+       	      $("div.page1").show();	
+       	      $("div.page2").hide();
+       	      $("div.page3").hide();
+       	   });
+       	   $("a.eclasses").click(function(event){
+              // Should add a function for all this later if needed:
+       	         $("li#li1").removeClass("active");
+       	         $("li#li1 a").addClass("page1").attr("href", "page1");
+       	         $("li#li3").removeClass("active");
+       	         $("li#li3 a").addClass("page3").attr("href", "page3");
+       	         $("a.page2").parent().addClass("active");
+       	         $("div.page1").hide();	
+       	         $("div.page2").show();
+       	         $("div.page3").hide();
+       	   });
+       	   $("a.econtrols").click(function(event){
+              // Should add a function for all this later if needed:
+       	         $("li#li1").removeClass("active");
+       	         $("li#li1 a").addClass("page1").attr("href", "page1");
+       	         $("li#li2").removeClass("active");
+       	         $("li#li2 a").addClass("page2").attr("href", "page2");
+       	         $("a.page3").parent().addClass("active");
+       	         $("div.page1").hide();	
+       	         $("div.page2").hide();
+       	         $("div.page3").show();
+       	   });
+          
+
+         });
+
+
+         //Wrap selected text in  tags with the class 'hl'
+         //Take some action after (in this case, a simple alert)
+         $("p").live("mouseup",
+           function() {
+               selection = getSelectedText(); 
+             if(selection.length >= 2) {
+               //$(this).html($(this).html().replace(selection, $('<\/span>').attr({'class':'hl'}).html(selection).parent().html()) );
+               //alert(selection);
+               $(this).html($(this).html().replace(selection, '<span class="hl">' + selection + '<\/span>')) ;
+             }   
+           }
+         ); 
+         
+         //Grab selected text
+         function getSelectedText(){ 
+             if(window.getSelection){ 
+             return window.getSelection().toString(); 
+             } 
+             else if(document.getSelection){ 
+                 return document.getSelection(); 
+             } 
+             else if(document.selection){ 
+           
+                 return document.selection.createRange().text; 
+             } 
+         } 
+
+
+       </script>
+
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Dragon Age Origins Manual</title>
+
+    </head>
+
+    <body>
+
+<div class="mypanel">
+{% if user.is_authenticated %} 
+<a class="register" href="/accounts/register/">register (new users)</a> </br> 
+<a class="login" href="/accounts/logout/">logout</a></br>
+<a class="library" href="/book/">library</a>
+{% else %}
+<a class="register" href="/accounts/register/">register (new users)</a> </br> <a class="login" href="/accounts/login/">login</a>
+{% endif %}
+</div>
+
+{% if user.is_authenticated %}
+<span style="font-weight:bold">Welcome, {{ username }}.</span></br>
+<div class="notes-list">
+<span style="font-weight:bold">Here are your notes: </span></br>
+        <a href="{% url notes_list %}">Note List</a> | <a href="{% url notes_create %}">Add webnotes</a>
+        <div id="note-content">
+       {% block content %}
+       
+       {% endblock %} 
+       </div>
+</div>
+
+</br></br>
+
+<div class="achievements">
+<span style="font-weight:bold">Here are your achievements:</span></br>
+
+<ul class="ach_list">
+{% for ach in gameprofile.0.achievements.all %}
+<li>{{ ach.name }}</li>
+{% endfor %}
+</ul>
+<span style="color: red">{{ ach_message }}</span>
+{% endif %}
+</div>
+
+</br></br>
+
+<a class="sb" href="show_beginner_view"><img src="/static/img/beginner.jpg"></a> 
+<a class="se" href="show_expert_view"><img src="/static/img/expert.jpg"></a> </br>
+<a class="ch" href="clear_highlights"><img src="/static/img/clear_highlights.jpg"></a> </br>
+<!--
+{% if user.is_authenticated %} 
+<a class="save_user" href="save_highlights">Save highlights (and notes...) </a> </br>
+{% else %}
+<a class="save" href="save_highlights">Save highlights (and notes...) </a> </br>
+{% endif %}
+-->
+
+</br></br>
+Pages:
+<ul id="pagination-flickr">
+<!--<li class="previous-off">«Previous</li> -->
+<li id="li1" class="active"><a class="page1" href="page1">1</a></li>
+<li id="li2"><a class="page2" href="page2">2</a></li>
+<li id="li3"><a class="page3" href="page3">3</a></li>
+<!-- <li class="next"><a href="page=2">Next »</a></li> -->
+</ul>
+
+</br></br>
+
+<div class="beginner">
+<h1 class="btitle"><u>BEGINNER VIEW</u></h1>
+
+<div class="toc">
+  <div class="toc-title"><h2>Table of Contents:</h2></div>
+    <div class="toc-list">
+      <ul>
+        <li><a class="binstall" href="#binstall">Installing the Game</a></li>
+        <li><a class="bintro" href="#bintro">Introduction</a></li>
+        <li><a class="bstarting" href="#bstarting">Starting the Game</a></li>
+        <li><a class="bchargen" href="#bchargen">Character Generation</a></li>
+        <li><a class="bcontrols" href="#bcontrols">Complete Controls</a></li>
+      </ul>
+    </div>
+</div>
+
+<div class="page1">
+   <a name="binstall"></a>
+   <h1>Installing The Game</h1>
+   <p>
+   <strong>NOTE:</strong> For system requirements, see the readme file.</br>
+   <strong>To install (disc users):</strong></br>
+     Insert the disc into your disc drive and follow the on-screen instructions.</br>
+     <strong>To install (EA Store users):</strong></br>
+     <strong>NOTE:</strong> If you'd like more information about purchasing direct downloads from EA, visit</br>
+     www.eastore.ea.com and click MORE ABOUT DIRECT DOWNLOADS.</br>
+     Once the game has been downloaded by EA Download Manager, click the install icon that appears and</br>
+     follow the on-screen instructions.</br>
+     <strong>NOTE:</strong> If you've already purchased a title and would like to install it on another PC, first download and</br>
+     install the EA Download Manager on the other PC, then launch the application and log in with your EA account.</br>
+     Select the appropriate title from the list that appears and click the start button to download the game.</br>
+     <strong>To install (third party online users):</strong></br>
+     Please contact the digital retailer through whom you purchased this game for instructions on how to</br>
+     install the game or how to download and reinstall another copy.
+   </p>
+   
+   <a name="bintro"></a>
+   <h1><strong>Introduction</strong></h1>
+   <p>
+       Dragon Age: Origins is a modern re-imagination of an epic party-based fantasy role-playing game, dense<br>
+       with story and tactical combat. Because Dragon Age: Origins doesn’t shy from that complex heritage,<br>
+       there's a lot to know.<br>
+       Since many of the game’s systems are deeply interrelated, keep a finger on the table of contents; you’ll<br>
+       need it to find your way around when an explanation of one feature refers to another. One last note: while<br>
+       there was no way to list the hundreds of spells and talents in here, you’ll find full explanations of them in<br>
+     the game.<br>
+
+     <a name="bstarting"></a>
+     <h1><strong>Starting The Game</strong></h1>
+     <strong>To start the game:</strong><br>
+     Games on Windows Vista™ are located in the<strong> Start &gt; Games &gt; Games Explorer</strong> menu and on earlier<br>
+       versions of Windows™ in the <strong>Start &gt; Programs</strong> (or <strong>All Programs</strong>) menu. (EA Store users must have the<br>
+     EA Download Manager running.)<br>
+
+     <strong>NOTE</strong>: In Windows Vista Classic Start menu style, games are located in the <strong>Start &gt; Programs &gt;<br>
+     Games &gt; Games Explorer</strong> menu.<br>
+     <h1><strong>Getting Started</strong></h1>
+     When you start Dragon Age: Origins, you are presented with the game’s launcher. The first time you click<br>
+       PLAY, a configuration utility suggests the appropriate settings based on the hardware it detects. After<br>
+     that, Dragon Age: Origins starts up.<br>
+     <h2><strong>Main Menu</strong></h2>
+     The main menu is mostly self-explanatory. To begin playing, click NEW GAME; to resume your game in<br>
+       the future, click LOAD GAME; or to load your most recent saved game, click RESUME.<br>
+     These are the options that might not be as obvious:<br>
+     <strong>Other Campaigns</strong>
+     Here you can begin playing a custom campaign for Dragon Age: Origins that you, your friends, or kind<br>
+       strangers on the Internet have built using the content-creator toolset that you can download from the<br>
+     Dragon Age website.<br>
+     <strong>Downloadable Content</strong>
+     This displays new content made available after the release of Dragon Age: Origins—both free and for<br>
+       purchase—and also lets you manage the content you’ve already downloaded.<br>
+       <strong>EA ACCOUNT, REGISTRATION WITH ENCLOSED SERIAL CODE, INTERNET CONNECTION AND </strong><br>
+     <strong>ACCEPTANCE OF END USER LINCENSE AGREEMENT REQUIRED TO PLAY AND TO ACCESS ONLINE </strong><br>
+     <strong>FEATURES AND/OR SERVICES. EA ONLINE TERMS AND CONDITIONS CAN BE FOUND AT WWW.EA.COM.</strong><br>
+     <strong>YOU MUST BE 13+ TO REGISTER FOR AN EA ACCOUNT. EA MAY PROVIDE CERTAIN INREMENTAL </strong><br>
+     <strong>CONTENT AND/OR UPDATES FOR NO ADDITIONAL CHARGE, IF AND WHEN AVAILABLE.</strong><br>
+     <strong>EA MAY RETIRE ONLINE FEATURES AFTER 30 DAYS NOTICE POSTED ON WWW.EA.COM.</strong><br>
+     <strong>Player Profile</strong>
+     You can view your achievements and screenshots here, then upload them to your online profile if you’re<br>
+     logged in to your BioWare/EA account.<br>
+     <strong>Log In</strong><br>
+     This lets you create a BioWare/EA account (or log in to an existing account) so that you can upload<br>
+     screenshots, track your achievements and profile on the web, and manage downloadable content.<br>
+
+</div>
+
+<div class="page2">
+     <a name="bchargen"></a>
+     <h1><strong>Character Generation</strong></h1>
+     <p>Before you begin playing Dragon Age: Origins, take a few minutes to build a unique character and learn<br>
+       the rudiments of the game’s rules system. When you click NEW GAME from the main menu, a short<br>
+     introductory movie plays. That brings you to the following options on the character generation screen.</p>
+     <h2><strong>Gender</strong></h2>
+     <table width="600" border="0">
+       <tr>
+         <td><img src="/static/img/1.jpg" alt="1" width="38" height="38"> <img src="/static/img/2.jpg" alt="2" width="38" height="38"></td>
+         <td>Your character’s gender does not affect stats or abilities, but does alter some<br>
+     dialogue and plots—as well as facial options and body shape, of course.</td>
+       </tr>
+     </table>
+     <h2><strong>Race</strong></h2>
+     <p>Your character’s race determines physical size and natural capabilities as well as how he or she fits into<br>
+     the world of Dragon Age, where interracial tensions are a fact of life.</p>
+     <p><strong>Human</strong></p>
+     <table width="600" border="0">
+       <tr>
+         <td><img src="/static/img/3.jpg" alt="3" width="38" height="38"> <img src="/static/img/4.jpg" alt="4" width="38" height="38"></td>
+         <td>Humans are a well-rounded people, which has made them the most<br>
+         numerous inhabitants of Thedas, and thus the most dominant.</td>
+       </tr>
+     </table>
+     <p><strong>Elf</strong></p>
+     <table width="600" border="0">
+       <tr>
+         <td><img src="/static/img/5.jpg" alt="5" width="38" height="38"> <img src="/static/img/6.jpg" alt="6" width="38" height="38"></td>
+         <td>Thousands of years ago, elves ruled the surface of Thedas, but today they<br>
+           live in mankind’s shadow, whether as an oppressed underclass confined to<br>
+           urban slums or, in the case of the Dalish tribes, forced to wander the ancient<br>
+         forests forever.</td>
+       </tr>
+     </table>
+     <p><strong>Dwarf</strong></p>
+     <table width="600" border="0">
+       <tr>
+         <td width="87"><img src="/static/img/7.jpg" alt="7" width="38" height="38"> <img src="/static/img/8.jpg" alt="8" width="38" height="38"></td>
+         <td width="503">The dwarves are a race in decline, as each new day of a centuries-old<br>
+           war against the darkspawn consumes both dwarven lives and the scant<br>
+           remaining territory of their underground kingdom. Dwarves have an innate<br>
+         resistance to magic, preventing them from becoming mages.</td>
+       </tr>
+     </table>
+     <p><strong>Racial Benefits</strong></p>
+     <table width="600" border="1">
+       <tr>
+         <td width="150"><div align="center"></div></td>
+         <td width="150"><div align="center">HUMANS</div></td>
+         <td width="150"><div align="center">ELVES</div></td>
+         <td width="150"><div align="center">DWARVES</div></td>
+       </tr>
+       <tr>
+         <td width="150">Starting bonuses</td>
+         <td width="150">+1 strength</td>
+         <td width="150">+2 willpower</td>
+         <td width="150">+1 strength</td>
+       </tr>
+       <tr>
+         <td width="150">&nbsp;</td>
+         <td width="150">+1 dexterity</td>
+         <td width="150">+2 magic</td>
+         <td width="150">+1 dexterity</td>
+       </tr>
+       <tr>
+         <td width="150">&nbsp;</td>
+         <td width="150">+1 magic</td>
+         <td width="150">&nbsp;</td>
+         <td width="150">+2 constitution</td>
+       </tr>
+       <tr>
+         <td width="150">&nbsp;</td>
+         <td width="150">+1 cunning</td>
+         <td width="150">&nbsp;</td>
+         <td width="150">+10% chance to resist hostile magic</td>
+       </tr>
+     </table>
+
+
+     <h2>Class</h2>
+     <p>Class determines which abilities your character can learn during the course of the game. It has a profound<br>
+       impact on the way a character performs in battle. For mages, class also determines your background story.<br>
+       Although there is some overlap between the classes, you can never make a character from one class<br>
+       play like a character from another—for example, warriors and rogues can never learn to cast spells, and<br>
+       a mage can never learn advanced weapon talents. Rogues can learn more skills than other classes, but<br>
+     cannot become proficient with two-handed weapons or shields.</p>
+     <p><strong>Warrior</strong></p>
+     <table width="600" border="0">
+       <tr>
+         <td width="44"><img src="/static/img/9.jpg" alt="9" width="38" height="38"></td>
+         <td>Warriors are front-line fighters, the backbone of any party under assault. They rely on<br>
+           melee and ranged weapons, supplemented by powerful special abilities that draw from<br>
+         deep reserves of stamina.</td>
+       </tr>
+     </table>
+     <p><strong>Mage</strong></p>
+     <table width="600" border="0">
+       <tr>
+         <td width="44"><img src="/static/img/10.jpg" alt="10" width="38" height="38"></td>
+         <td>Mages are the only characters who can cast spells, which they use both for offense and to<br>
+           support themselves and their party. Although mages may wield physical weapons, they do<br>
+           so without any particular skill; instead, they prefer to carry staves that fire magic projectiles.<br>
+           Mages cannot stand toe-to-toe with enemies as well as other classes can, but they can deal<br>
+         immense amounts of damage and heal their allies when protected by the party.</td>
+       </tr>
+     </table>
+     <p><strong>Rogue</strong></p>
+     <table width="600" border="0">
+       <tr>
+         <td width="44"><img src="/static/img/11.jpg" alt="11" width="38" height="38"></td>
+         <td>Rogues are crafty combatants who succeed in battle by combining speed, subterfuge, and a wide range of abilities to bring their opponents down in unexpected ways, sometimes before the enemy even perceives danger. Rogues can pick locks with great skill, incapacitate
+         enemies with ease, or sneak up on targets to deliver a devious and crippling backstab.</td>
+       </tr>
+     </table>
+     <p><strong>CLASS BENEFITS</strong></p>
+     <table width="600" border="1">
+       <tr>
+         <td width="150"><div align="center"></div></td>
+         <td width="150"><div align="center">WARRIORS</div></td>
+         <td width="150"><div align="center">MAGES</div></td>
+         <td width="150"><div align="center">ROGUES</div></td>
+       </tr>
+       <tr>
+         <td width="150">Starting health</td>
+         <td width="150">100</td>
+         <td width="150">85</td>
+         <td width="150">90</td>
+       </tr>
+       <tr>
+         <td width="150">Starting<br>
+         stamina/mana</td>
+         <td width="150">100</td>
+         <td width="150">115</td>
+         <td width="150">90</td>
+       </tr>
+       <tr>
+         <td width="150">Starting<br>
+         attribute bonuses</td>
+         <td width="150">+4 strength</td>
+         <td width="150">+5 magic</td>
+         <td width="150"> +4 dexterity</td>
+       </tr>
+       <tr>
+         <td width="150">&nbsp;</td>
+         <td width="150">+3 dexterity</td>
+         <td width="150">+4 willpower</td>
+         <td width="150">+2 willpower</td>
+       </tr>
+       <tr>
+         <td width="150">&nbsp;</td>
+         <td width="150">+3 constitution</td>
+         <td width="150">+1 cunning</td>
+         <td width="150">+4 cunning</td>
+       </tr>
+       <tr>
+         <td width="150">Starting skill</td>
+         <td width="150">Combat training</td>
+         <td width="150">Herbalism</td>
+         <td width="150">Poison-Making</td>
+       </tr>
+       <tr>
+         <td width="150">Starting talent/spell</td>
+         <td width="150">Shield Bash, Pinning Shot or Dual-Weapon Sweep</td>
+         <td width="150">Arcane Bolt</td>
+         <td width="150">Dirty Fighting</td>
+       </tr>
+       <tr>
+         <td width="150">Levels to gain<br>
+     one skill</td>
+         <td width="150">3</td>
+         <td width="150">3</td>
+         <td width="150">2</td>
+       </tr>
+       <tr>
+         <td width="150">Health per level</td>
+         <td width="150">6</td>
+         <td width="150">4</td>
+         <td width="150">5</td>
+       </tr>
+       <tr>
+         <td width="150">Stamina/mana<br>
+         per level</td>
+         <td width="150">5</td>
+         <td width="150">6</td>
+         <td width="150">4</td>
+       </tr>
+       <tr>
+         <td width="150">Base attack score</td>
+         <td width="150">60</td>
+         <td width="150">50</td>
+         <td width="150">55</td>
+       </tr>
+       <tr>
+         <td width="150">Base defense score</td>
+         <td width="150">45</td>
+         <td width="150">40</td>
+         <td width="150">50</td>
+       </tr>
+     </table>
+     <p>&nbsp;</p>
+
+</div>
+
+<div class="page3">
+     <a name="bcontrols"></a>
+     <h1><strong>Complete Controls</strong></h1>
+     <p>Once you create a character using the Character Generation system described on p. 8, you will find<br>
+       yourself in control of the game’s camera, which can zoom in for a wide third-person view of your<br>
+       characters (over the shoulder) or zoom out and up for a nearly top-down view of a whole area.<br>
+       To zoom the camera, scroll with your mouse-wheel. When the camera is fully zoomed out, you can pan<br>
+       across the battlefield using the arrow keys, by clicking the mouse wheel and dragging, or simply by<br>
+       nudging the edge of the screen. At any zoom level, clicking the right mouse button and dragging rotates<br>
+       the camera.<br>
+       To execute most actions, right-click the mouse. Right-clicking on an object makes your currently<br>
+       selected character take appropriate action—attack an enemy, talk to a friendly character, loot a corpse,<br>
+       open a door, pull a lever, and so forth. You can also right-click on the ground to direct your character to<br>
+       move to that location if you don’t feel like using the keyboard to move.<br>
+       However, once you have selected a spell or talent that requires a target—either by clicking on your<br>
+       quickbar or pressing the appropriate number key for that quickbar ability—you must left-click on the<br>
+       target. Right-clicking cancels the spell or talent. Left-click also selects a character in your party to<br>
+     control. Drag a box around multiple characters while left-clicking to select them all.</p>
+     <h2><strong>General Controls</strong>
+     </h2>
+     <table width="600" height="352" border="1">
+       <tr>
+         <td width="300">&nbsp;Quick save</td>
+         <td>&nbsp;F5</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Quick load</td>
+         <td>&nbsp;F9</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Highlight objects</td>
+         <td>&nbsp;TAB</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Hide main interface</td>
+         <td>&nbsp;V</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Take screenshot</td>
+         <td>&nbsp;PTR SCN</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Character record</td>
+         <td>&nbsp;C</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Journal</td>
+         <td>&nbsp;J</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Inventory</td>
+         <td>&nbsp;I</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Skills</td>
+         <td>&nbsp;K</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Spells/Talents</td>
+         <td>&nbsp;P</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Area map</td>
+         <td> &nbsp;M</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;World map</td>
+         <td> &nbsp;N</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Tactics</td>
+         <td> &nbsp;\</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Main menu</td>
+         <td> &nbsp;ESC</td>
+       </tr>
+     </table>
+     <h2><strong>Movement/Camera
+       </strong>
+     </h2>
+     <table width="600" border="1">
+       <tr>
+         <td width="300">&nbsp;Run forward</td>
+         <td> &nbsp;W</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Rotate camera left </td>
+         <td>&nbsp;A</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Run backward</td>
+         <td>&nbsp;S</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Rotate camera right</td>
+         <td>&nbsp;D</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Run left</td>
+         <td>&nbsp;Q</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Rub right</td>
+         <td>&nbsp;E</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Rotate camera up</td>
+         <td>&nbsp;Home</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Rotate camera down</td>
+         <td>&nbsp;End</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Zoom in</td>
+         <td>&nbsp;Pg Dn</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Zoom out</td>
+         <td>&nbsp;Pg Up</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Pan (zoomed out)</td>
+         <td>&nbsp;Arrow keys</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Toggle run/walk</td>
+         <td>&nbsp;/ (num pad)</td>
+       </tr>
+     </table>
+     <h2><strong>Combat
+       </strong>
+     </h2>
+     <table width="600" border="1">
+       <tr>
+         <td width="300">&nbsp;Pause</td>
+         <td>&nbsp;Spacebar</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Use quickbar ability</td>
+         <td>&nbsp;1-0</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Swap weapons sets</td>
+         <td>&nbsp;/</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Party move/hold</td>
+         <td>&nbsp;H</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Select full party</td>
+         <td>&nbsp;=</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Select one character</td>
+         <td>&nbsp;F1-F4</td>
+       </tr>
+       <tr>
+         <td width="300">&nbsp;Select many characters</td>
+         <td>&nbsp;SHIFT+F1-F4</td>
+       </tr>
+     </table>
+     <p><img src="/static/img/a.jpg" alt="a" width="760" height="446"></p>
+     <P>
+     <P>
+     <P>
+     <P>
+     <P>
+</div>
+
+</div>
+
+
+
+<div class="expert">
+<h1 class="etitle"><u>EXPERT VIEW</u></h1>
+<div class="toc">
+  <div class="toc-title"><h2>Table of Contents:</h2></div>
+    <div class="toc-list">
+      <ul>
+        <li><a class="echargen" href="#echargen">Character Generation</a></li>
+        <li><a class="eclasses" href="#eclasses">Classes</a></li>
+        <li><a class="econtrols" href="#econtrols">Complete Controls</a></li>
+      </ul>
+    </div>
+</div>
+
+<div class="page1">
+<a name="echargen"></a>
+<h1><strong>Character Generation</strong></h1>
+<p>Before you begin playing Dragon Age: Origins, take a few minutes to build a unique character and learn<br>
+  the rudiments of the game’s rules system. When you click NEW GAME from the main menu, a short<br>
+introductory movie plays. That brings you to the following options on the character generation screen.</p>
+<h2><strong>Gender</strong></h2>
+<table width="600" border="0">
+  <tr>
+    <td><img src="/static/img/1.jpg" alt="1" width="38" height="38"> <img src="/static/img/2.jpg" alt="2" width="38" height="38"></td>
+    <td>Your character’s gender does not affect stats or abilities, but does alter some<br>
+dialogue and plots—as well as facial options and body shape, of course.</td>
+  </tr>
+</table>
+<h2><strong>Race</strong></h2>
+<p>Your character’s race determines physical size and natural capabilities as well as how he or she fits into<br>
+the world of Dragon Age, where interracial tensions are a fact of life.</p>
+<p><strong>Human</strong></p>
+<table width="600" border="0">
+  <tr>
+    <td><img src="/static/img/3.jpg" alt="3" width="38" height="38"> <img src="/static/img/4.jpg" alt="4" width="38" height="38"></td>
+    <td>Humans are a well-rounded people, which has made them the most<br>
+    numerous inhabitants of Thedas, and thus the most dominant.</td>
+  </tr>
+</table>
+<p><strong>Elf</strong></p>
+<table width="600" border="0">
+  <tr>
+    <td><img src="/static/img/5.jpg" alt="5" width="38" height="38"> <img src="/static/img/6.jpg" alt="6" width="38" height="38"></td>
+    <td>Thousands of years ago, elves ruled the surface of Thedas, but today they<br>
+      live in mankind’s shadow, whether as an oppressed underclass confined to<br>
+      urban slums or, in the case of the Dalish tribes, forced to wander the ancient<br>
+    forests forever.</td>
+  </tr>
+</table>
+<p><strong>Dwarf</strong></p>
+<table width="600" border="0">
+  <tr>
+    <td width="87"><img src="/static/img/7.jpg" alt="7" width="38" height="38"> <img src="/static/img/8.jpg" alt="8" width="38" height="38"></td>
+    <td width="503">The dwarves are a race in decline, as each new day of a centuries-old<br>
+      war against the darkspawn consumes both dwarven lives and the scant<br>
+      remaining territory of their underground kingdom. Dwarves have an innate<br>
+    resistance to magic, preventing them from becoming mages.</td>
+  </tr>
+</table>
+<p><strong>Racial Benefits</strong></p>
+<table width="600" border="1">
+  <tr>
+    <td width="150"><div align="center"></div></td>
+    <td width="150"><div align="center">HUMANS</div></td>
+    <td width="150"><div align="center">ELVES</div></td>
+    <td width="150"><div align="center">DWARVES</div></td>
+  </tr>
+  <tr>
+    <td width="150">Starting bonuses</td>
+    <td width="150">+1 strength</td>
+    <td width="150">+2 willpower</td>
+    <td width="150">+1 strength</td>
+  </tr>
+  <tr>
+    <td width="150">&nbsp;</td>
+    <td width="150">+1 dexterity</td>
+    <td width="150">+2 magic</td>
+    <td width="150">+1 dexterity</td>
+  </tr>
+  <tr>
+    <td width="150">&nbsp;</td>
+    <td width="150">+1 magic</td>
+    <td width="150">&nbsp;</td>
+    <td width="150">+2 constitution</td>
+  </tr>
+  <tr>
+    <td width="150">&nbsp;</td>
+    <td width="150">+1 cunning</td>
+    <td width="150">&nbsp;</td>
+    <td width="150">+10% chance to resist hostile magic</td>
+  </tr>
+</table>
+</div>
+
+<div class="page2">
+<a name="eclasses"></a>
+<h1>Classes</h1>
+<p><strong>Warrior</strong></p>
+<table width="600" border="0">
+  <tr>
+    <td width="44"><img src="/static/img/9.jpg" alt="9" width="38" height="38"></td>
+    <td>Warriors are front-line fighters, the backbone of any party under assault. They rely on<br>
+      melee and ranged weapons, supplemented by powerful special abilities that draw from<br>
+    deep reserves of stamina.</td>
+  </tr>
+</table>
+<p><strong>Mage</strong></p>
+<table width="600" border="0">
+  <tr>
+    <td width="44"><img src="/static/img/10.jpg" alt="10" width="38" height="38"></td>
+    <td>Mages are the only characters who can cast spells, which they use both for offense and to<br>
+      support themselves and their party. Although mages may wield physical weapons, they do<br>
+      so without any particular skill; instead, they prefer to carry staves that fire magic projectiles.<br>
+      Mages cannot stand toe-to-toe with enemies as well as other classes can, but they can deal<br>
+    immense amounts of damage and heal their allies when protected by the party.</td>
+  </tr>
+</table>
+<p><strong>Rogue</strong></p>
+<table width="600" border="0">
+  <tr>
+    <td width="44"><img src="/static/img/11.jpg" alt="11" width="38" height="38"></td>
+    <td>Rogues are crafty combatants who succeed in battle by combining speed, subterfuge, and a wide range of abilities to bring their opponents down in unexpected ways, sometimes before the enemy even perceives danger. Rogues can pick locks with great skill, incapacitate
+    enemies with ease, or sneak up on targets to deliver a devious and crippling backstab.</td>
+  </tr>
+</table>
+<p><strong>Class Benefits</strong></p>
+<table width="600" border="1">
+  <tr>
+    <td width="150"><div align="center"></div></td>
+    <td width="150"><div align="center">WARRIORS</div></td>
+    <td width="150"><div align="center">MAGES</div></td>
+    <td width="150"><div align="center">ROGUES</div></td>
+  </tr>
+  <tr>
+    <td width="150">Starting health</td>
+    <td width="150">100</td>
+    <td width="150">85</td>
+    <td width="150">90</td>
+  </tr>
+  <tr>
+    <td width="150">Starting<br>
+    stamina/mana</td>
+    <td width="150">100</td>
+    <td width="150">115</td>
+    <td width="150">90</td>
+  </tr>
+  <tr>
+    <td width="150">Starting<br>
+    attribute bonuses</td>
+    <td width="150">+4 strength</td>
+    <td width="150">+5 magic</td>
+    <td width="150"> +4 dexterity</td>
+  </tr>
+  <tr>
+    <td width="150">&nbsp;</td>
+    <td width="150">+3 dexterity</td>
+    <td width="150">+4 willpower</td>
+    <td width="150">+2 willpower</td>
+  </tr>
+  <tr>
+    <td width="150">&nbsp;</td>
+    <td width="150">+3 constitution</td>
+    <td width="150">+1 cunning</td>
+    <td width="150">+4 cunning</td>
+  </tr>
+  <tr>
+    <td width="150">Starting skill</td>
+    <td width="150">Combat training</td>
+    <td width="150">Herbalism</td>
+    <td width="150">Poison-Making</td>
+  </tr>
+  <tr>
+    <td width="150">Starting talent/spell</td>
+    <td width="150">Shield Bash, Pinning Shot or Dual-Weapon Sweep</td>
+    <td width="150">Arcane Bolt</td>
+    <td width="150">Dirty Fighting</td>
+  </tr>
+  <tr>
+    <td width="150">Levels to gain<br>
+one skill</td>
+    <td width="150">3</td>
+    <td width="150">3</td>
+    <td width="150">2</td>
+  </tr>
+  <tr>
+    <td width="150">Health per level</td>
+    <td width="150">6</td>
+    <td width="150">4</td>
+    <td width="150">5</td>
+  </tr>
+  <tr>
+    <td width="150">Stamina/mana<br>
+    per level</td>
+    <td width="150">5</td>
+    <td width="150">6</td>
+    <td width="150">4</td>
+  </tr>
+  <tr>
+    <td width="150">Base attack score</td>
+    <td width="150">60</td>
+    <td width="150">50</td>
+    <td width="150">55</td>
+  </tr>
+  <tr>
+    <td width="150">Base defense score</td>
+    <td width="150">45</td>
+    <td width="150">40</td>
+    <td width="150">50</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</div>
+
+<div class="page3">
+<a name="econtrols"></a>
+<h1><strong>Complete Controls</strong></h1>
+<h2><strong>General Controls</strong>
+</h2>
+<table width="600" height="352" border="1">
+  <tr>
+    <td width="300">&nbsp;Quick save</td>
+    <td>&nbsp;F5</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Quick load</td>
+    <td>&nbsp;F9</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Highlight objects</td>
+    <td>&nbsp;TAB</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Hide main interface</td>
+    <td>&nbsp;V</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Take screenshot</td>
+    <td>&nbsp;PTR SCN</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Character record</td>
+    <td>&nbsp;C</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Journal</td>
+    <td>&nbsp;J</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Inventory</td>
+    <td>&nbsp;I</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Skills</td>
+    <td>&nbsp;K</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Spells/Talents</td>
+    <td>&nbsp;P</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Area map</td>
+    <td> &nbsp;M</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;World map</td>
+    <td> &nbsp;N</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Tactics</td>
+    <td> &nbsp;\</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Main menu</td>
+    <td> &nbsp;ESC</td>
+  </tr>
+</table>
+<h2><strong>Movement/Camera
+  </strong>
+</h2>
+<table width="600" border="1">
+  <tr>
+    <td width="300">&nbsp;Run forward</td>
+    <td> &nbsp;W</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Rotate camera left </td>
+    <td>&nbsp;A</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Run backward</td>
+    <td>&nbsp;S</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Rotate camera right</td>
+    <td>&nbsp;D</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Run left</td>
+    <td>&nbsp;Q</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Rub right</td>
+    <td>&nbsp;E</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Rotate camera up</td>
+    <td>&nbsp;Home</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Rotate camera down</td>
+    <td>&nbsp;End</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Zoom in</td>
+    <td>&nbsp;Pg Dn</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Zoom out</td>
+    <td>&nbsp;Pg Up</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Pan (zoomed out)</td>
+    <td>&nbsp;Arrow keys</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Toggle run/walk</td>
+    <td>&nbsp;/ (num pad)</td>
+  </tr>
+</table>
+<h2><strong>Combat
+  </strong>
+</h2>
+<table width="600" border="1">
+  <tr>
+    <td width="300">&nbsp;Pause</td>
+    <td>&nbsp;Spacebar</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Use quickbar ability</td>
+    <td>&nbsp;1-0</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Swap weapons sets</td>
+    <td>&nbsp;/</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Party move/hold</td>
+    <td>&nbsp;H</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Select full party</td>
+    <td>&nbsp;=</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Select one character</td>
+    <td>&nbsp;F1-F4</td>
+  </tr>
+  <tr>
+    <td width="300">&nbsp;Select many characters</td>
+    <td>&nbsp;SHIFT+F1-F4</td>
+  </tr>
+</table>
+<P>
+<P>
+<P>
+<P>
+<P>
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+{% load markup %} 
+
+<html>
+<head>
+	<title> {{ article.book.name }} | {{ article.title }} </title>
+	<script type="text/javascript" src="/static/js/jquery-1.6.4.js"> </script>
+	<script type="text/javascript" src="/static/js/custom_view.js"> </script>
+</head>
+<body>
+<div>
+<a id="switch" href="#switch">Show expert view</a>
+</div>
+<div id="content">
+	{{ article.content|textile }}
+</div>
+
+<div>
+Tags: 
+{% for tag in article.tags.all %}
+	{{ tag.name }} 
+{% endfor %}
+</div>
+<div>
+Achievements:
+{% for ach in article.achievements.all %}
+	{{ ach.name }} 
+{% endfor %}
+</div>
+
+</body>
+</html>

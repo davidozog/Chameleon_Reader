@@ -1,0 +1,1397 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="cis543-p3.files/filelist.xml">
+<link rel=Edit-Time-Data href="cis543-p3.files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Project 3: Design Useful Activities</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>TCYX</o:Author>
+  <o:LastAuthor>TCYX</o:LastAuthor>
+  <o:Revision>15</o:Revision>
+  <o:TotalTime>65</o:TotalTime>
+  <o:Created>2011-01-27T01:54:00Z</o:Created>
+  <o:LastSaved>2011-01-27T05:09:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>2215</o:Words>
+  <o:Characters>12627</o:Characters>
+  <o:Company>SONY</o:Company>
+  <o:Lines>105</o:Lines>
+  <o:Paragraphs>29</o:Paragraphs>
+  <o:CharactersWithSpaces>14813</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="cis543-p3.files/themedata.thmx">
+<link rel=colorSchemeMapping href="cis543-p3.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>86</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:minor-fareast;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"\6807\9898 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"\6807\9898 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"\9875\7709 Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:minor-fareast;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"\9875\811A Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.0in right 6.0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:minor-fareast;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:minor-fareast;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"\6279\6CE8\6846\6587\672C Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:9.0pt;
+	font-family:SimSun;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.1Char
+	{mso-style-name:"\6807\9898 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"\6807\9898 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.2Char
+	{mso-style-name:"\6807\9898 2 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"\6807\9898 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Char
+	{mso-style-name:"\9875\7709 Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:\9875\7709;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:SimSun;
+	mso-ascii-font-family:SimSun;
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:SimSun;}
+span.Char0
+	{mso-style-name:"\9875\811A Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:\9875\811A;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:SimSun;
+	mso-ascii-font-family:SimSun;
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:SimSun;}
+span.Char1
+	{mso-style-name:"\6279\6CE8\6846\6587\672C Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:\6279\6CE8\6846\6587\672C;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:SimSun;
+	mso-ascii-font-family:SimSun;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:SimSun;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-fareast-font-family:SimSun;
+	mso-fareast-theme-font:minor-fareast;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:\666E\901A\8868\683C;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+table.MsoTableGrid
+	{mso-style-name:\7F51\683C\578B;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-priority:59;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]-->
+<meta http-equiv=Content-Language content=en-us>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<h1 align=center style='text-align:center'><span style='mso-fareast-font-family:
+"Times New Roman"'>Project #</span><span style='mso-fareast-font-family:SimSun'>3</span><span
+style='mso-fareast-font-family:"Times New Roman"'> &nbsp; Capture a Scenario<o:p></o:p></span></h1>
+
+<p align=center style='text-align:center'><span style='font-size:13.5pt'>Xiao
+Yuan (yuanxiao@cs.uoregon.edu<span class=GramE>)</span><br>
+Kofi <span class=SpellE>Appiah</span> (kappiah@cs.uoregon.edu)<br>
+CIS 443/543, Winter 2011</span></p>
+
+<div class=MsoNormal align=center style='text-align:center'><span
+style='mso-fareast-font-family:"Times New Roman"'>
+
+<hr size=2 width="100%" align=center>
+
+</span></div>
+
+<h2 align=center style='text-align:center'><span style='font-size:26.0pt;
+font-family:"Georgia","serif";mso-fareast-font-family:SimSun;mso-bidi-font-family:
+Arial'>Travel Begins at Eugene Depot</span><span style='font-size:26.0pt;
+font-family:"Georgia","serif";mso-fareast-font-family:SimSun'><o:p></o:p></span></h2>
+
+<p><b><span style='font-size:22.0pt'>The Design Problems<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'>Everybody
+travels. However, people have different levels of experience with traveling.
+This causes unnecessary anxiety and mistakes. More experienced travelers and
+workers tend to know the unwritten short cuts and guidelines required for
+smooth, fulfilling trips. This is not more evident than in the field of bus and
+train travel. These options have much more variation than other modes of
+travel. Also, the database of knowledge surrounding these fields has had longer
+to grow than others. Therefore, train and bus travel is a fertile plain for
+improving interactions between those who are experienced and those who are not.</p>
+
+<p><b style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt'>Interview
+Guide<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='line-height:150%'>How long have you used public
+transportation (<span class=GramE>Amtrak,</span> buses/trains)?</p>
+
+<p class=MsoNormal style='line-height:150%'>How did you choose Amtrak
+(bus/train)?</p>
+
+<p class=MsoNormal style='line-height:150%'>Do you like this station?</p>
+
+<p class=MsoNormal style='line-height:150%'>Tell me about your traveling
+experiences? <span class=GramE>Any trouble?</span> If so, how did you deal with
+it?</p>
+
+<p class=MsoNormal style='line-height:150%'>Tell me about how you got from
+thing about going somewhere to here (in the station)?</p>
+
+<p class=MsoNormal style='line-height:150%'>Who/What did you interact with
+along the way?</p>
+
+<p class=MsoNormal style='line-height:150%'>What technology was used?</p>
+
+<p class=MsoNormal style='line-height:150%'>Do you have a background in transportation?</p>
+
+<p class=MsoNormal style='line-height:150%'>Could you imagine a better way for
+this system to work?</p>
+
+<p><b style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt'>Field
+Study Wrap-up<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'>We
+found that most users thought the current system was good. They thought that
+Eugene had a nice station and that workers were kind and the systems were
+useful. Most users clearly preferred the train to the bus because of the more
+comfortable seats, the ability to walk around, and the availability of food and
+drink. They thought the possibility of problems was extremely low (other than
+delays, which they took as inevitable). <span class=GramE>Some passengers, with
+more experience traveling, had more to tell us about the experience of
+traveling and how to make trips better.</span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'>We
+found that the workers loved their jobs, thoroughly enjoyed helping people, and
+thought that the level of service they provided was good. The workers thought
+that they were paid very well, had an un-stressful work environment, and that
+they could continue doing their jobs for the long hull. They hesitated to find
+any improvements because they did not want to get any of their fellow workers
+fired.</p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'><o:p>&nbsp;</o:p></p>
+
+<p><b><span style='font-size:22.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p><b><span style='font-size:22.0pt'>Scenario<o:p></o:p></span></b></p>
+
+<p style='line-height:12.0pt;mso-line-height-rule:exactly'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:16.0pt'><o:p>&nbsp;</o:p></span></b></p>
+
+<p><b style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt'>Eugene
+Depot<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'>The
+Eugene Depot, also known as Eugene-Springfield, is an Amtrak train station in
+Eugene, Oregon, United States. This station was built in 1908 and the current
+station is the third passenger depot built in 2004 at the same location. As one
+of seven stations served by Amtrak, Eugene Depot is the second busiest one,
+boarding or <span class=GramE>detraining</span> an average of around 300
+passengers daily. </p>
+
+<p>&nbsp;</p>
+
+<p align=center style='text-align:center'><a href="depot1.JPG"><span
+style='mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+border=0 width=270 height=202 id="_x0000_i1036" src=depot1s.JPG
+alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: depot1s.JPG"></span></a><a
+href="depot2.JPG"><span style='mso-no-proof:yes;text-decoration:none;
+text-underline:none'><img border=0 width=269 height=202 id="_x0000_i1035"
+src=depot2s.JPG alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: depot2s.JPG"></span></a></p>
+
+<p align=center style='text-align:center'><span class=GramE><b>Fig 1.</b></span><b>
+The Eugene Depot </b></p>
+
+<p>&nbsp;&nbsp;</p>
+
+<p><b><span style='font-size:16.0pt'>The Setting </span></b><span
+style='font-size:16.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph'>Eugene
+Depot is located at 433 Willamette Street and served as Amtrak station for both
+train and bus. This masonry-built depot is one of five masonry depots that
+still exist along the original Southern Pacific West Coast line, and, moreover,
+listed on the National Register of Historical Places as the Southern Pacific
+Passenger Depot in 2007. There are five clerks plus one head of this station
+working for the passengers. The station operates almost whole day, and our
+scenario was captured between 1:30 PM to 3:45 PM. There was one bus and one
+train departure from Eugene Depot during that time range.</p>
+
+<p>&nbsp;</p>
+
+<p align=center style='text-align:center'><a href="bus.JPG"><span
+style='mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+border=0 width=305 height=205 id="_x0000_i1034" src=buss.JPG
+alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: buss.JPG"></span></a></p>
+
+<p align=center style='text-align:center'><span class=GramE><b>Fig 2.</b></span><b>
+Passengers are getting on the bus </b></p>
+
+<p>&nbsp;&nbsp;</p>
+
+<p><b><span style='font-size:22.0pt'>The People </span></b><span
+style='font-size:22.0pt'><o:p></o:p></span></p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<div align=center>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in' height="100%" id=AutoNumber1>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:57.75pt'>
+  <td width=292 style='width:219.0pt;padding:0in 0in 0in 0in;height:57.75pt'>
+  <p class=MsoNormal><a href="sylvia.JPG"><span style='mso-fareast-font-family:
+  "Times New Roman";mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+  border=0 width=290 height=192 id="_x0000_i1033" src=sylvias.JPG
+  alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: sylvias.JPG"></span></a><b><span
+  style='mso-fareast-font-family:"Times New Roman"'><br>
+  Fig 3. </span></b><b><span style='mso-fareast-font-family:SimSun'>Sylvia</span></b><b><span
+  style='mso-fareast-font-family:"Times New Roman"'> </span></b><span
+  class=SpellE><b><span style='mso-fareast-font-family:SimSun'>Mollers</span></b></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> <br style='mso-special-character:
+  line-break'>
+  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+  <![endif]><o:p></o:p></span></p>
+  <p>&nbsp;</p>
+  </td>
+  <td width=850 style='width:637.5pt;padding:0in 0in 0in 0in;height:57.75pt'>
+  <p style='text-align:justify;text-justify:inter-ideograph'>Sylvia <span
+  class=SpellE>Mollers</span> is the clerk of Eugene Depot and has been on the
+  job for 22 years. As a clerk of Amtrak, her obligation includes informing
+  customers of travelling questions, selling tickets, retrieving reserved
+  tickets, check-in baggage, as well as helping people and baggage aboard.
+  Since she took her first long trip when she was 6, she had a feeling that her
+  life would be closely related to travel industry. When she was 24, she became
+  a clerk in Eugene Depot----a position seemingly full of trivial things, but
+  being exactly as what she initially dreamt <span class=GramE>for .</span> <span
+  class=GramE>she</span> had realized that she wanted to be working in the
+  travel industry. Being a clerk in Eugene Depot is what she loves and that she
+  can do it for a long term.</p>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:57.75pt'>
+  <td width=292 style='width:219.0pt;padding:0in 0in 0in 0in;height:57.75pt'>
+  <p class=MsoNormal><a href="reno.JPG"><span style='mso-fareast-font-family:
+  "Times New Roman";mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+  border=0 width=290 height=192 id="_x0000_i1032" src=renos.JPG
+  alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: renos.JPG"></span></a><span
+  style='mso-fareast-font-family:"Times New Roman"'><br>
+  <b>Fig 4. </b></span><b><span style='mso-fareast-font-family:SimSun'>Reno</span></b><span
+  style='mso-fareast-font-family:"Times New Roman"'> <br style='mso-special-character:
+  line-break'>
+  <![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+  <![endif]><o:p></o:p></span></p>
+  <p>&nbsp;&nbsp;</p>
+  </td>
+  <td width=850 style='width:637.5pt;padding:0in 0in 0in 0in;height:57.75pt'>
+  <p style='text-align:justify;text-justify:inter-ideograph'>Reno is in his 50s
+  and is a bus driver working for Amtrak.? Besides driving the bus between
+  Eugene Depot and Union Station in Portland, Reno is responsible for
+  tickets-checking, stowing and un-stowing baggage, keeping the passengers in a
+  good mood with his unique sense of humor. Although he just started this job
+  before 2 years ago and that is part-time, he loves it very much. ?ou can
+  never find a better one than the one I am working on. Hush! Don? tell others
+  about that.?He said.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=292 style='width:219.0pt;padding:0in 0in 0in 0in;height:57.75pt'>
+  <p class=MsoNormal><a href="jessica.JPG"><span style='mso-fareast-font-family:
+  "Times New Roman";mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+  border=0 width=290 height=192 id="_x0000_i1031" src=jessicas.JPG
+  alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: jessicas.JPG"></span></a><b><span
+  style='mso-fareast-font-family:"Times New Roman"'><br>
+  Fig 5.</span></b><b><span style='mso-fareast-font-family:SimSun'> Jessica <span
+  class=SpellE>Meader</span></span></b><span style='mso-fareast-font-family:
+  SimSun'><o:p></o:p></span></p>
+  </td>
+  <td width=850 style='width:637.5pt;padding:0in 0in 0in 0in;height:57.75pt'>
+  <p class=MsoNormal>Jessica <span class=SpellE>Meader</span> is a 19 years old
+  college student studying in University of Oregon. She used to take the train
+  between Seattle and California since her parents got separated because of
+  their work. At this time, she will go to Portland with her father and return
+  alone. ?</p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p>&nbsp;</p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><b><span style='font-size:22.0pt'>The Artifacts, Technology, and Systems </span></b><span
+style='font-size:22.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal>In most cases, people get a confirmation after they buy the
+tickets online and are required to change it into a paper-made ticket from
+service window before boarding. They can also use the Quick-<span class=SpellE>Trak</span>,
+a self-service ticket, in Eugene Depot to save their time; or, they can choose
+an old school way---to ask a ticket delivery by Amtrak mail</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>A timetable is pasted on the window of ticket office for
+those who buy tickets in person passengers to check or plan the schedule.
+Besides that, another big poster with specific schedule is also settled in
+front of the booking desk. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>In the lounge, three rows of long wooden bench are installed
+for passengers waiting for the train or buses. A clock is hung on the south
+wall, and an electronic screen is hung on the north wall which displays the
+current status of the train or bus. There are three pictures on the west all
+showing what Eugene Depot was like in past days. Several lighted wall lamps
+keep the whole lounge bright and warm. In the northwest corner of the lunge,
+there is a transportation information board on which is a big map of Eugene and
+several tour brochures that can be taken by passengers. Three vending machines
+are placed in the aisle to bathroom. </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal>When the train is coming, an electric luggage cart will be
+driven by a clerk to load the checked luggage onto the train. A yellow steel
+stair will be put on the group as a step for passengers getting on or off. </p>
+
+<p>&nbsp;<o:p></o:p></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width="100%"
+ style='width:100.0%;border-collapse:collapse;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in' height=264 id=AutoNumber2>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:155.25pt'>
+  <td width=557 colspan=3 style='width:417.75pt;padding:0in 0in 0in 0in;
+  height:155.25pt'>
+  <p align=center style='text-align:center'><a href="buy.JPG"><span
+  style='mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+  border=0 width=290 height=192 id="_x0000_i1030" src=buys.JPG
+  alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: buys.JPG"></span></a></p>
+  </td>
+  <td width=478 style='width:358.5pt;padding:0in 0in 0in 0in;height:155.25pt'>
+  <p align=center style='text-align:center'><a href="ticket.JPG"><span
+  style='mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+  border=0 width=290 height=192 id="_x0000_i1029" src=tickets.JPG
+  alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: tickets.JPG"></span></a></p>
+  </td>
+  <td width=478 style='width:358.5pt;padding:0in 0in 0in 0in;height:155.25pt'>
+  <p align=center style='text-align:center'><a href="vending.JPG"><span
+  style='mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+  border=0 width=192 height=290 id="_x0000_i1028" src=vendings.JPG
+  alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: vendings.JPG"></span></a></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:42.75pt'>
+  <td width=124 valign=top style='width:93.0pt;padding:0in 0in 0in 0in;
+  height:42.75pt'>
+  <p align=center style='text-align:center'>&nbsp;</p>
+  </td>
+  <td width=359 valign=top style='width:269.25pt;padding:0in 0in 0in 0in;
+  height:42.75pt'>
+  <p><b>Fig 6. Passengers are buying tickets</b></p>
+  </td>
+  <td width=74 valign=top style='width:55.5pt;padding:0in 0in 0in 0in;
+  height:42.75pt'>
+  <p class=MsoNormal><span style='mso-fareast-font-family:"Times New Roman"'>&nbsp;<o:p></o:p></span></p>
+  </td>
+  <td width=478 valign=top style='width:358.5pt;padding:0in 0in 0in 0in;
+  height:42.75pt'>
+  <p align=center style='text-align:center'><b>Fig 7. Posters, Scale, Isolation
+  Strips, Wall Lamps, etc.</b></p>
+  </td>
+  <td width=478 valign=top style='width:358.5pt;padding:0in 0in 0in 0in;
+  height:42.75pt'>
+  <p align=center style='text-align:center'><b>Fig 8. Vending Machine</b></p>
+  </td>
+ </tr>
+ <![if !supportMisalignedColumns]>
+ <tr height=0>
+  <td width=61 style='border:none'></td>
+  <td width=202 style='border:none'></td>
+  <td width=26 style='border:none'></td>
+  <td width=290 style='border:none'></td>
+  <td width=192 style='border:none'></td>
+ </tr>
+ <![endif]>
+</table>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><b><span style='font-size:22.0pt'>The Expectations</span></b><span
+style='font-size:22.0pt'><o:p></o:p></span></p>
+
+<p>Sylvia knows exactly what the trip means to a person, and she always hope
+that her kindness and smiling would bring happiness to those who come to Eugene
+in their first time or those who is about to leave. Her 22 years working
+experience makes her to be able to solve different problems according to
+different situations. She made many friends in this tiny train station, most of
+whom also lived in Eugene. She enjoys her job, not only because it is
+concerning about travel industry, but it is the one that she can make people to
+feel comfortable in her own way. Reno is passionate, energetic and thoughtful
+even in his 50s. What he cares about is not only a safe drive, but also a
+wonderful drive during which both he and his passengers would really enjoy.
+Compared to those two mentioned above, Jessica has a simpler expectation---she
+wants to travel safely. </p>
+
+<p>&nbsp;</p>
+
+<p align=center style='text-align:center'><a href="lounge.JPG"><span
+style='mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+border=0 width=290 height=192 id="_x0000_i1027" src=lounges.JPG
+alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: lounges.JPG"></span></a></p>
+
+<p align=center style='text-align:center'><span class=GramE><b>Fig 9.</b></span><b>
+Passengers are waiting in the Lounge</b></p>
+
+<p>&nbsp;</p>
+
+<p><b><span style='font-size:22.0pt'>Actions and Reactions</span></b><span
+style='font-size:22.0pt'><o:p></o:p></span></p>
+
+<p>A bus from Eugene to Portland was scheduled to departure at 2:10 PM. Before
+1:50 PM, only 2 passengers were waiting in the lounge. After that time, as more
+and more people walked in, bought the tickets from her and asked her questions
+about the schedule Sylvia started to get busy. Some passengers who reserved the
+seats online got their tickets from Quick-<span class=SpellE>Trak</span>. At
+2:10 PM the bus came to the parking lot outside the Eugene Depot. Passengers
+lined up for getting on the bus. The bus driver Reno were standing in front of
+the gate of bus and checking every passenger? ticket. Besides, he helped stow
+the luggage into the bottom of the bus when he found the luggage is too big to
+be taken onto bus. At 2:10 PM, all passengers were successfully boarded and
+Reno drove the bus away.</p>
+
+<p>There still were several people in the lounge after the bus left they were
+waiting for the train. According to the timetable on the poster, the train
+would arrive at Eugene Depot at 2:39PM and departure at 2:44. After 2:25 PM,
+Sylvia started her busy work again. She answered some questions asked by
+Jessica about the schedule of the train and helped her bought two train
+tickets. Sylvia told Jessica the train would delay, but she did not know the
+exact arrival time. Jessica went back to the long wooden bench and waited for
+the train coming. As time passes by, the lounge was quickly full of passengers
+who were waiting for the Coast Starlight train; many of them bought drinks from
+the vending machine, and some others just kept chatting to consume this boring
+time. Finally, at 3: 15 PM, the head of the depot told everyone that the train
+was about to arrive within 5 minutes through the loudspeaker. </p>
+
+<p>The train arrived at 3:20 PM. Sylvia drove an electric cart full of luggage
+along with the train to load the luggage up. The conductors of the train opened
+the gates and put a yellow steel stair on the group for the convenient of
+boarding and detraining. Just like getting on the bus, passengers lined up and
+showed their tickets to the conductor. Jessica felt very happy because finally
+she could start her trip after a long wait. The train left at 3:30 PM.??</p>
+
+<p><span style='mso-spacerun:yes'></p>
+
+<p align=center style='text-align:center'><a href="train.JPG"><span
+style='mso-no-proof:yes;text-decoration:none;text-underline:none'><img
+border=0 width=192 height=290 id="_x0000_i1026" src=trains.JPG
+alt="&#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: &#35828;&#26126;: trains.JPG"></span></a></p>
+
+<p align=center style='text-align:center'><span class=GramE><b>Fig 10.</b></span><b>
+Detraining and <span class=SpellE>Borading</span></b></p>
+
+<p><span style='mso-spacerun:yes'></p>
+
+<p><span style='mso-spacerun:yes'></p>
+
+<p><b><span style='font-size:22.0pt'>Metaphors<o:p></o:p></span></b></p>
+
+<p><span style='mso-spacerun:yes'></p>
+
+<div align=center>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=964
+ style='width:722.85pt;margin-left:22.35pt;border-collapse:collapse;border:
+ none;mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 5.4pt 0in 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:18.6pt'>
+  <td width=243 valign=top style='width:182.55pt;border:solid windowtext 1.0pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:18.6pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+  "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+  "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Activity
+  of Eugene Depot<o:p></o:p></span></b></p>
+  </td>
+  <td width=222 valign=top style='width:166.8pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:18.6pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+  "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+  "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Real-World
+  Metaphor<o:p></o:p></span></b></p>
+  </td>
+  <td width=498 valign=top style='width:373.5pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:18.6pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+  "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+  "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'>Implications
+  for Activities of Eugene Depot<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='font-size:16.0pt;font-family:
+  "Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+  minor-latin;mso-bidi-font-family:"Times New Roman";mso-bidi-theme-font:minor-bidi'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:9.95pt'>
+  <td width=243 valign=top style='width:182.55pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:16.0pt'>Planning a trip is like<o:p></o:p></span></p>
+  </td>
+  <td width=222 valign=top style='width:166.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>Writing a paper</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'>Being in a battle</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'>Cleaning a room<span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><o:p></o:p></span></p>
+  </td>
+  <td width=498 valign=top style='width:373.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal>Sorting through lots of information and making a focused
+  decision</p>
+  <p class=MsoNormal><span style='mso-spacerun:yes'></p>
+  <p class=MsoNormal>A singular goal to be reached through many separate (and connected)
+  decisions</p>
+  <p class=MsoNormal><span style='mso-spacerun:yes'></p>
+  <p class=MsoNormal>Take one thing and turn it into another for a specific set
+  of goals</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:9.95pt'>
+  <td width=243 valign=top style='width:182.55pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:16.0pt'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:16.0pt'>Getting a ticket is like<o:p></o:p></span></p>
+  </td>
+  <td width=222 valign=top style='width:166.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>Doing math</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'>Making food in a
+  microwave</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'>Buying a drink at a
+  bar</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  </td>
+  <td width=498 valign=top style='width:373.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal>In fact it is math</p>
+  <p class=MsoNormal><span style='mso-spacerun:yes'></p>
+  <p class=MsoNormal>Make your selection, push some buttons, and, sometime
+  later, what you want is there</p>
+  <p class=MsoNormal><span style='mso-spacerun:yes'></p>
+  <p class=MsoNormal>Ask them about the drinks(trips) and then buying one from
+  them<span style='font-size:11.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;height:9.95pt'>
+  <td width=243 valign=top style='width:182.55pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:16.0pt'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:16.0pt'>Waiting in the Depot is like<o:p></o:p></span></p>
+  </td>
+  <td width=222 valign=top style='width:166.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>Seeing a doctor</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'>Expecting the
+  release of a new product</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  </td>
+  <td width=498 valign=top style='width:373.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal>Going to something scheduled at a specific time and
+  waiting for it, in a comfortable but boring place, past that time</p>
+  <p class=MsoNormal><span style='mso-spacerun:yes'></p>
+  <p class=MsoNormal>Something completely in the control of other people</p>
+  <p class=MsoNormal><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes;height:9.95pt'>
+  <td width=243 valign=top style='width:182.55pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:16.0pt'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:16.0pt'>Getting on the bus/train is like<o:p></o:p></span></p>
+  </td>
+  <td width=222 valign=top style='width:166.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'>Driving onto the
+  highway</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'>Going to nice
+  restaurant</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-spacerun:yes'></p>
+  <p class=MsoNormal align=center style='text-align:center'>Using gift card</p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='font-size:11.0pt;font-family:"Calibri","sans-serif";mso-ascii-theme-font:
+  minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:"Times New Roman";
+  mso-bidi-theme-font:minor-bidi'><span style='mso-spacerun:yes'><o:p></o:p></span></p>
+  </td>
+  <td width=498 valign=top style='width:373.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 5.4pt 0in 5.4pt;height:9.95pt'>
+  <p class=MsoNormal><span style='font-size:11.0pt'><span
+  style='mso-spacerun:yes'><o:p></o:p></span></p>
+  <p class=MsoNormal>One direction, no turning back or stopping</p>
+  <p class=MsoNormal><span style='mso-spacerun:yes'></p>
+  <p class=MsoNormal>Checking your reservation and enjoying the service</p>
+  <p class=MsoNormal><span style='mso-spacerun:yes'></p>
+  <p class=MsoNormal>The value will be realized only when the card (ticket) is
+  used<span style='font-size:11.0pt'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+</div>
+
+<p class=MsoNormal><span style='mso-spacerun:yes'></p>
+
+<p><b><span style='font-size:22.0pt'>Activity Design<o:p></o:p></span></b></p>
+
+<p><i style='mso-bidi-font-style:normal'>Metaphor:</i> Planning a trip is (like)
+being a General: A singular goal is reached through a large set of many
+separate (but connected) decisions.</p>
+
+<p><i style='mso-bidi-font-style:normal'>New Activity:</i> A map or log of
+sorts that quickly connects previous decisions (of many people) and outcomes to
+the current opportunity space.</p>
+
+<p><i style='mso-bidi-font-style:normal'>Scenario:</i> John and Clare Whitman
+are planning a honeymoon. Neither of them have done much long distance
+traveling. They also don? like airplanes. They have some idea of where they
+want to go (somewhere sunny, on a coast). The <span class=SpellE>Whitmans</span>
+pull up a standard software/websites/maps/&amp;c to figure out some
+possibilities. As they look at their options, an overlay displays previous
+trips that other people have taken in each area and how they ended up. Clare
+suggests going to Costa Rica on a train in standard class. The overlay tells
+them that last <span class=GramE>couple of trips to Latin America were</span>
+by bus but ended up being very satisfactory however last couple of standard
+class train trips were not as good. John notices this and says that they should
+probably use the bus or pick a different class on the train. Clare sees the
+same thing and agrees that they should take the bus. The <span class=SpellE>Whitmans</span>
+choose to take the trip to Costa Rica by the bus and feel that their decision
+is well made and will be very fun.</p>
+
+<p><span style='mso-spacerun:yes'></p>
+
+<p><i style='mso-bidi-font-style:normal'>Metaphor:</i> Waiting for the train is
+(like) seeing the doctor: You go to something scheduled at a specific time and
+wait for it (in a comfortable but boring place) for a length of time that you
+cannot control.</p>
+
+<p><i style='mso-bidi-font-style:normal'>New Activity:</i> Experience Pass-down
+?Passengers and workers who have lots of experience traveling interact to
+others (specifically to those with little traveling experience that would be
+more bored and off put by the unknown time of departure)</p>
+
+<div style='mso-element:para-border-div;border:none;border-bottom:solid windowtext 1.5pt;
+padding:0in 0in 1.0pt 0in'>
+
+<p style='border:none;mso-border-bottom-alt:solid windowtext 1.5pt;padding:
+0in;mso-padding-alt:0in 0in 1.0pt 0in'><i style='mso-bidi-font-style:normal'>Scenario:</i>
+Steve is waiting for a train. He has never do this before and is worried about
+when the train is coming and is also becoming quite bored. He sees a booth
+where there are options for passing the time. Steve asks what the booth is for
+and is told that they have many options for more experienced travels to help
+put novice travelers to ease. One of these options is being told a story. Steve
+chooses the stories option and a more experienced passenger tells Steve an
+exciting story of a trip taken that was almost as fun as the destination
+itself. Steve is drawn in and forgets his boredom and anxiety over the exact
+time of the train? arrival. The experience passenger enjoys telling the story
+because the passenger remembers being in Steve? position and the telling brings
+the story back to life. When the train arrives, Steve is no longer bored or anxious
+and is more excited for his trip. Steve may also now know a few new things to
+look for and avoid in his travels.</p>
+
+<p style='border:none;mso-border-bottom-alt:solid windowtext 1.5pt;padding:
+0in;mso-padding-alt:0in 0in 1.0pt 0in'><span style='mso-spacerun:yes'></p>
+
+</div>
+
+<p><span style='mso-spacerun:yes'></p>
+
+<p><span style='mso-spacerun:yes'></p>
+
+</div>
+
+</body>
+
+</html>

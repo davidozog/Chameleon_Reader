@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/cis522f11_2g/!svn/ver/39/trunk/GameReader/gameprofile
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cis522f11_2g/!svn/ver/39/trunk/GameReader/gameprofile/admin.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cis522f11_2g/!svn/ver/39/trunk/GameReader/gameprofile/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/cis522f11_2g/!svn/ver/39/trunk/GameReader/gameprofile/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/cis522f11_2g/!svn/ver/39/trunk/GameReader/gameprofile/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cis522f11_2g/!svn/ver/39/trunk/GameReader/gameprofile/models.py
+END

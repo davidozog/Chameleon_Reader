@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/cis522f11_2g/!svn/ver/69/trunk/GameReader/notes/templates/notes
+END
+delete.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cis522f11_2g/!svn/ver/20/trunk/GameReader/notes/templates/notes/delete.html
+END
+detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cis522f11_2g/!svn/ver/17/trunk/GameReader/notes/templates/notes/detail.html
+END
+update.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cis522f11_2g/!svn/ver/62/trunk/GameReader/notes/templates/notes/update.html
+END
+create.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/cis522f11_2g/!svn/ver/69/trunk/GameReader/notes/templates/notes/create.html
+END
+list.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/cis522f11_2g/!svn/ver/17/trunk/GameReader/notes/templates/notes/list.html
+END

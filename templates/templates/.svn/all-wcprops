@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/cis522f11_2g/!svn/ver/22/trunk/GameReader/templates/templates
+END
+login_error.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/cis522f11_2g/!svn/ver/5/trunk/GameReader/templates/templates/login_error.html
+END
+DAGuide.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/cis522f11_2g/!svn/ver/22/trunk/GameReader/templates/templates/DAGuide.html
+END
+account_not_active.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/cis522f11_2g/!svn/ver/5/trunk/GameReader/templates/templates/account_not_active.html
+END
