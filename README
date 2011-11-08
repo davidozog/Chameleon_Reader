@@ -1,0 +1,10 @@
+To set up the development server:
+
+  1. Install Django
+       https://www.djangoproject.com/download/
+  2. Install django-registration 
+       https://bitbucket.org/ubernostrum/django-registration/downloads
+  3. Install django-mptt
+       https://github.com/django-mptt/django-mptt/  
+  4. Install textile
+       http://pypi.python.org/pypi/textile
