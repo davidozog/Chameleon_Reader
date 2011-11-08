@@ -2,11 +2,26 @@ To set up the development server:
 
   0. Assure you have an up to date Python version installed
   1. Install Django
-       https://www.djangoproject.com/download/
+       link:  
+             https://www.djangoproject.com/download/
+       command:
+             python setup.py install
   2. Install django-registration 
-       https://bitbucket.org/ubernostrum/django-registration/downloads
+       link:  
+             https://bitbucket.org/ubernostrum/django-registration/downloads
+       command:
+             python setup.py install
   3. Install django-mptt
-       https://github.com/django-mptt/django-mptt/  
+       link:  
+             https://github.com/django-mptt/django-mptt/  
+       command:
+             python setup.py install
   4. Install textile
-       http://pypi.python.org/pypi/textile
-  5. Setup your database
+       link:
+             http://pypi.python.org/pypi/textile
+       command:
+             python setup.py install
+  5. Setup your database (either postgresql, sqlite3, mysql, etc...)
+       * Install
+       * Start the server
+       * add database
