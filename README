@@ -1,5 +1,6 @@
 To set up the development server:
 
+  0. Assure you have an up to date Python version installed
   1. Install Django
        https://www.djangoproject.com/download/
   2. Install django-registration 
@@ -8,3 +9,4 @@ To set up the development server:
        https://github.com/django-mptt/django-mptt/  
   4. Install textile
        http://pypi.python.org/pypi/textile
+  5. Setup your database
