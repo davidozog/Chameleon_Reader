@@ -4,24 +4,30 @@ To set up the development server:
   1. Install Django
        link:  
              https://www.djangoproject.com/download/
-       command:
+       commands:
+             cd <your/download/location>
              python setup.py install
   2. Install django-registration 
        link:  
              https://bitbucket.org/ubernostrum/django-registration/downloads
        command:
+             cd <your/download/location>
              python setup.py install
   3. Install django-mptt
        link:  
              https://github.com/django-mptt/django-mptt/  
        command:
+             cd <your/download/location>
              python setup.py install
   4. Install textile
        link:
              http://pypi.python.org/pypi/textile
        command:
+             cd <your/download/location>
              python setup.py install
   5. Setup your database (either postgresql, sqlite3, mysql, etc...)
        * Install
        * Start the server
        * add database
+       * NOTE: On Macs, sqlite3 is probably installed by default and is a good choice
+  6. 
