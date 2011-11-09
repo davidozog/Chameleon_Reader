@@ -25,9 +25,25 @@ To set up the development server:
        command:
              cd <your/download/location>
              python setup.py install
+       Note:
+       		You might need to install setuptools at this step, which can be 
+       		found at http://pypi.python.org/pypi/setuptools#files, and you'll
+       		need to download the tar.gz file
   5. Setup your database (either postgresql, sqlite3, mysql, etc...)
        * Install
        * Start the server
        * add database
        * NOTE: On Macs, sqlite3 is probably installed by default and is a good choice
-  6. 
+  6. Change settings.py
+	   * Change PREFIX. Remember to put a '/' after your path, like this:
+	     '/Users/YZ/Sites/Chameleon_Reader/'.
+	   * Change USER to your user name.
+	   * Change DATABASES setting. (Unfinished. Need David's input)
+	   * Change TIME_ZONE to 'America/Vancouver'.  This is not required though.
+	   * Change ROOT_URLCONF to 'Chameleon_Reader.urls'.
+  7. Initialize database
+  	   * Command: python manage.py syncdb.
+  	   * Note: (David, it asks me to create a superuser at this step. 
+  	   			What should I do?  I chosed no.)
+  8. Run server
+  	   * Command: python manage.py runserver
