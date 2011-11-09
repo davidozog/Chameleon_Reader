@@ -35,15 +35,22 @@ To set up the development server:
        * add database
        * NOTE: On Macs, sqlite3 is probably installed by default and is a good choice
   6. Change settings.py
+     * first copy the settings template file to settings.py with this command:
+          $ cp settings.py.template settings.py
 	   * Change PREFIX. Remember to put a '/' after your path, like this:
 	     '/Users/YZ/Sites/Chameleon_Reader/'.
 	   * Change USER to your user name.
-	   * Change DATABASES setting. (Unfinished. Need David's input)
+	   * Change DATABASES setting (optional). 
+          ->  It is recommended to use 'sqlite3' because:
+                - It's installed by default on most operating systems
+                - it's very automatic to set up
 	   * Change TIME_ZONE to 'America/Vancouver'.  This is not required though.
-	   * Change ROOT_URLCONF to 'Chameleon_Reader.urls'.
   7. Initialize database
   	   * Command: python manage.py syncdb.
-  	   * Note: (David, it asks me to create a superuser at this step. 
-  	   			What should I do?  I chosed no.)
+       * At this point, you should create a super user when prompted,
+         this will be the username / password used to login to the admin interface
   8. Run server
   	   * Command: python manage.py runserver
+  9. Visit http://localhost:8000 in your browser
+       * Note: you can log into the admin interface by visiting:
+               http://localhost:8000/admin
