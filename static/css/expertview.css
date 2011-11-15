@@ -1,35 +1,347 @@
-@charset "utf-8";body {	background-color: #fff;	background-attachment: scroll;	background-image: url(images/bg.jpg);	background-repeat: no-repeat;	font-size: 62.5%;	margin: 0;	padding: 0;
-    
-    
-    }
+@charset "utf-8";
+
+body {
+	background-color: #6b6b6b;
+	background-attachment: scroll;
+	background-image: url(/static/img/article/bg3.png);
+	background-repeat: no-repeat;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+p {
+	margin-bottom: 1.1em;
+	margin-top: 0;
+}
+#main p.lastNode {
+	margin-bottom: 0;
+}
+a:link img, a:visited img {
+	border: none;
+}
+div.clearFloat {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0px;
+}
+li.clearFloat {
+	clear: both;
+}
+ul.symbolList {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.AbsWrap {
+	position: relative;
+	width: 100%;
+}
+.rowWrap {
+	width: 100%;
+}
+#wrap {
+	margin: 0 auto 0 auto;
+	width: 1024px;
+}
+#topmenu {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	background-color: #434343;
+	background-attachment: scroll;
+	background-image: url(/static/img/article/expertview_r1_c14.png);
+	background-position: center center;
+	background-repeat: repeat-x;
+	width: 1061px;
+	padding-top: 0px;
+	height: 41px;
+}
+
+#LibraryButton{
+margin-left: 8px;
+}
+
+#topmenu_right{
+	margin-left: 572px;
+	
+	}
+html > body #expertview_r1_c14 {
+	height: auto;
+	min-height: 41px;
+}
+
+#verticalline {
+	margin-left: 0px;
+	margin-top: 0px;
+	display: inline;
+	float: left;
+	height: 41px;
+	margin-bottom: 0;
+	width: 15px;
+}
+
+#content{
+	padding:20px 20px 20px 30px; font-size:12px; font-color:whihte; font-family: Verdana, Geneva, sans-serif; color: #CCCCCC;
+	width:600px;
+	max-width:600px;
+	
+	}
+#content img{
+	max-width:600px;
+	height:auto;
+	
+}
+#content table{
+	max-width:600px;
+	height:auto;
+	
+}
+#main {
+	margin-left: 0px;
+	margin-top: 7px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 719px;
+	background-image: url(/static/img/article/expertview_r6_c1.png);
+	background-repeat: repeat;
+}
+#Box3SliceContainer_top_1 {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-image: url(/static/img/article/expertview_r4_c1.png);
+	overflow: hidden;
+	display: inline;
+	float: left;
+	height: 31px;
+	margin-bottom: 0;
+	width: 719px;
+}
+#Box3SliceContainer_bottom_1 {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-image: url(/static/img/article/expertview_r10_c1.png);
+	overflow: hidden;
+	display: inline;
+	float: left;
+	height: 40px;
+	margin-bottom: 0;
+	width: 719px;
+}
+#tableofcontents {
+	margin-left: 0px;
+	margin-top: 5px;
+	display: inline;
+	float: left;
+	margin-bottom: 0;
+	width: 305px;
+	background-image: url(/static/img/article/expertview_r6_c7.png);
+	background-repeat: repeat;
+}
+#Box3SliceContainer_top_2 {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-image: url(/static/img/article/expertview_r4_c7.png);
+	overflow: hidden;
+	display: inline;
+	float: left;
+	height: 31px;
+	margin-bottom: 0;
+	width: 305px;
+}
+#Box3SliceContainer_bottom_2 {
+	margin-left: 0px;
+	margin-top: 50px;
+	background-image: url(/static/img/article/expertview_r8_c7.png);
+	overflow: hidden;
+	display: inline;
+	float: left;
+	height: 36px;
+	margin-bottom: 0;
+	width: 305px;
+}
+@charset "utf-8";
+/* CSS Document */
+
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.LibraryButton {
+    background: transparent url('/static/img/article/library_a.png') no-repeat scroll top right;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 37px;
+	width:100px;
+    margin-right: 1px;
+	margin-top: 1px;
+    padding-right: 10px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.LibraryButton span {
+    background: transparent url('/static/img/article/library_span.png') no-repeat;
+    display: block;
+    line-height: 27px;
+    padding: 5px 0 5px 18px;
+}
 
 
-a:link {
-	COLOR: #00CC00;
-}
-a:visited {
-	COLOR: #CCCCCC;
-}
-a:hover {
-COLOR: #FF0000;
-}
-a:active {
-COLOR: #00FF00;
-}body * {	font-size: 19px;}h1, h2, h3, h4, h5, h6 {	font-weight: normal;}p {	margin-bottom: 1.1em;	margin-top: 0;}#main p.lastNode {	margin-bottom: 0;}a:link img, a:visited img {	border: none;}div.clearFloat {	clear: both;	font-size: 0;	height: 0;	line-height: 0px;}li.clearFloat {	clear: both;}ul.symbolList {	display: inline;	float: left;	list-style-type: none;	margin: 0;	padding: 0;}.AbsWrap {	position: relative;	width: 100%;}.rowWrap {	width: 100%;}#Div {	left: 0px;	position: absolute;	top: 0px;	margin-bottom: 0;	background-color: #434343;	width: 1061px;	padding-top: 0px;	height: 40px;}html > body #Div {	height: auto;	min-height: 41px;}#Div2 {	left: 0px;	position: absolute;	top: 24px;	margin-bottom: 0;	background-color: #434343;	border: 1px solid #333;	width: 1081px;	padding-top: 0px;	height: 767px;}html > body #Div2 {	height: auto;	min-height: 766px;}#Div3 {	left: 9px;	position: absolute;	top: 52px;	margin-bottom: 0;	background-color: #434343;	width: 1004px;	padding-top: 0px;	height: 739px;}html > body #Div3 {	height: auto;	min-height: 740px;}#Div4 {	left: 730px;	position: absolute;	top: 77px;	margin-bottom: 0;	background-color: #333;	border: 1px solid #797c71;	width: 263px;	padding-top: 0px;	height: 399px;}html > body #Div4 {	height: auto;	min-height: 400px;}#Div5 {	left: 15px;	position: absolute;	top: 538px;	margin-bottom: 0;	background-color: #fefaf1;	border: 1px solid #ccc;	width: 738px;	padding-top: 0px;	height: 188px;}html > body #Div5 {	height: auto;	min-height: 187px;}#Div6 {	left: 751px;	position: absolute;	top: 580px;	margin-bottom: 0;	background-color: #fefaf1;	width: 225px;	padding-top: 0px;	height: 168px;}html > body #Div6 {	height: auto;	min-height: 169px;}#Div7 {	left: 923px;	position: absolute;	top: 613px;	margin-bottom: 0;	background-color: #333;	width: 38px;	padding-top: 0px;	height: 55px;}html > body #Div7 {	height: auto;	min-height: 56px;}#Div8 {	left: 782px;	position: absolute;	top: 630px;	margin-bottom: 0;	background-color: #333;	width: 49px;	padding-top: 0px;	height: 73px;}html > body #Div8 {	height: auto;	min-height: 74px;}#Div9 {	left: 840px;	position: absolute;	top: 632px;	margin-bottom: 0;	background-color: #333;	width: 43px;	padding-top: 0px;	height: 54px;}html > body #Div9 {	height: auto;	min-height: 55px;}#Div10 {	left: 872px;	position: absolute;	top: 635px;	margin-bottom: 0;	background-color: #333;	width: 30px;	padding-top: 0px;	height: 46px;}html > body #Div10 {	height: auto;	min-height: 47px;}#Div11 {	left: 816px;	position: absolute;	top: 635px;	margin-bottom: 0;	background-color: #333;	width: 40px;	padding-top: 0px;	height: 54px;}html > body #Div11 {	height: auto;	min-height: 55px;}#Div12 {	left: 892px;	position: absolute;	top: 640px;	margin-bottom: 0;	background-color: #333;	width: 18px;	padding-top: 0px;	height: 56px;}html > body #Div12 {	height: auto;	min-height: 57px;}#Div13 {	left: 904px;	position: absolute;	top: 644px;	margin-bottom: 0;	background-color: #333;	width: 18px;	padding-top: 0px;	height: 30px;}html > body #Div13 {	height: auto;	min-height: 31px;}#Div14 {	left: 775px;	position: absolute;	top: 648px;	margin-bottom: 0;	background-color: #333;	width: 31px;	padding-top: 0px;	height: 39px;}html > body #Div14 {	height: auto;	min-height: 40px;}#Div15 {	left: 796px;	position: absolute;	top: 649px;	margin-bottom: 0;	background-color: #434343;	width: 130px;	padding-top: 0px;	height: 31px;}html > body #Div15 {	height: auto;	min-height: 32px;}#Div16 {	left: 920px;	position: absolute;	top: 650px;	margin-bottom: 0;	background-color: #333;	width: 11px;	padding-top: 0px;	height: 20px;}html > body #Div16 {	height: auto;	min-height: 21px;}.Txt_Add {	font-family: Arial, Helvetica, sans-serif;	font-size: 150%;	text-align: left;	color: #fff;	line-height: 120%;	padding-bottom: 2px;	padding-top: 1px;	left: 808px;	position: absolute;	top: 655px;	margin-bottom: 0;}#Div17 {	left: 790px;	position: absolute;	top: 665px;	margin-bottom: 0;	background-color: #333;	width: 12px;	padding-top: 0px;	height: 11px;}html > body #Div17 {	height: auto;	min-height: 12px;}#Ellipse {	left: 888px;	position: absolute;	top: 691px;	margin-bottom: 0;	background-color: #333;	width: 13px;	padding-top: 3px;	height: 5px;	height: 6px;	overflow: hidden;}#Ellipse2 {	left: 899px;	position: absolute;	top: 695px;	margin-bottom: 0;	background-color: #333;	width: 6px;	padding-top: 0px;	height: 12px;}html > body #Ellipse2 {	height: auto;	min-height: 13px;}#Ellipse3 {	left: 805px;	position: absolute;	top: 699px;	margin-bottom: 0;	background-color: #333;	width: 14px;	padding-top: 0px;	height: 9px;}html > body #Ellipse3 {	height: auto;	min-height: 10px;}#Ellipse4 {	left: 817px;	position: absolute;	top: 702px;	margin-bottom: 0;	background-color: #333;	width: 9px;	padding-top: 0px;	height: 13px;}html > body #Ellipse4 {	height: auto;	min-height: 14px;}#expertview_r1_c1 {	left: 0px;	position: absolute;	top: 0px;	height: 3px;	margin-bottom: 0;	width: 1024px;}#expertview_r2_c1 {	left: 0px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 9px;}#expertview_r2_c2 {	left: 9px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 102px;}#expertview_r2_c4 {	left: 111px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 135px;}#expertview_r2_c5 {	left: 246px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 321px;}#expertview_r2_c6 {	left: 567px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 80px;}#expertview_r2_c7 {	left: 647px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 15px;}#expertview_r2_c8 {	left: 662px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 80px;}#expertview_r2_c10 {	left: 742px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 10px;}#expertview_r2_c11 {	left: 752px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 68px;}#expertview_r2_c13 {	left: 820px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 8px;}#expertview_r2_c14 {	left: 828px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 75px;}#expertview_r2_c15 {	left: 903px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 7px;}#expertview_r2_c16 {	left: 910px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 73px;}#expertview_r2_c18 {	left: 983px;	position: absolute;	top: 3px;	height: 37px;	margin-bottom: 0;	width: 41px;}#expertview_r3_c1 {	left: 0px;	position: absolute;	top: 40px;	height: 23px;	margin-bottom: 0;	width: 15px;}#expertview_r3_c3 {	left: 15px;	position: absolute;	top: 40px;	height: 23px;	margin-bottom: 0;	width: 703px;}#expertview_r3_c9 {	left: 718px;	position: absolute;	top: 40px;	height: 23px;	margin-bottom: 0;	width: 306px;}#expertview_r4_c1 {	left: 0px;	position: absolute;	top: 63px;	height: 556px;	margin-bottom: 0;	width: 15px;}#expertview_r4_c3 {	left: 15px;	position: absolute;	top: 63px;	height: 37px;	margin-bottom: 0;	width: 703px;}#expertview_r4_c9 {	left: 718px;	position: absolute;	top: 63px;	height: 37px;	margin-bottom: 0;	width: 24px;}#expertview_r4_c10 {	left: 742px;	position: absolute;	top: 63px;	height: 37px;	margin-bottom: 0;	width: 241px;}#expertview_r4_c18 {	left: 983px;	position: absolute;	top: 63px;	height: 37px;	margin-bottom: 0;	width: 41px;}#expertview_r5_c9 {	left: 718px;	position: absolute;	top: 100px;	height: 355px;	margin-bottom: 0;	width: 24px;}#expertview_r5_c18 {	left: 983px;	position: absolute;	top: 100px;	height: 355px;	margin-bottom: 0;	width: 41px;}#expertview_r6_c9 {	left: 718px;	position: absolute;	top: 455px;	height: 33px;	margin-bottom: 0;	width: 24px;}#expertview_r6_c10 {	left: 742px;	position: absolute;	top: 455px;	height: 33px;	margin-bottom: 0;	width: 241px;}#expertview_r6_c18 {	left: 983px;	position: absolute;	top: 455px;	height: 33px;	margin-bottom: 0;	width: 41px;}#expertview_r7_c9 {	left: 718px;	position: absolute;	top: 488px;	height: 62px;	margin-bottom: 0;	width: 306px;}#expertview_r8_c9 {	left: 718px;	position: absolute;	top: 550px;	height: 22px;	margin-bottom: 0;	width: 306px;}#expertview_r9_c9 {	left: 718px;	position: absolute;	top: 572px;	height: 196px;	margin-bottom: 0;	width: 24px;}#expertview_r9_c10 {	left: 742px;	position: absolute;	top: 572px;	height: 30px;	margin-bottom: 0;	width: 33px;}#expertview_r9_c12 {	left: 775px;	position: absolute;	top: 572px;	height: 30px;	margin-bottom: 0;	width: 187px;}#expertview_r9_c17 {	left: 962px;	position: absolute;	top: 572px;	height: 30px;	margin-bottom: 0;	width: 33px;}#expertview_r9_c19 {	left: 995px;	position: absolute;	top: 572px;	height: 196px;	margin-bottom: 0;	width: 29px;}#expertview_r10_c10 {	left: 742px;	position: absolute;	top: 602px;	height: 125px;	margin-bottom: 0;	width: 33px;}#expertview_r10_c17 {	left: 962px;	position: absolute;	top: 602px;	height: 125px;	margin-bottom: 0;	width: 33px;}#expertview_r11_c1 {	left: 0px;	position: absolute;	top: 619px;	height: 149px;	margin-bottom: 0;	width: 15px;}#expertview_r12_c10 {	left: 742px;	position: absolute;	top: 727px;	height: 31px;	margin-bottom: 0;	width: 33px;}#expertview_r12_c12 {	left: 775px;	position: absolute;	top: 727px;	height: 31px;	margin-bottom: 0;	width: 187px;}#expertview_r12_c17 {	left: 962px;	position: absolute;	top: 727px;	height: 31px;	margin-bottom: 0;	width: 33px;}#expertview_r13_c10 {	left: 742px;	position: absolute;	top: 758px;	height: 10px;	margin-bottom: 0;	width: 253px;}
-div#content img {
-max-width: 600px;
-height: auto;
+a.LibraryButton:active {
+    background-position: bottom right;
+    color: #ffffff;
+    outline: none; /* hide dotted outline in Firefox */
 }
 
-div#content {
-font-size: 14px;
-font-family:"Times New Roman",Georgia,Serif;
-color: white;
 
-div#Div4 ul.root li ul.children li{
-font-size: 15px!important;
+a.LibraryButton:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
 }
 
-ul.children li a{
-font-size: 15px !important;
+
+
+a.ModeButton {
+    background: transparent url('/static/img/article/button_a.png') no-repeat scroll top right;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 1px;
+	margin-top: 10px;
+    padding-right: 10px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.ModeButton span {
+    background: transparent url('/static/img/article/mode_span.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+
+a.ModeButton:active {
+    background-position: bottom right;
+    color: #ffffff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+
+a.ModeButton:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+
+
+a.ContentButton {
+    background: transparent url('/static/img/article/button_a.png') no-repeat scroll top right;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 1px;
+	margin-top: 10px;
+    padding-right: 10px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.ContentButton span {
+    background: transparent url('/static/img/article/content_span.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+
+a.ContentButton:active {
+    background-position: bottom right;
+    color: #ffffff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.ContentButton:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+a.NotesButton {
+    background: transparent url('/static/img/article/button_a.png') no-repeat scroll top right;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 1px;
+	margin-top: 10px;
+    padding-right: 10px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.NotesButton span {
+    background: transparent url('/static/img/article/notes_span.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+
+a.NotesButton:active {
+    background-position: bottom right;
+    color: #ffffff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.NotesButton:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+
+a.LogoutButton {
+    background: transparent url('/static/img/article/button_a.png') no-repeat scroll top right;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 1px;
+	margin-top: 10px;
+    padding-right: 10px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.LogoutButton span {
+    background: transparent url('/static/img/article/logout_span.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+
+a.LogoutButton:active {
+    background-position: bottom right;
+    color: #ffffff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.LogoutButton:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
 }
