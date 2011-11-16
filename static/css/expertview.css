@@ -92,10 +92,13 @@ html > body #expertview_r1_c14 {
 }
 
 #content{
-	padding:20px 20px 20px 30px; font-size:12px; font-color:whihte; font-family: Verdana, Geneva, sans-serif; color: #CCCCCC;
+	padding:20px 20px 20px 30px;
+	font-size:12px;
+	font-color:whihte;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCCCCC;
 	width:600px;
-	max-width:600px;
-	
+	max-width:600px;	
 	}
 #content img{
 	max-width:600px;
@@ -139,16 +142,66 @@ html > body #expertview_r1_c14 {
 	margin-bottom: 0;
 	width: 719px;
 }
+#tableofcontentspart{
+	margin-left: 472px;
+  //  margin-top:10px;
+  
+	
+}
+
+#tableofcontentspart a{
+	text-decoration:none;
+	color: #00cc33;
+	//letter-spacing:2px
+	//line-height:150%;
+  
+	
+}
+
+#tableofcontentspart p{
+	
+	line-height:200%;
+  
+	
+}
+
+
+
+
+
 #tableofcontents {
+	padding:20px 20px 20px 30px;
+	font-size:12px;
+	font-color:whihte;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCCCCC;
+	//margin-right:10px;
+	//max-width:250px;
+	margin-top:0px;
+	margin-left:247px;
+	background-image: url(/static/img/article/expertview_r6_c7.png);
+	background-repeat: repeat-y;	
+	
+	
+	/*
+	max-width:600px;
 	margin-left: 0px;
 	margin-top: 5px;
 	display: inline;
 	float: left;
 	margin-bottom: 0;
+	max-width:305px;
 	width: 305px;
 	background-image: url(/static/img/article/expertview_r6_c7.png);
 	background-repeat: repeat;
+	*/
 }
+
+#tableofcontents a{
+	
+	
+	}
+
 #Box3SliceContainer_top_2 {
 	margin-left: 0px;
 	margin-top: 0px;
@@ -162,7 +215,7 @@ html > body #expertview_r1_c14 {
 }
 #Box3SliceContainer_bottom_2 {
 	margin-left: 0px;
-	margin-top: 50px;
+	margin-top: 0px;
 	background-image: url(/static/img/article/expertview_r8_c7.png);
 	overflow: hidden;
 	display: inline;
