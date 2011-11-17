@@ -2,45 +2,78 @@
 {% load mptt_tags %} 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title> {{ article.book.name }} | {{ article.title }} </title>
-	<script type="text/javascript" src="/static/js/jquery-1.6.4.js"> </script>
-	<script type="text/javascript" src="/static/js/custom_view.js"> </script>
-    <script type="text/javascript" src="/static/js/DAGS.js"> </script>
-	
-<link rel="stylesheet" type="text/css" href="/static/css/expertview.css" media="all" />
-<!--[if IE]>
-	<style type="text/css" media="all">.borderitem {border-style: solid;}</style>
-	<![endif]-->
-</head>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title> {{ article.book.name }} | {{ article.title }} </title>
+		<script type="text/javascript" src="/static/js/jquery-1.6.4.js"></script>
+		<script type="text/javascript" src="/static/js/custom_view.js"></script>
+		<script type="text/javascript" src="/static/js/DAGS.js"></script>	
+    <script type="text/javascript" src="/static/js/menu.js"></script>
 
-<body>
-<div id="wrap"><!--this is for the whole page aligiment center-->
-  <div id="topmenu"><!--this is for the top menu-->
-    <div id="LibraryButton"> <a class="LibraryButton" href="/book/"><span>&nbsp;</span> </div>
-    <div id="topmenu_right"> <!--this is for the top menu 4 button on the right to align right-->
-    <a id="switch" class="ModeButton" href="#"><span>Mode</span></a> 
-    
-    <img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> <a class="ContentButton" href="#"><span>Content</span></a> <img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> <a class="NotesButton" href="#"><span>Notes</span></a> <img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> <a class="LogoutButton" href="#"><span>Logout</span></a> </div>
-  </div>
-  <div id="main"><!--this is for the main page contain article and table of contents-->
-    <div id="mainArticle"><!--this is for the main article-->
-      <div id="Box3SliceContainer_top_1"> </div>
-      <div id="content" > 
-      	{{ article.content|textile }}
-      </div>
-      <div id="Box3SliceContainer_bottom_1"> </div>
+		<link rel="stylesheet" type="text/css" href="/static/css/expertview.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/static/css/popupmenu.css" media="all" />
+		<!--[if IE]>
+		 <style type="text/css" media="all">.borderitem {border-style: solid;}</style>
+		 <![endif]-->
+	</head>
+	
+	<body>
+		<div id="wrap"><!--this is for the whole page aligiment center-->
+			<div id="topmenu"><!--this is for the top menu-->
+				<div id="LibraryButton">
+          <a class="LibraryButton" href="/book/">
+          <span>&nbsp;</span></a>
+        </div>
+				<div id="topmenu_right"> <!--this is for the top menu 4 button on the right to align right-->
+					<a id="switch" class="ModeButton" href="#"><span>Mode</span></a> 
+					
+					<img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> 
+          <ul id="nav">
+          <li>
+					<a class="ContentButton" href="#">
+          <span>content</span></a>
+            <ul>
+            {% recursetree toc %}
+                  <li>
+                      {% if not node.is_leaf_node %}
+                      <a href="#">
+                      {{ node.name }}
+                          <ul class="children">
+                              {{ children }}
+                          </ul>
+                      </a>
+                      {% else %}
+                      <a href={% url contents.views.display_article book_name|slugify node.article.title|slugify %}>
+                      {{ node.article.title }}
+                      </a>
+                      {% endif %}
+                  </li>
+              {% endrecursetree %}
+            </ul>
+          </li>
+          </ul>
+          
+					<img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> 
+					<a class="NotesButton" href="#"><span>Notes</span></a> 
+					<img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> 
+					<a class="LogoutButton" href="#"><span>Logout</span></a> </div>
+			</div>
+			<div id="main"><!--this is for the main page contain article and table of contents-->
+				<div id="mainArticle"><!--this is for the main article-->
+					<div id="Box3SliceContainer_top_1"> </div>
+					<div id="content" > 
+						{{ article.content|textile }}
+					</div>
+					<div id="Box3SliceContainer_bottom_1"> </div>
+				</div>
+				
+			</div>
+			<div id="Box3SliceContainer_top_2"> </div>
+			<div id="tableofcontentspart">
+				
+				<div id="tableofcontents"></div>
+				<div id="Box3SliceContainer_bottom_2"> </div>
+			</div>
     </div>
-  
-</div>
-<div id="Box3SliceContainer_top_2"> </div>
-<div id="tableofcontentspart">  <a>
-   
-  <div id="tableofcontents">
-   </div>
-    <div id="Box3SliceContainer_bottom_2"> </div>
-    </a>
-  </div>
-</body>
+	</body>
 </html>
