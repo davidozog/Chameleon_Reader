@@ -29,10 +29,12 @@ function MM_swapImgRestore() { //v3.0
 </script>
 </head>
 <body style="background-color:#63665b">
+<div class="welcomeuser">
 {% if user.is_authenticated %}
-Welcome, {{ user.username }}. </br>
+<a href="/account/settings/">Welcome, <span class="usercolor">{{ user.username }}</span>.</a></br>
 <!--<span id="here_books">Here are the available books:<span></br>-->
 {% endif %}
+</div>
 <table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="1024">
 <!-- fwtable fwsrc="library.png" fwpage="Page 1" fwbase="library.png" fwstyle="Dreamweaver" fwdocid = "1847320917" fwnested="1" -->
   <tr>

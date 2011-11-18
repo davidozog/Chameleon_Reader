@@ -77,3 +77,8 @@ def load_book(request):
     else:
         return render_to_response('registration/login.html')
 
+def load_account(request):
+    USER = request.user
+    gameprofile = UserProfile.objects.filter(user=USER)
+    user_ach = gameprofile[0].achievements.all()
+    return render_to_response('templates/account_settings.html', {'user':USER, 'username':USER.username, 'achievements':user_ach })

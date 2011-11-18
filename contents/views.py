@@ -25,7 +25,9 @@ def display_article(request, book_name, article_title):
     prevNode = currentNode.get_previous_sibling()
     toc = Node.objects.filter(book__name__iexact=book_name)
 
-    return render_to_response('expertview.html', {'article': art,
+    username = request.user.username
+
+    return render_to_response('expertview.html', {'article': art, 'username':username, 'user':request.user,
         'next_node': nextNode, 'prev_node': prevNode, 'toc': toc, 'book_name': book_name})
 
 
@@ -41,7 +43,7 @@ def display_table_of_contents(request, book_name):
 def display_books(request):
     username = request.user.username
     book_list = Book.objects.all()
-    return render_to_response('library/library.html', {'book_list': book_list})
+    return render_to_response('library/library.html', {'book_list': book_list, 'user':request.user})
 
 
 def display_tag(request):

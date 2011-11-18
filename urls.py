@@ -23,7 +23,7 @@ urlpatterns = patterns('',
     url(r'^book_view/', 'Chameleon_Reader.views.load_book', name='book_view'),
     #url(r'^accounts/profile', redirect_to, {'url':'/notes/list'}),
     url(r'^notes/', include('notes.urls')),
-
+    url(r'^account/', 'Chameleon_Reader.views.load_account', name='account_settings'),
     url(r'^book/', include('contents.urls')),
 
 )
