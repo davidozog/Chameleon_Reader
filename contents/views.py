@@ -2,7 +2,16 @@
 
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render_to_response
-from models import Article, Node, Book
+from django.template import RequestContext
+from django.http import HttpResponseRedirect
+from models import Article, Node, Book, Achievement
+from django import forms
+from xml.etree import ElementTree
+import urllib2
+
+
+class AchievementForm(forms.Form):
+    steamID = forms.CharField(max_length=100)
 
 
 def display_article(request, book_name, article_title):
@@ -37,3 +46,39 @@ def display_books(request):
 
 def display_tag(request):
     pass
+
+
+def display_achievements(request):
+    pass
+
+
+def submit_ID(request):
+    if request.method == 'POST':  # If the form has been submitted...
+        form = AchievementForm(request.POST)  # A form bound to the POST data
+        if form.is_valid():  # All validation rules pass
+            # Get steam64ID
+            steamID = form.cleaned_data['steamID']
+            data = urllib2.urlopen("http://steamcommunity.com/id/%s?xml=1" % steamID)
+            tree = ElementTree.parse(data)
+            steam64ID = tree.find("steamID64").text
+
+            # Get achievements
+            data = urllib2.urlopen(
+                "http://steamcommunity.com/profiles/%s/stats/%s/?xml=1" %
+                (steam64ID, "TF2"))
+            tree = ElementTree.parse(data)
+
+            achievements = []
+            for achievement in tree.getroot().find("achievements").findall(
+                "achievement"):
+                if not achievement.find("unlockTimestamp") == None:
+                    achievements.append(achievement.find("name").text)
+            
+            print achievements
+            return HttpResponseRedirect('/book/display_achievements')  # Redirect after POST
+    else:
+        form = AchievementForm()  # An unbound form
+
+    return render_to_response('test_achievements.html', {
+        'form': form,
+    }, context_instance=RequestContext(request))

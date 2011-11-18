@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title> Test Achievements </title>
+</head>
+<body>
+<form action="/book/test_achievement" method="post">{% csrf_token %}
+{{ form.as_p }}
+<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
