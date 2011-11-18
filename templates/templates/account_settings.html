@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>library.png</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">td img {display: block;}</style>
+	<link rel="stylesheet" type="text/css" href="/static/css/account_settings.css" media="all" />
+<!--Fireworks CS5 Dreamweaver CS5 target.  Created Tue Oct 18 18:37:06 GMT-0700 (PDT) 2011-->
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+//-->
+</script>
+</head>
+<body style="background-color:#63665b">
+<div class="welcomeuser">
+{% if user.is_authenticated %}
+Welcome, <span class="usercolor">{{ user.username }}</span>. </br>
+<!--<span id="here_books">Here are the available books:<span></br>-->
+</div>
+{% endif %}
+<table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="1024">
+<!-- fwtable fwsrc="library.png" fwpage="Page 1" fwbase="library.png" fwstyle="Dreamweaver" fwdocid = "1847320917" fwnested="1" -->
+  <tr>
+   <td colspan="7"><img name="library_r1_c1" src="/static/img/library_r1_c1.png" width="1024" height="3" border="0" id="library_r1_c1" alt="" /></td>
+  </tr>
+  <tr>
+   <td colspan="5"><img name="library_r2_c1" src="/static/img/account_header.png" width="944" height="37" border="0" id="library_r2_c1" alt="" /></td>
+   <td>
+     <!--<a href="javascript:;" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('library_r2_c6','','/static/img/.png',1);"><img name="library_r2_c6" src="/static/img/library_r2_c6.png" width="80" height="37" border="0" id="library_r2_c6" alt="" /></a> -->
+     <a href="/accounts/login/"><img name="library_r2_c6" src="/static/img/library_r2_c6.png" width="80" height="37" border="0" id="library_r2_c6" alt="" /></a>
+   </td>
+  </tr>
+</table>
+</br>
+
+Here we are.  Here are your account settings: </br>
+
+Username : {{ username }} </br>
+
+Email : {{ user.email }} </br>
+
+Achievements : </br>
+<div class="userachlist">
+{% for achievement in achievements %} 
+{{ achievement }} </br>
+{% endfor %}
+</div>
+
+
+
+</body>
+</html>
