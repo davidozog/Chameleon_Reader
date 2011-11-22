@@ -1,15 +1,32 @@
 {% load mptt_tags %} 
-
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-      <!-- <link rel="stylesheet" type="text/css" href="/static/css/main.css" /> -->
-	<title> {{ book_name|title }} </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>{{ book_name|title }}</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/book.css" media="all" />
+	<!--[if IE]>
+	<style type="text/css" media="all">.borderitem {border-style: solid;}</style>
+	<![endif]-->
 </head>
+
 <body>
-<span id="bookname">{{book_name|capfirst}}:</span></br>
-<div><a href="/book_view/">Chapter 0: Our Demo</a></div>
-<div>
-<ul class="root">
+<div id="wrap">
+<img src="/static/img/article/book_r1_c1.png" id="book_r1_c1" alt="" />
+
+<img src="/static/img/article/book_r5_c4.png" id="book_r5_c4" alt="" />
+<img src="/static/img/article/book_r6_c4.png" id="book_r6_c4" alt="" />
+<img src="/static/img/article/book_r7_c4.png" id="book_r7_c4" alt="" />
+
+<div id="Box3SliceContainer">
+
+	<div id="Box3SliceContainer_top_1">
+	</div>
+    
+    <div id="tableofcontents"><img src="/static/img/article/wow.png" id="wow" alt="" />
+    <div><span id="bookname">{{book_name|capfirst}}:</span></div>
+    
+    <a><ul class="root">
 	{% recursetree toc %}
         <li>
             {% if not node.is_leaf_node %}
@@ -24,7 +41,12 @@
             {% endif %}
         </li>
     {% endrecursetree %}
-</ul>
+</ul></a></div>
+<div id="Box3SliceContainer_bottom_1">
 </div>
+</div>
+
+</div>
+
 </body>
 </html>
