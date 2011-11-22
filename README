@@ -72,6 +72,7 @@ it will be synced to other repositories.  Then, when they run manage.py syncdb,
 they will get the latest database content.
 
 If your changes are made to the articles, you can use the following command:
+python manage.py syncdb
 python manage.py dumpdata --indent=4 contents > contents/fixtures/initial_data.json
 
 Then you should commit and push the changes to the remote repository.
