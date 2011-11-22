@@ -1,0 +1,30 @@
+{% load mptt_tags %} 
+
+<html>
+<head>
+      <!-- <link rel="stylesheet" type="text/css" href="/static/css/main.css" /> -->
+	<title> {{ book_name|title }} </title>
+</head>
+<body>
+<span id="bookname">{{book_name|capfirst}}:</span></br>
+<div><a href="/book_view/">Chapter 0: Our Demo</a></div>
+<div>
+<ul class="root">
+	{% recursetree toc %}
+        <li>
+            {% if not node.is_leaf_node %}
+            {{ node.name }}
+                <ul class="children">
+                    {{ children }}
+                </ul>
+            {% else %}
+            <a href={% url contents.views.display_article book_name|slugify node.article.title|slugify %}>
+            {{ node.article.title }}
+            </a>
+            {% endif %}
+        </li>
+    {% endrecursetree %}
+</ul>
+</div>
+</body>
+</html>
