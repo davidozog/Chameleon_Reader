@@ -145,7 +145,6 @@ def load_account(request):
             achievements = []
             _age = ''
             _language = ''
-            steamID = ''
 
         return render_to_response('templates/account_settings.html', {'user':USER, 'username':USER.username, 'achievements':achievements, 'ach_message':ach_message, 'steamID':steamID, 'age':_age, 'language':_language, 'form':form }, context_instance=RequestContext(request))
 
