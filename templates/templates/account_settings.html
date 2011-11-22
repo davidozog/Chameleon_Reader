@@ -50,19 +50,46 @@ Welcome, <span class="usercolor">{{ user.username }}</span>. </br>
 </table>
 </br>
 
-Here we are.  Here are your account settings: </br>
+<a href="/book/"> Library </a> </br>
+
+Here are your account settings: </br>
 
 Username : {{ username }} </br>
 
 Email : {{ user.email }} </br>
 
+{% if not steamID %}
+</br>
+</br>
+   <div class="steam_explanation">
+   For customization based on your achievements, Please submit your Steam&copy; username:
+   </div>
+
+   <form action="/account/settings" method="post">{% csrf_token %}
+   {{ form.as_p }}
+   <input type="submit" value="Submit" />
+   </form>
+
+</br>
+</br>
+{% else %}
+Age: {{age}} </br>
+Language: {{language}} </br>
+</br>
+{% endif %}
+
 Achievements : </br>
 <div class="userachlist">
-{% for achievement in achievements %} 
-{{ achievement }} </br>
-{% endfor %}
+{% if ach_message %}
+  {{ ach_message }}
+{% else %}
+  {% for achievement in achievements %} 
+  {{ achievement }} </br>
+  {% endfor %}
+{% endif %}
 </div>
 
+</br>
 
 
 </body>

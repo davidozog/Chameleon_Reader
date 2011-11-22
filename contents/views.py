@@ -10,8 +10,11 @@ from xml.etree import ElementTree
 import urllib2
 
 
-class AchievementForm(forms.Form):
+class AccountForm(forms.Form):
     steamID = forms.CharField(max_length=100)
+    age = forms.IntegerField()
+    language = forms.CharField(max_length=100)
+    
 
 
 def display_article(request, book_name, article_title):
@@ -56,7 +59,7 @@ def display_achievements(request):
 
 def submit_ID(request):
     if request.method == 'POST':  # If the form has been submitted...
-        form = AchievementForm(request.POST)  # A form bound to the POST data
+        form = AccountForm(request.POST)  # A form bound to the POST data
         if form.is_valid():  # All validation rules pass
             # Get steam64ID
             steamID = form.cleaned_data['steamID']
@@ -79,7 +82,7 @@ def submit_ID(request):
             print achievements
             return HttpResponseRedirect('/book/display_achievements')  # Redirect after POST
     else:
-        form = AchievementForm()  # An unbound form
+        form = AccountForm()  # An unbound form
 
     return render_to_response('test_achievements.html', {
         'form': form,

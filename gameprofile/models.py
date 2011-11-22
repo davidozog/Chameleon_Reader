@@ -7,3 +7,4 @@ class UserProfile(models.Model):
     age = models.IntegerField()
     achievements = models.ManyToManyField(Achievement)
     language = models.CharField(max_length=50)
+    steamid = models.CharField(max_length=50)
