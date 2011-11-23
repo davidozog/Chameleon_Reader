@@ -16,7 +16,6 @@ class AccountForm(forms.Form):
     language = forms.CharField(max_length=100)
     
 
-
 def display_article(request, book_name, article_title):
     book_name = book_name.replace('-', ' ')
     article_title = article_title.replace('-', ' ')
