@@ -138,6 +138,8 @@ def load_account(request):
             # TODO: Add all user achievements to the database:
             updated_prof = UserProfile(user=USER, age=_age, language=_language, steamid=steamID)
 
+            updated_prof.save()
+
             for achie in achievements:
                 achiModel = Achievement.objects.filter(name=achie)[0]
                 updated_prof.achievements.add(achiModel)
