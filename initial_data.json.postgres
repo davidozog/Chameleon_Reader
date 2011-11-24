@@ -1,6 +1,6 @@
 [
     {
-        "pk": 14, 
+        "pk": 13, 
         "model": "contenttypes.contenttype", 
         "fields": {
             "model": "achievement", 
@@ -9,7 +9,7 @@
         }
     }, 
     {
-        "pk": 15, 
+        "pk": 14, 
         "model": "contenttypes.contenttype", 
         "fields": {
             "model": "article", 
@@ -18,7 +18,7 @@
         }
     }, 
     {
-        "pk": 12, 
+        "pk": 11, 
         "model": "contenttypes.contenttype", 
         "fields": {
             "model": "book", 
@@ -45,7 +45,7 @@
         }
     }, 
     {
-        "pk": 11, 
+        "pk": 10, 
         "model": "contenttypes.contenttype", 
         "fields": {
             "model": "logentry", 
@@ -63,7 +63,7 @@
         }
     }, 
     {
-        "pk": 16, 
+        "pk": 15, 
         "model": "contenttypes.contenttype", 
         "fields": {
             "model": "node", 
@@ -117,7 +117,7 @@
         }
     }, 
     {
-        "pk": 13, 
+        "pk": 12, 
         "model": "contenttypes.contenttype", 
         "fields": {
             "model": "tag", 
@@ -135,7 +135,7 @@
         }
     }, 
     {
-        "pk": 10, 
+        "pk": 16, 
         "model": "contenttypes.contenttype", 
         "fields": {
             "model": "userprofile", 
@@ -144,10 +144,10 @@
         }
     }, 
     {
-        "pk": "0917d2fef77c6b394dfc27acc3fd0d1f", 
+        "pk": "09a7ef99df69268091ea65e7e713192e", 
         "model": "sessions.session", 
         "fields": {
-            "expire_date": "2011-12-08 01:41:09", 
+            "expire_date": "2011-12-07 20:56:13", 
             "session_data": "YTA1OWIwNDkxMjQxY2U5NjlhODdlMGRiZjZiY2I0MzkzZjU4Yjk5MjqAAn1xAShVEl9hdXRoX3Vz\nZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHED\nVQ1fYXV0aF91c2VyX2lkcQRLAXUu\n"
         }
     }, 
@@ -155,8 +155,8 @@
         "pk": 1, 
         "model": "sites.site", 
         "fields": {
-            "domain": "example.com", 
-            "name": "example.com"
+            "domain": "davidozog.info/accounts/activate", 
+            "name": "chameleonreader.com"
         }
     }, 
     {
@@ -168,11 +168,11 @@
         }
     }, 
     {
-        "pk": 2, 
+        "pk": 3, 
         "model": "admin.logentry", 
         "fields": {
             "action_flag": 1, 
-            "action_time": "2011-11-24 01:41:43", 
+            "action_time": "2011-11-23 20:56:49", 
             "object_repr": "Registration information for test_username", 
             "object_id": "1", 
             "change_message": "", 
@@ -181,11 +181,11 @@
         }
     }, 
     {
-        "pk": 1, 
+        "pk": 2, 
         "model": "admin.logentry", 
         "fields": {
             "action_flag": 1, 
-            "action_time": "2011-11-24 01:41:29", 
+            "action_time": "2011-11-23 20:56:38", 
             "object_repr": "test_username", 
             "object_id": "2", 
             "change_message": "", 
@@ -194,30 +194,43 @@
         }
     }, 
     {
-        "pk": 31, 
+        "pk": 1, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 2, 
+            "action_time": "2011-11-23 20:56:26", 
+            "object_repr": "davidozog.info/accounts/activate", 
+            "object_id": "1", 
+            "change_message": "Changed domain and name.", 
+            "user": 1, 
+            "content_type": 7
+        }
+    }, 
+    {
+        "pk": 28, 
         "model": "auth.permission", 
         "fields": {
             "codename": "add_logentry", 
             "name": "Can add log entry", 
-            "content_type": 11
+            "content_type": 10
         }
     }, 
     {
-        "pk": 32, 
+        "pk": 29, 
         "model": "auth.permission", 
         "fields": {
             "codename": "change_logentry", 
             "name": "Can change log entry", 
-            "content_type": 11
+            "content_type": 10
         }
     }, 
     {
-        "pk": 33, 
+        "pk": 30, 
         "model": "auth.permission", 
         "fields": {
             "codename": "delete_logentry", 
             "name": "Can delete log entry", 
-            "content_type": 11
+            "content_type": 10
         }
     }, 
     {
@@ -329,119 +342,11 @@
         }
     }, 
     {
-        "pk": 40, 
+        "pk": 37, 
         "model": "auth.permission", 
         "fields": {
             "codename": "add_achievement", 
             "name": "Can add achievement", 
-            "content_type": 14
-        }
-    }, 
-    {
-        "pk": 41, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "change_achievement", 
-            "name": "Can change achievement", 
-            "content_type": 14
-        }
-    }, 
-    {
-        "pk": 42, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "delete_achievement", 
-            "name": "Can delete achievement", 
-            "content_type": 14
-        }
-    }, 
-    {
-        "pk": 43, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "add_article", 
-            "name": "Can add article", 
-            "content_type": 15
-        }
-    }, 
-    {
-        "pk": 44, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "change_article", 
-            "name": "Can change article", 
-            "content_type": 15
-        }
-    }, 
-    {
-        "pk": 45, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "delete_article", 
-            "name": "Can delete article", 
-            "content_type": 15
-        }
-    }, 
-    {
-        "pk": 34, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "add_book", 
-            "name": "Can add book", 
-            "content_type": 12
-        }
-    }, 
-    {
-        "pk": 35, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "change_book", 
-            "name": "Can change book", 
-            "content_type": 12
-        }
-    }, 
-    {
-        "pk": 36, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "delete_book", 
-            "name": "Can delete book", 
-            "content_type": 12
-        }
-    }, 
-    {
-        "pk": 46, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "add_node", 
-            "name": "Can add node", 
-            "content_type": 16
-        }
-    }, 
-    {
-        "pk": 47, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "change_node", 
-            "name": "Can change node", 
-            "content_type": 16
-        }
-    }, 
-    {
-        "pk": 48, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "delete_node", 
-            "name": "Can delete node", 
-            "content_type": 16
-        }
-    }, 
-    {
-        "pk": 37, 
-        "model": "auth.permission", 
-        "fields": {
-            "codename": "add_tag", 
-            "name": "Can add tag", 
             "content_type": 13
         }
     }, 
@@ -449,8 +354,8 @@
         "pk": 38, 
         "model": "auth.permission", 
         "fields": {
-            "codename": "change_tag", 
-            "name": "Can change tag", 
+            "codename": "change_achievement", 
+            "name": "Can change achievement", 
             "content_type": 13
         }
     }, 
@@ -458,9 +363,117 @@
         "pk": 39, 
         "model": "auth.permission", 
         "fields": {
+            "codename": "delete_achievement", 
+            "name": "Can delete achievement", 
+            "content_type": 13
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_article", 
+            "name": "Can add article", 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_article", 
+            "name": "Can change article", 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_article", 
+            "name": "Can delete article", 
+            "content_type": 14
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_book", 
+            "name": "Can add book", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_book", 
+            "name": "Can change book", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_book", 
+            "name": "Can delete book", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_node", 
+            "name": "Can add node", 
+            "content_type": 15
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_node", 
+            "name": "Can change node", 
+            "content_type": 15
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_node", 
+            "name": "Can delete node", 
+            "content_type": 15
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_tag", 
+            "name": "Can add tag", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_tag", 
+            "name": "Can change tag", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "auth.permission", 
+        "fields": {
             "codename": "delete_tag", 
             "name": "Can delete tag", 
-            "content_type": 13
+            "content_type": 12
         }
     }, 
     {
@@ -491,30 +504,30 @@
         }
     }, 
     {
-        "pk": 28, 
+        "pk": 46, 
         "model": "auth.permission", 
         "fields": {
             "codename": "add_userprofile", 
             "name": "Can add user profile", 
-            "content_type": 10
+            "content_type": 16
         }
     }, 
     {
-        "pk": 29, 
+        "pk": 47, 
         "model": "auth.permission", 
         "fields": {
             "codename": "change_userprofile", 
             "name": "Can change user profile", 
-            "content_type": 10
+            "content_type": 16
         }
     }, 
     {
-        "pk": 30, 
+        "pk": 48, 
         "model": "auth.permission", 
         "fields": {
             "codename": "delete_userprofile", 
             "name": "Can delete user profile", 
-            "content_type": 10
+            "content_type": 16
         }
     }, 
     {
@@ -635,12 +648,12 @@
             "is_active": true, 
             "is_superuser": true, 
             "is_staff": true, 
-            "last_login": "2011-11-24 01:41:09", 
+            "last_login": "2011-11-23 20:56:13", 
             "groups": [], 
             "user_permissions": [], 
-            "password": "sha1$c267e$365be9c769a254bcd11cdb89264086ff2662d8b4", 
-            "email": "a@a.com", 
-            "date_joined": "2011-11-24 01:41:03"
+            "password": "sha1$cc870$1e71f785338dac201191d02aa0ff54e39d83ed28", 
+            "email": "agile@chameleonreader.com", 
+            "date_joined": "2011-11-23 20:56:03"
         }
     }, 
     {
@@ -653,12 +666,12 @@
             "is_active": true, 
             "is_superuser": false, 
             "is_staff": false, 
-            "last_login": "2011-11-24 01:41:29", 
+            "last_login": "2011-11-23 20:56:38", 
             "groups": [], 
             "user_permissions": [], 
-            "password": "sha1$07ec1$ddd00806fb39ebfec37dbb0350a44a1b2b304d93", 
+            "password": "sha1$a2ab6$9c743470831ae4c6ff6fb5c1f5a64fb7c5fec90d", 
             "email": "", 
-            "date_joined": "2011-11-24 01:41:29"
+            "date_joined": "2011-11-23 20:56:38"
         }
     }
 ]
