@@ -28,9 +28,12 @@ def display_article(request, book_name, article_title):
     toc = Node.objects.filter(book__name__iexact=book_name)
 
     username = request.user.username
+    view_state = 'novice'
+    other_state = 'expert'
 
     return render_to_response('expertview.html', {'article': art, 'username':username, 'user':request.user,
-        'next_node': nextNode, 'prev_node': prevNode, 'toc': toc, 'book_name': book_name})
+        'next_node': nextNode, 'prev_node': prevNode, 'toc': toc, 'book_name': book_name,
+        'view_state': view_state, 'other_state':other_state})
 
 
 def display_table_of_contents(request, book_name):

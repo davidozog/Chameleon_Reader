@@ -6,9 +6,37 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title> {{ article.book.name }} | {{ article.title }} </title>
 		<script type="text/javascript" src="/static/js/jquery-1.6.4.js"></script>
-		<script type="text/javascript" src="/static/js/custom_view.js"></script>
+<!--		<script type="text/javascript" src="/static/js/custom_view.js"></script> -->
 		<script type="text/javascript" src="/static/js/DAGS.js"></script>	
     <script type="text/javascript" src="/static/js/menu.js"></script>
+
+<script>
+$(document).ready(function(){
+  var view_state= "{{ view_state }}";
+  $("div#content .{{ view_state }}").show();
+  $("div#content .{{ other_state }}").hide();
+
+  $("a#switch").click(function(event){
+    event.preventDefault();
+    if (view_state=="novice") {
+      // expert view
+      view_state = "expert";
+
+      $(this).children().text("Expert");
+      $("div#content .expert").slideDown();
+      $("div#content .novice").slideUp();
+      
+    } else {
+      // novice view
+      view_state = "novice";
+
+      $(this).children().text("Novice");
+      $("div#content .novice").slideDown();
+      $("div#content .expert").slideUp();
+    }
+  });
+});
+</script>
 
 		<link rel="stylesheet" type="text/css" href="/static/css/expertview.css" media="all" />
     <link rel="stylesheet" type="text/css" href="/static/css/popupmenu.css" media="all" />
@@ -25,7 +53,7 @@
           <span>&nbsp;</span></a>
         </div>
 				<div id="topmenu_right"> <!--this is for the top menu 4 button on the right to align right-->
-					<a id="switch" class="ModeButton" href="#"><span>Mode</span></a> 
+					<a id="switch" class="ModeButton" href="#"><span>{{ view_state|capfirst }}</span></a> 
 					
 					<img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> 
           <ul id="nav">
@@ -56,7 +84,7 @@
 					<img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> 
 					<a class="NotesButton" href="#"><span>Notes</span></a> 
 					<img src="/static/img/article/expertview_r1_c5.png" id="verticalline" alt="" /> 
-					<a class="LogoutButton" href="#"><span>Logout</span></a> </div>
+					<a class="LogoutButton" href="/accounts/login/"><span>Logout</span></a> </div>
 			</div>
 			<div id="main"><!--this is for the main page contain article and table of contents-->
 				<div id="mainArticle"><!--this is for the main article-->
