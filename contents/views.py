@@ -40,9 +40,11 @@ def display_table_of_contents(request, book_name):
     username = request.user.username
     book_name = book_name.replace('-', ' ')
     toc = Node.objects.filter(book__name__iexact=book_name)
+  
+    book_img = Book.objects.filter(name__iexact=book_name)[0].cover.url
 
     return render_to_response('book.html', {'toc': toc,
-        'book_name': book_name, 'username': username, 'user': request.user})
+        'book_name': book_name, 'username': username, 'user': request.user, 'book_img' : book_img})
 
 
 def display_books(request):

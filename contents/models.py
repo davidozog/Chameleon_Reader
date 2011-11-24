@@ -4,7 +4,7 @@ from mptt.models import MPTTModel, TreeForeignKey
 
 class Book(models.Model):
     name = models.CharField(max_length=50, unique=True)
-    cover = models.FileField(blank=True, null=True, upload_to="img/covers")
+    cover = models.FileField(blank=True, null=True, upload_to="static/img/covers")
     publish_date = models.DateField(blank=True, null=True)
     description = models.TextField(blank=True, null=True)
 

@@ -1,23 +1,32 @@
 [
     {
-        "pk": 1, 
-        "model": "contents.book", 
-        "fields": {
-            "name": "World of Warcraft"
-        }
-    }, 
-    {
         "pk": 2, 
         "model": "contents.book", 
         "fields": {
-            "name": "Dragon Age Origin"
+            "publish_date": null, 
+            "cover": "", 
+            "name": "Dragon Age Origin", 
+            "description": null
         }
     }, 
     {
         "pk": 3, 
         "model": "contents.book", 
         "fields": {
-            "name": "Team Fortress 2"
+            "publish_date": null, 
+            "cover": "static/img/covers/teamfortress.png", 
+            "name": "Team Fortress 2", 
+            "description": ""
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "contents.book", 
+        "fields": {
+            "publish_date": null, 
+            "cover": "static/img/covers/wow.png", 
+            "name": "World of Warcraft", 
+            "description": ""
         }
     }, 
     {
