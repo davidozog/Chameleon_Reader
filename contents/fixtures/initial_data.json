@@ -49,3064 +49,3830 @@
         "pk": 1, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "", 
             "book": 1, 
-            "name": "A good start"
+            "name": "A good start", 
+            "icon_open": ""
         }
     }, 
     {
         "pk": 2, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "", 
             "book": 1, 
-            "name": "Expert"
-        }
-    }, 
-    {
-        "pk": 3, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Team Doctor"
-        }
-    }, 
-    {
-        "pk": 4, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Flamethrower"
-        }
-    }, 
-    {
-        "pk": 5, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Sentry Gunner"
+            "name": "Expert", 
+            "icon_open": ""
         }
     }, 
     {
         "pk": 6, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Nemesis_closed_1.jpg", 
             "book": 3, 
-            "name": "Nemesis"
-        }
-    }, 
-    {
-        "pk": 7, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Hard to Kill"
-        }
-    }, 
-    {
-        "pk": 8, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Master of Disguise"
+            "name": "Nemesis", 
+            "icon_open": "static/img/achievements/Nemesis_open_1.jpg"
         }
     }, 
     {
         "pk": 9, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Dynasty_closed_1.jpg", 
             "book": 3, 
-            "name": "Dynasty"
-        }
-    }, 
-    {
-        "pk": 10, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Hardcore"
-        }
-    }, 
-    {
-        "pk": 11, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Grey Matter"
-        }
-    }, 
-    {
-        "pk": 12, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "First Do No Harm"
-        }
-    }, 
-    {
-        "pk": 13, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Quadruple Bypass"
+            "name": "Dynasty", 
+            "icon_open": "static/img/achievements/Dynasty_open_1.jpg"
         }
     }, 
     {
         "pk": 14, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Surgical_Prep_closed_1.jpg", 
             "book": 3, 
-            "name": "Surgical Prep"
-        }
-    }, 
-    {
-        "pk": 15, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Trauma Queen"
-        }
-    }, 
-    {
-        "pk": 16, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Double Blind Trial"
+            "name": "Surgical Prep", 
+            "icon_open": "static/img/achievements/Surgical_Prep_open_1.jpg"
         }
     }, 
     {
         "pk": 17, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Play_Doctor_closed_1.jpg", 
             "book": 3, 
-            "name": "Play Doctor"
-        }
-    }, 
-    {
-        "pk": 18, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Consultation"
-        }
-    }, 
-    {
-        "pk": 19, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Big Pharma"
+            "name": "Play Doctor", 
+            "icon_open": "static/img/achievements/Play_Doctor_open_1.jpg"
         }
     }, 
     {
         "pk": 20, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Autoclave_closed_1.jpg", 
             "book": 3, 
-            "name": "Autoclave"
-        }
-    }, 
-    {
-        "pk": 21, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Blunt Trauma"
-        }
-    }, 
-    {
-        "pk": 22, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Medical Breakthrough"
+            "name": "Autoclave", 
+            "icon_open": "static/img/achievements/Autoclave_open_1.jpg"
         }
     }, 
     {
         "pk": 23, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Midwife_Crisis_closed_1.jpg", 
             "book": 3, 
-            "name": "Midwife Crisis"
-        }
-    }, 
-    {
-        "pk": 24, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Powerhouse Offense"
+            "name": "Midwife Crisis", 
+            "icon_open": "static/img/achievements/Midwife_Crisis_open_1.jpg"
         }
     }, 
     {
         "pk": 25, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Sawbones_closed_1.jpg", 
             "book": 3, 
-            "name": "Sawbones"
-        }
-    }, 
-    {
-        "pk": 26, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Medical Intervention"
-        }
-    }, 
-    {
-        "pk": 27, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Autopsy Report"
+            "name": "Sawbones", 
+            "icon_open": "static/img/achievements/Sawbones_open_1.jpg"
         }
     }, 
     {
         "pk": 28, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Bedside_Manner_closed_1.jpg", 
             "book": 3, 
-            "name": "Bedside Manner"
-        }
-    }, 
-    {
-        "pk": 29, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Blast Assist"
-        }
-    }, 
-    {
-        "pk": 30, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Medic Milestone 1"
+            "name": "Bedside Manner", 
+            "icon_open": "static/img/achievements/Bedside_Manner_open_1.jpg"
         }
     }, 
     {
         "pk": 31, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Medic_Milestone_2_closed_1.jpg", 
             "book": 3, 
-            "name": "Medic Milestone 2"
-        }
-    }, 
-    {
-        "pk": 32, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Combined Fire"
+            "name": "Medic Milestone 2", 
+            "icon_open": "static/img/achievements/Medic_Milestone_2_open_1.jpg"
         }
     }, 
     {
         "pk": 33, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Weenie_Roast_closed_1.jpg", 
             "book": 3, 
-            "name": "Weenie Roast"
-        }
-    }, 
-    {
-        "pk": 34, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Camp Fire"
-        }
-    }, 
-    {
-        "pk": 35, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Clearcutter"
-        }
-    }, 
-    {
-        "pk": 36, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Dance Dance Immolation"
+            "name": "Weenie Roast", 
+            "icon_open": "static/img/achievements/Weenie_Roast_open_1.jpg"
         }
     }, 
     {
         "pk": 37, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Next_of_Kindling_closed_1.jpg", 
             "book": 3, 
-            "name": "Next of Kindling"
-        }
-    }, 
-    {
-        "pk": 38, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Second Degree Burn"
+            "name": "Next of Kindling", 
+            "icon_open": "static/img/achievements/Next_of_Kindling_open_1.jpg"
         }
     }, 
     {
         "pk": 39, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Dead_Heat_closed_1.jpg", 
             "book": 3, 
-            "name": "Dead Heat"
-        }
-    }, 
-    {
-        "pk": 40, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Heavy Milestone 1"
-        }
-    }, 
-    {
-        "pk": 41, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Heavy Milestone 2"
+            "name": "Dead Heat", 
+            "icon_open": "static/img/achievements/Dead_Heat_open_1.jpg"
         }
     }, 
     {
         "pk": 42, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Iron_Kurtain_closed_1.jpg", 
             "book": 3, 
-            "name": "Iron Kurtain"
-        }
-    }, 
-    {
-        "pk": 43, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Red Oktoberfest"
+            "name": "Iron Kurtain", 
+            "icon_open": "static/img/achievements/Iron_Kurtain_open_1.jpg"
         }
     }, 
     {
         "pk": 44, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Factory_Worker_closed_1.jpg", 
             "book": 3, 
-            "name": "Factory Worker"
-        }
-    }, 
-    {
-        "pk": 45, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Soviet Union"
-        }
-    }, 
-    {
-        "pk": 46, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "0wn the Means of Production"
+            "name": "Factory Worker", 
+            "icon_open": "static/img/achievements/Factory_Worker_open_1.jpg"
         }
     }, 
     {
         "pk": 47, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Rasputin_closed_1.jpg", 
             "book": 3, 
-            "name": "Rasputin"
-        }
-    }, 
-    {
-        "pk": 48, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Icing on the Cake"
-        }
-    }, 
-    {
-        "pk": 49, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Crock Block"
+            "name": "Rasputin", 
+            "icon_open": "static/img/achievements/Rasputin_open_1.jpg"
         }
     }, 
     {
         "pk": 50, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Spyalectical_Materialism_closed_1.jpg", 
             "book": 3, 
-            "name": "Spyalectical Materialism"
-        }
-    }, 
-    {
-        "pk": 51, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Permanent Revolution"
-        }
-    }, 
-    {
-        "pk": 52, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Communist Mani-Fisto"
+            "name": "Spyalectical Materialism", 
+            "icon_open": "static/img/achievements/Spyalectical_Materialism_open_1.jpg"
         }
     }, 
     {
         "pk": 53, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Redistribution_of_Health_closed_1.jpg", 
             "book": 3, 
-            "name": "Redistribution of Health"
-        }
-    }, 
-    {
-        "pk": 54, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Rationing"
-        }
-    }, 
-    {
-        "pk": 55, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Vanguard Party"
+            "name": "Redistribution of Health", 
+            "icon_open": "static/img/achievements/Redistribution_of_Health_open_1.jpg"
         }
     }, 
     {
         "pk": 56, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Pushkin_the_Kart_closed_1.jpg", 
             "book": 3, 
-            "name": "Pushkin the Kart"
-        }
-    }, 
-    {
-        "pk": 57, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Marxman"
-        }
-    }, 
-    {
-        "pk": 58, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Lenin A Hand"
+            "name": "Pushkin the Kart", 
+            "icon_open": "static/img/achievements/Pushkin_the_Kart_open_1.jpg"
         }
     }, 
     {
         "pk": 59, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Five_Second_Plan_closed_1.jpg", 
             "book": 3, 
-            "name": "Five Second Plan"
-        }
-    }, 
-    {
-        "pk": 60, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Closer"
-        }
-    }, 
-    {
-        "pk": 61, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "If You Build It"
+            "name": "Five Second Plan", 
+            "icon_open": "static/img/achievements/Five_Second_Plan_open_1.jpg"
         }
     }, 
     {
         "pk": 62, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Batter_Up_closed_1.jpg", 
             "book": 3, 
-            "name": "Batter Up"
-        }
-    }, 
-    {
-        "pk": 63, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Batting the Doctor"
-        }
-    }, 
-    {
-        "pk": 64, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "I'm Bat Man"
+            "name": "Batter Up", 
+            "icon_open": "static/img/achievements/Batter_Up_open_1.jpg"
         }
     }, 
     {
         "pk": 65, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Side_Retired_closed_1.jpg", 
             "book": 3, 
-            "name": "Side Retired"
-        }
-    }, 
-    {
-        "pk": 66, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Stealing Home"
-        }
-    }, 
-    {
-        "pk": 67, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Race for the Pennant"
+            "name": "Side Retired", 
+            "icon_open": "static/img/achievements/Side_Retired_open_1.jpg"
         }
     }, 
     {
         "pk": 68, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Be_Efficient_closed_1.jpg", 
             "book": 3, 
-            "name": "Be Efficient"
-        }
-    }, 
-    {
-        "pk": 69, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Kill Everyone You Meet"
+            "name": "Be Efficient", 
+            "icon_open": "static/img/achievements/Be_Efficient_open_1.jpg"
         }
     }, 
     {
         "pk": 70, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Triple_Prey_closed_1.jpg", 
             "book": 3, 
-            "name": "Triple Prey"
-        }
-    }, 
-    {
-        "pk": 71, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Self-destruct Sequence"
-        }
-    }, 
-    {
-        "pk": 72, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "De-sentry-lized"
-        }
-    }, 
-    {
-        "pk": 73, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Shoot the Breeze"
-        }
-    }, 
-    {
-        "pk": 74, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Dropped Dead"
-        }
-    }, 
-    {
-        "pk": 75, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Australian Rules"
+            "name": "Triple Prey", 
+            "icon_open": "static/img/achievements/Triple_Prey_open_1.jpg"
         }
     }, 
     {
         "pk": 76, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Kook_the_Spook_closed_1.jpg", 
             "book": 3, 
-            "name": "Kook the Spook"
-        }
-    }, 
-    {
-        "pk": 77, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Socket to Him"
+            "name": "Kook the Spook", 
+            "icon_open": "static/img/achievements/Kook_the_Spook_open_1.jpg"
         }
     }, 
     {
         "pk": 78, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Jumper_Stumper_closed_1.jpg", 
             "book": 3, 
-            "name": "Jumper Stumper"
-        }
-    }, 
-    {
-        "pk": 79, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Not a Crazed Gunman, Dad"
-        }
-    }, 
-    {
-        "pk": 80, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Trust Your Feelings"
+            "name": "Jumper Stumper", 
+            "icon_open": "static/img/achievements/Jumper_Stumper_open_1.jpg"
         }
     }, 
     {
         "pk": 81, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/\u00dcberectomy_closed_1.jpg", 
             "book": 3, 
-            "name": "\u00dcberectomy"
-        }
-    }, 
-    {
-        "pk": 82, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Consolation Prize"
-        }
-    }, 
-    {
-        "pk": 83, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Enemy at the Gate"
+            "name": "\u00dcberectomy", 
+            "icon_open": "static/img/achievements/\u00dcberectomy_open_1.jpg"
         }
     }, 
     {
         "pk": 84, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/My_Brilliant_Career_closed_1.jpg", 
             "book": 3, 
-            "name": "My Brilliant Career"
-        }
-    }, 
-    {
-        "pk": 85, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Shock Treatment"
-        }
-    }, 
-    {
-        "pk": 86, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Jarate Chop"
+            "name": "My Brilliant Career", 
+            "icon_open": "static/img/achievements/My_Brilliant_Career_open_1.jpg"
         }
     }, 
     {
         "pk": 87, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Dead_Reckoning_closed_1.jpg", 
             "book": 3, 
-            "name": "Dead Reckoning"
-        }
-    }, 
-    {
-        "pk": 88, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Triplecrossed"
-        }
-    }, 
-    {
-        "pk": 89, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Counter Espionage"
+            "name": "Dead Reckoning", 
+            "icon_open": "static/img/achievements/Dead_Reckoning_open_1.jpg"
         }
     }, 
     {
         "pk": 90, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Identity_Theft_closed_1.jpg", 
             "book": 3, 
-            "name": "Identity Theft"
-        }
-    }, 
-    {
-        "pk": 91, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "May I Cut In?"
-        }
-    }, 
-    {
-        "pk": 92, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "The Melbourne Supremacy"
+            "name": "Identity Theft", 
+            "icon_open": "static/img/achievements/Identity_Theft_open_1.jpg"
         }
     }, 
     {
         "pk": 93, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Spies_Like_Us_closed_1.jpg", 
             "book": 3, 
-            "name": "Spies Like Us"
-        }
-    }, 
-    {
-        "pk": 94, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "A Cut Above"
+            "name": "Spies Like Us", 
+            "icon_open": "static/img/achievements/Spies_Like_Us_open_1.jpg"
         }
     }, 
     {
         "pk": 95, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Burn_Notice_closed_1.jpg", 
             "book": 3, 
-            "name": "Burn Notice"
-        }
-    }, 
-    {
-        "pk": 96, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Die Another Way"
-        }
-    }, 
-    {
-        "pk": 97, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Constructus Interruptus"
+            "name": "Burn Notice", 
+            "icon_open": "static/img/achievements/Burn_Notice_open_1.jpg"
         }
     }, 
     {
         "pk": 98, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/High_Value_Target_closed_1.jpg", 
             "book": 3, 
-            "name": "High Value Target"
-        }
-    }, 
-    {
-        "pk": 99, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "You Only Shiv Thrice"
-        }
-    }, 
-    {
-        "pk": 100, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Dr. Nooooo"
+            "name": "High Value Target", 
+            "icon_open": "static/img/achievements/High_Value_Target_open_1.jpg"
         }
     }, 
     {
         "pk": 101, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Slash_and_Burn_closed_1.jpg", 
             "book": 3, 
-            "name": "Slash and Burn"
-        }
-    }, 
-    {
-        "pk": 102, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Sniper Milestone 1"
-        }
-    }, 
-    {
-        "pk": 103, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Sniper Milestone 2"
+            "name": "Slash and Burn", 
+            "icon_open": "static/img/achievements/Slash_and_Burn_open_1.jpg"
         }
     }, 
     {
         "pk": 104, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Sniper_Milestone_3_closed_1.jpg", 
             "book": 3, 
-            "name": "Sniper Milestone 3"
-        }
-    }, 
-    {
-        "pk": 105, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Spy Milestone 1"
-        }
-    }, 
-    {
-        "pk": 106, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Spy Milestone 2"
+            "name": "Sniper Milestone 3", 
+            "icon_open": "static/img/achievements/Sniper_Milestone_3_open_1.jpg"
         }
     }, 
     {
         "pk": 107, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Candy_Coroner_closed_1.jpg", 
             "book": 3, 
-            "name": "Candy Coroner"
-        }
-    }, 
-    {
-        "pk": 108, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Ghastly Gibus Grab"
+            "name": "Candy Coroner", 
+            "icon_open": "static/img/achievements/Candy_Coroner_open_1.jpg"
         }
     }, 
     {
         "pk": 109, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Scared_Stiff_closed_1.jpg", 
             "book": 3, 
-            "name": "Scared Stiff"
-        }
-    }, 
-    {
-        "pk": 110, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Soldier Milestone 1"
-        }
-    }, 
-    {
-        "pk": 111, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Soldier Milestone 2"
+            "name": "Scared Stiff", 
+            "icon_open": "static/img/achievements/Scared_Stiff_open_1.jpg"
         }
     }, 
     {
         "pk": 112, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Soldier_Milestone_3_closed_1.jpg", 
             "book": 3, 
-            "name": "Soldier Milestone 3"
-        }
-    }, 
-    {
-        "pk": 113, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Dominator"
-        }
-    }, 
-    {
-        "pk": 114, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "War Crime and Punishment"
-        }
-    }, 
-    {
-        "pk": 115, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Guns of the Navar0wned"
+            "name": "Soldier Milestone 3", 
+            "icon_open": "static/img/achievements/Soldier_Milestone_3_open_1.jpg"
         }
     }, 
     {
         "pk": 116, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Mutually_Assured_Destruction_closed_1.jpg", 
             "book": 3, 
-            "name": "Mutually Assured Destruction"
-        }
-    }, 
-    {
-        "pk": 117, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Wings of Glory"
-        }
-    }, 
-    {
-        "pk": 118, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Engineer to Eternity"
+            "name": "Mutually Assured Destruction", 
+            "icon_open": "static/img/achievements/Mutually_Assured_Destruction_open_1.jpg"
         }
     }, 
     {
         "pk": 119, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Where_Eagles_Dare_closed_1.jpg", 
             "book": 3, 
-            "name": "Where Eagles Dare"
-        }
-    }, 
-    {
-        "pk": 120, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Screamin' Eagle"
-        }
-    }, 
-    {
-        "pk": 121, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Crockets Are Such B.S."
+            "name": "Where Eagles Dare", 
+            "icon_open": "static/img/achievements/Where_Eagles_Dare_open_1.jpg"
         }
     }, 
     {
         "pk": 122, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Geneva_Contravention_closed_1.jpg", 
             "book": 3, 
-            "name": "Geneva Contravention"
-        }
-    }, 
-    {
-        "pk": 123, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Semper Fry"
+            "name": "Geneva Contravention", 
+            "icon_open": "static/img/achievements/Geneva_Contravention_open_1.jpg"
         }
     }, 
     {
         "pk": 124, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/War_Crime_Spybunal_closed_1.jpg", 
             "book": 3, 
-            "name": "War Crime Spybunal"
-        }
-    }, 
-    {
-        "pk": 125, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Backdraft Dodger"
-        }
-    }, 
-    {
-        "pk": 126, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Brothers in Harms"
+            "name": "War Crime Spybunal", 
+            "icon_open": "static/img/achievements/War_Crime_Spybunal_open_1.jpg"
         }
     }, 
     {
         "pk": 127, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Medals_of_Honor_closed_1.jpg", 
             "book": 3, 
-            "name": "Medals of Honor"
-        }
-    }, 
-    {
-        "pk": 128, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Ride of the Valkartie"
+            "name": "Medals of Honor", 
+            "icon_open": "static/img/achievements/Medals_of_Honor_open_1.jpg"
         }
     }, 
     {
         "pk": 129, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Well_Plaid_closed.jpg", 
             "book": 3, 
-            "name": "Well Plaid!"
-        }
-    }, 
-    {
-        "pk": 130, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Blind Fire"
-        }
-    }, 
-    {
-        "pk": 131, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Loch Ness Bombster"
+            "name": "Well Plaid!", 
+            "icon_open": "static/img/achievements/Well_Plaid_open.jpg"
         }
     }, 
     {
         "pk": 132, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Caber_Toss_closed_1.jpg", 
             "book": 3, 
-            "name": "Caber Toss"
-        }
-    }, 
-    {
-        "pk": 133, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Demoman Milestone 1"
-        }
-    }, 
-    {
-        "pk": 134, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Pipebagger"
+            "name": "Caber Toss", 
+            "icon_open": "static/img/achievements/Caber_Toss_open_1.jpg"
         }
     }, 
     {
         "pk": 135, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Revengineering_closed_1.jpg", 
             "book": 3, 
-            "name": "Revengineering"
-        }
-    }, 
-    {
-        "pk": 136, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Engineer Milestone 1"
-        }
-    }, 
-    {
-        "pk": 137, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Engineer Milestone 2"
-        }
-    }, 
-    {
-        "pk": 138, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Engineer Milestone 3"
-        }
-    }, 
-    {
-        "pk": 139, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Battle Rustler"
-        }
-    }, 
-    {
-        "pk": 140, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "The Extinguished Gentleman"
-        }
-    }, 
-    {
-        "pk": 141, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Unforgiven"
-        }
-    }, 
-    {
-        "pk": 142, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Quick Draw"
-        }
-    }, 
-    {
-        "pk": 143, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "The Wrench Connection"
-        }
-    }, 
-    {
-        "pk": 144, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Doc, Stock, and Barrel"
-        }
-    }, 
-    {
-        "pk": 145, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Frontier Justice"
-        }
-    }, 
-    {
-        "pk": 146, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Uncivil Engineer"
-        }
-    }, 
-    {
-        "pk": 147, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Texas Two-Step"
-        }
-    }, 
-    {
-        "pk": 148, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Doc Holiday"
-        }
-    }, 
-    {
-        "pk": 149, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "No Man's Land"
-        }
-    }, 
-    {
-        "pk": 150, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "If You Build It, They Will Die"
-        }
-    }, 
-    {
-        "pk": 151, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Texas Ranger"
-        }
-    }, 
-    {
-        "pk": 152, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Deputized"
-        }
-    }, 
-    {
-        "pk": 153, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Drugstore Cowboy"
-        }
-    }, 
-    {
-        "pk": 154, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Built to Last"
-        }
-    }, 
-    {
-        "pk": 155, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Riftwalker"
-        }
-    }, 
-    {
-        "pk": 156, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Home Movie"
-        }
-    }, 
-    {
-        "pk": 157, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Local Cinema Star"
-        }
-    }, 
-    {
-        "pk": 158, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Star of My Own Show"
-        }
-    }, 
-    {
-        "pk": 159, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Escape the Heat"
-        }
-    }, 
-    {
-        "pk": 160, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Optical Defusion"
-        }
-    }, 
-    {
-        "pk": 161, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Head of the Class"
-        }
-    }, 
-    {
-        "pk": 162, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "World Traveler"
-        }
-    }, 
-    {
-        "pk": 163, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "With Friends Like these..."
-        }
-    }, 
-    {
-        "pk": 164, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Group Health"
-        }
-    }, 
-    {
-        "pk": 165, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Triage"
-        }
-    }, 
-    {
-        "pk": 166, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Preventive Medicine"
-        }
-    }, 
-    {
-        "pk": 167, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Does It Hurt When I Do This?"
-        }
-    }, 
-    {
-        "pk": 168, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Peer Review"
-        }
-    }, 
-    {
-        "pk": 169, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "You'll Feel a Little Prick"
-        }
-    }, 
-    {
-        "pk": 170, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Ubi concordia, ibi victoria"
-        }
-    }, 
-    {
-        "pk": 171, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Grand Rounds"
-        }
-    }, 
-    {
-        "pk": 172, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Lightning Offense"
-        }
-    }, 
-    {
-        "pk": 173, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Relentless Offense"
-        }
-    }, 
-    {
-        "pk": 174, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Impenetrable Defense"
-        }
-    }, 
-    {
-        "pk": 175, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Impossible Defense"
-        }
-    }, 
-    {
-        "pk": 176, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Infernal Medicine"
-        }
-    }, 
-    {
-        "pk": 177, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Doctor Assisted Homicide"
-        }
-    }, 
-    {
-        "pk": 178, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Placebo Effect"
-        }
-    }, 
-    {
-        "pk": 179, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Intern"
-        }
-    }, 
-    {
-        "pk": 180, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Specialist"
-        }
-    }, 
-    {
-        "pk": 181, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Chief of Staff"
-        }
-    }, 
-    {
-        "pk": 182, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Hypocritical Oath"
-        }
-    }, 
-    {
-        "pk": 183, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Second Opinion"
-        }
-    }, 
-    {
-        "pk": 184, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "FYI I am A Medic"
-        }
-    }, 
-    {
-        "pk": 185, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Family Practice"
-        }
-    }, 
-    {
-        "pk": 186, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "House Call"
-        }
-    }, 
-    {
-        "pk": 187, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Medic Milestone 3"
-        }
-    }, 
-    {
-        "pk": 188, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Baptism by Fire"
-        }
-    }, 
-    {
-        "pk": 189, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Fire and Forget"
-        }
-    }, 
-    {
-        "pk": 190, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Firewall"
-        }
-    }, 
-    {
-        "pk": 191, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Cooking the Books"
-        }
-    }, 
-    {
-        "pk": 192, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Spontaneous Combustion"
-        }
-    }, 
-    {
-        "pk": 193, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Trailblazer"
-        }
-    }, 
-    {
-        "pk": 194, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Lumberjack"
-        }
-    }, 
-    {
-        "pk": 195, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "I Fry"
-        }
-    }, 
-    {
-        "pk": 196, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Firewatch"
-        }
-    }, 
-    {
-        "pk": 197, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Burn Ward"
-        }
-    }, 
-    {
-        "pk": 198, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Makin' Bacon"
-        }
-    }, 
-    {
-        "pk": 199, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Plan B"
-        }
-    }, 
-    {
-        "pk": 200, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Pyrotechnics"
-        }
-    }, 
-    {
-        "pk": 201, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Arsonist"
-        }
-    }, 
-    {
-        "pk": 202, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Controlled Burn"
-        }
-    }, 
-    {
-        "pk": 203, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Firefighter"
-        }
-    }, 
-    {
-        "pk": 204, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Pyromancer"
-        }
-    }, 
-    {
-        "pk": 205, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "OMGWTFBBQ"
-        }
-    }, 
-    {
-        "pk": 206, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Got A Light?"
-        }
-    }, 
-    {
-        "pk": 207, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "BarbeQueQ"
-        }
-    }, 
-    {
-        "pk": 208, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Pilot Light"
-        }
-    }, 
-    {
-        "pk": 209, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Freezer Burn"
-        }
-    }, 
-    {
-        "pk": 210, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Hot on Your Heels"
-        }
-    }, 
-    {
-        "pk": 211, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Hotshot"
-        }
-    }, 
-    {
-        "pk": 212, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Fire Chief"
-        }
-    }, 
-    {
-        "pk": 213, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Attention Getter"
-        }
-    }, 
-    {
-        "pk": 214, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Hot Potato"
-        }
-    }, 
-    {
-        "pk": 215, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Pyro Milestone 1"
-        }
-    }, 
-    {
-        "pk": 216, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Pyro Milestone 2"
-        }
-    }, 
-    {
-        "pk": 217, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Pyro Milestone 3"
-        }
-    }, 
-    {
-        "pk": 218, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Heavy Milestone 3"
-        }
-    }, 
-    {
-        "pk": 219, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Party Loyalty"
-        }
-    }, 
-    {
-        "pk": 220, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Division of Labor"
-        }
-    }, 
-    {
-        "pk": 221, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Show Trial"
-        }
-    }, 
-    {
-        "pk": 222, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Crime and Punishment"
-        }
-    }, 
-    {
-        "pk": 223, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Class Struggle"
-        }
-    }, 
-    {
-        "pk": 224, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Soviet Block"
-        }
-    }, 
-    {
-        "pk": 225, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Stalin the Kart"
-        }
-    }, 
-    {
-        "pk": 226, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Supreme Soviet"
-        }
-    }, 
-    {
-        "pk": 227, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Krazy Ivan"
-        }
-    }, 
-    {
-        "pk": 228, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Kollectivization"
-        }
-    }, 
-    {
-        "pk": 229, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Heavy Industry"
-        }
-    }, 
-    {
-        "pk": 230, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Gorky Parked"
-        }
-    }, 
-    {
-        "pk": 231, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Purge"
-        }
-    }, 
-    {
-        "pk": 232, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Photostroika"
-        }
-    }, 
-    {
-        "pk": 233, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Konspicuous Konsumption"
-        }
-    }, 
-    {
-        "pk": 234, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Don't Touch Sandvich"
-        }
-    }, 
-    {
-        "pk": 235, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Borscht Belt"
-        }
-    }, 
-    {
-        "pk": 236, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "First Blood"
-        }
-    }, 
-    {
-        "pk": 237, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "First Blood, Part 2"
-        }
-    }, 
-    {
-        "pk": 238, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Quick Hook"
-        }
-    }, 
-    {
-        "pk": 239, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "A Year to Remember"
-        }
-    }, 
-    {
-        "pk": 240, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "The Cycle"
-        }
-    }, 
-    {
-        "pk": 241, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Gun Down"
-        }
-    }, 
-    {
-        "pk": 242, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Scout Milestone 1"
-        }
-    }, 
-    {
-        "pk": 243, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Scout Milestone 2"
-        }
-    }, 
-    {
-        "pk": 244, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Scout Milestone 3"
-        }
-    }, 
-    {
-        "pk": 245, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Doctoring the Ball"
-        }
-    }, 
-    {
-        "pk": 246, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Dodgers 1, Giants 0"
-        }
-    }, 
-    {
-        "pk": 247, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Pop Fly"
-        }
-    }, 
-    {
-        "pk": 248, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Round-Tripper"
-        }
-    }, 
-    {
-        "pk": 249, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Triple Steal"
-        }
-    }, 
-    {
-        "pk": 250, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Artful Dodger"
-        }
-    }, 
-    {
-        "pk": 251, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Fall Classic"
-        }
-    }, 
-    {
-        "pk": 252, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Strike Zone"
-        }
-    }, 
-    {
-        "pk": 253, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Foul Territory"
-        }
-    }, 
-    {
-        "pk": 254, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "The Big Hurt"
-        }
-    }, 
-    {
-        "pk": 255, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Brushback"
+            "name": "Revengineering", 
+            "icon_open": "static/img/achievements/Revengineering_open_1.jpg"
         }
     }, 
     {
         "pk": 256, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Moon_Shot_closed_1.jpg", 
             "book": 3, 
-            "name": "Moon Shot"
+            "name": "Moon Shot", 
+            "icon_open": "static/img/achievements/Moon_Shot_open_1.jpg"
         }
     }, 
     {
         "pk": 257, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Beanball_closed_1.jpg", 
             "book": 3, 
-            "name": "Beanball"
-        }
-    }, 
-    {
-        "pk": 258, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Retire the Runner"
-        }
-    }, 
-    {
-        "pk": 259, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Caught Napping"
+            "name": "Beanball", 
+            "icon_open": "static/img/achievements/Beanball_open_1.jpg"
         }
     }, 
     {
         "pk": 260, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Triple_Play_closed_1.jpg", 
             "book": 3, 
-            "name": "Triple Play"
-        }
-    }, 
-    {
-        "pk": 261, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Set the Table"
-        }
-    }, 
-    {
-        "pk": 262, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Block the Plate"
+            "name": "Triple Play", 
+            "icon_open": "static/img/achievements/Triple_Play_open_1.jpg"
         }
     }, 
     {
         "pk": 263, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Belittled_Beleaguer_closed_1.jpg", 
             "book": 3, 
-            "name": "Belittled Beleaguer"
+            "name": "Belittled Beleaguer", 
+            "icon_open": "static/img/achievements/Belittled_Beleaguer_open_1.jpg"
         }
     }, 
     {
-        "pk": 264, 
+        "pk": 4, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Flamethrower_closed_1.jpg", 
             "book": 3, 
-            "name": "No-Hitter"
+            "name": "Flamethrower", 
+            "icon_open": "static/img/achievements/Flamethrower_open_1.jpg"
         }
     }, 
     {
-        "pk": 265, 
+        "pk": 5, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Sentry_Gunner_closed_1.jpg", 
             "book": 3, 
-            "name": "Out of the Park"
+            "name": "Sentry Gunner", 
+            "icon_open": "static/img/achievements/Sentry_Gunner_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Hard_to_Kill_closed_1.jpg", 
+            "book": 3, 
+            "name": "Hard to Kill", 
+            "icon_open": "static/img/achievements/Hard_to_Kill_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Master_of_Disguise_closed_1.jpg", 
+            "book": 3, 
+            "name": "Master of Disguise", 
+            "icon_open": "static/img/achievements/Master_of_Disguise_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Hardcore_closed_1.jpg", 
+            "book": 3, 
+            "name": "Hardcore", 
+            "icon_open": "static/img/achievements/Hardcore_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/First_Do_No_Harm_closed_1.jpg", 
+            "book": 3, 
+            "name": "First Do No Harm", 
+            "icon_open": "static/img/achievements/First_Do_No_Harm_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 141, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Unforgiven_closed_1.jpg", 
+            "book": 3, 
+            "name": "Unforgiven", 
+            "icon_open": "static/img/achievements/Unforgiven_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 147, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Texas_Two-Step_closed_1.jpg", 
+            "book": 3, 
+            "name": "Texas Two-Step", 
+            "icon_open": "static/img/achievements/Texas_Two-Step_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 149, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/No_Man_s_Land_closed_1.jpg", 
+            "book": 3, 
+            "name": "No Man's Land", 
+            "icon_open": "static/img/achievements/No_Man_s_Land_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 152, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Deputized_closed_1.jpg", 
+            "book": 3, 
+            "name": "Deputized", 
+            "icon_open": "static/img/achievements/Deputized_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 155, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Riftwalker_closed_1.jpg", 
+            "book": 3, 
+            "name": "Riftwalker", 
+            "icon_open": "static/img/achievements/Riftwalker_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 157, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Local_Cinema_Star_closed_1.jpg", 
+            "book": 3, 
+            "name": "Local Cinema Star", 
+            "icon_open": "static/img/achievements/Local_Cinema_Star_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 160, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Optical_Defusion_closed_1.jpg", 
+            "book": 3, 
+            "name": "Optical Defusion", 
+            "icon_open": "static/img/achievements/Optical_Defusion_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 164, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Group_Health_closed_1.jpg", 
+            "book": 3, 
+            "name": "Group Health", 
+            "icon_open": "static/img/achievements/Group_Health_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 165, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Triage_closed_1.jpg", 
+            "book": 3, 
+            "name": "Triage", 
+            "icon_open": "static/img/achievements/Triage_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 168, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Peer_Review_closed_1.jpg", 
+            "book": 3, 
+            "name": "Peer Review", 
+            "icon_open": "static/img/achievements/Peer_Review_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 171, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Grand_Rounds_closed_1.jpg", 
+            "book": 3, 
+            "name": "Grand Rounds", 
+            "icon_open": "static/img/achievements/Grand_Rounds_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 173, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Relentless_Offense_closed_1.jpg", 
+            "book": 3, 
+            "name": "Relentless Offense", 
+            "icon_open": "static/img/achievements/Relentless_Offense_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 176, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Infernal_Medicine_closed_1.jpg", 
+            "book": 3, 
+            "name": "Infernal Medicine", 
+            "icon_open": "static/img/achievements/Infernal_Medicine_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 179, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Intern_closed_1.jpg", 
+            "book": 3, 
+            "name": "Intern", 
+            "icon_open": "static/img/achievements/Intern_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 181, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Chief_of_Staff_closed_1.jpg", 
+            "book": 3, 
+            "name": "Chief of Staff", 
+            "icon_open": "static/img/achievements/Chief_of_Staff_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 184, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/FYI_I_am_A_Medic_closed_1.jpg", 
+            "book": 3, 
+            "name": "FYI I am A Medic", 
+            "icon_open": "static/img/achievements/FYI_I_am_A_Medic_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 187, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Medic_Milestone_3_closed_1.jpg", 
+            "book": 3, 
+            "name": "Medic Milestone 3", 
+            "icon_open": "static/img/achievements/Medic_Milestone_3_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 190, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Firewall_closed_1.jpg", 
+            "book": 3, 
+            "name": "Firewall", 
+            "icon_open": "static/img/achievements/Firewall_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 193, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Trailblazer_closed_1.jpg", 
+            "book": 3, 
+            "name": "Trailblazer", 
+            "icon_open": "static/img/achievements/Trailblazer_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 195, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/I_Fry_closed_1.jpg", 
+            "book": 3, 
+            "name": "I Fry", 
+            "icon_open": "static/img/achievements/I_Fry_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 198, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Makin__Bacon_closed_1.jpg", 
+            "book": 3, 
+            "name": "Makin' Bacon", 
+            "icon_open": "static/img/achievements/Makin__Bacon_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 201, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Arsonist_closed_1.jpg", 
+            "book": 3, 
+            "name": "Arsonist", 
+            "icon_open": "static/img/achievements/Arsonist_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 204, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Pyromancer_closed_1.jpg", 
+            "book": 3, 
+            "name": "Pyromancer", 
+            "icon_open": "static/img/achievements/Pyromancer_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 206, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Got_A_Light_closed.jpg", 
+            "book": 3, 
+            "name": "Got A Light?", 
+            "icon_open": "static/img/achievements/Got_A_Light_open.jpg"
+        }
+    }, 
+    {
+        "pk": 209, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Freezer_Burn_closed_1.jpg", 
+            "book": 3, 
+            "name": "Freezer Burn", 
+            "icon_open": "static/img/achievements/Freezer_Burn_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 212, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Fire_Chief_closed_1.jpg", 
+            "book": 3, 
+            "name": "Fire Chief", 
+            "icon_open": "static/img/achievements/Fire_Chief_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 218, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Heavy_Milestone_3_closed_1.jpg", 
+            "book": 3, 
+            "name": "Heavy Milestone 3", 
+            "icon_open": "static/img/achievements/Heavy_Milestone_3_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 221, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Show_Trial_closed_1.jpg", 
+            "book": 3, 
+            "name": "Show Trial", 
+            "icon_open": "static/img/achievements/Show_Trial_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 223, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Class_Struggle_closed_1.jpg", 
+            "book": 3, 
+            "name": "Class Struggle", 
+            "icon_open": "static/img/achievements/Class_Struggle_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 226, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Supreme_Soviet_closed_1.jpg", 
+            "book": 3, 
+            "name": "Supreme Soviet", 
+            "icon_open": "static/img/achievements/Supreme_Soviet_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 229, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Heavy_Industry_closed_1.jpg", 
+            "book": 3, 
+            "name": "Heavy Industry", 
+            "icon_open": "static/img/achievements/Heavy_Industry_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 232, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Photostroika_closed_1.jpg", 
+            "book": 3, 
+            "name": "Photostroika", 
+            "icon_open": "static/img/achievements/Photostroika_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 235, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Borscht_Belt_closed_1.jpg", 
+            "book": 3, 
+            "name": "Borscht Belt", 
+            "icon_open": "static/img/achievements/Borscht_Belt_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 237, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/First_Blood_Part_2_closed.jpg", 
+            "book": 3, 
+            "name": "First Blood, Part 2", 
+            "icon_open": "static/img/achievements/First_Blood_Part_2_open.jpg"
+        }
+    }, 
+    {
+        "pk": 240, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/The_Cycle_closed_1.jpg", 
+            "book": 3, 
+            "name": "The Cycle", 
+            "icon_open": "static/img/achievements/The_Cycle_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 243, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Scout_Milestone_2_closed_1.jpg", 
+            "book": 3, 
+            "name": "Scout Milestone 2", 
+            "icon_open": "static/img/achievements/Scout_Milestone_2_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 246, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Dodgers_1_Giants_0_closed.jpg", 
+            "book": 3, 
+            "name": "Dodgers 1, Giants 0", 
+            "icon_open": "static/img/achievements/Dodgers_1_Giants_0_open.jpg"
+        }
+    }, 
+    {
+        "pk": 249, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Triple_Steal_closed_1.jpg", 
+            "book": 3, 
+            "name": "Triple Steal", 
+            "icon_open": "static/img/achievements/Triple_Steal_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 252, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Strike_Zone_closed_1.jpg", 
+            "book": 3, 
+            "name": "Strike Zone", 
+            "icon_open": "static/img/achievements/Strike_Zone_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 254, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/The_Big_Hurt_closed_1.jpg", 
+            "book": 3, 
+            "name": "The Big Hurt", 
+            "icon_open": "static/img/achievements/The_Big_Hurt_open_1.jpg"
         }
     }, 
     {
         "pk": 266, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Rode_Hard_Put_Away_Wet_closed.jpg", 
             "book": 3, 
-            "name": "Rode Hard, Put Away Wet"
-        }
-    }, 
-    {
-        "pk": 267, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Be Polite"
-        }
-    }, 
-    {
-        "pk": 268, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Have a Plan"
+            "name": "Rode Hard, Put Away Wet", 
+            "icon_open": "static/img/achievements/Rode_Hard_Put_Away_Wet_open.jpg"
         }
     }, 
     {
         "pk": 269, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/The_Last_Wave_closed_1.jpg", 
             "book": 3, 
-            "name": "The Last Wave"
-        }
-    }, 
-    {
-        "pk": 270, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Parting Shot"
-        }
-    }, 
-    {
-        "pk": 271, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Saturation Bombing"
+            "name": "The Last Wave", 
+            "icon_open": "static/img/achievements/The_Last_Wave_open_1.jpg"
         }
     }, 
     {
         "pk": 272, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Rain_on_Their_Parade_closed_1.jpg", 
             "book": 3, 
-            "name": "Rain on Their Parade"
-        }
-    }, 
-    {
-        "pk": 273, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Jarring Transition"
-        }
-    }, 
-    {
-        "pk": 274, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Friendship is Golden"
+            "name": "Rain on Their Parade", 
+            "icon_open": "static/img/achievements/Rain_on_Their_Parade_open_1.jpg"
         }
     }, 
     {
         "pk": 275, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/William_Tell_Overkill_closed_1.jpg", 
             "book": 3, 
-            "name": "William Tell Overkill"
+            "name": "William Tell Overkill", 
+            "icon_open": "static/img/achievements/William_Tell_Overkill_open_1.jpg"
         }
     }, 
     {
-        "pk": 276, 
+        "pk": 15, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Trauma_Queen_closed_1.jpg", 
             "book": 3, 
-            "name": "Beaux and Arrows"
+            "name": "Trauma Queen", 
+            "icon_open": "static/img/achievements/Trauma_Queen_open_1.jpg"
         }
     }, 
     {
-        "pk": 277, 
+        "pk": 16, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Double_Blind_Trial_closed_1.jpg", 
             "book": 3, 
-            "name": "Robbin' Hood"
+            "name": "Double Blind Trial", 
+            "icon_open": "static/img/achievements/Double_Blind_Trial_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Consultation_closed_1.jpg", 
+            "book": 3, 
+            "name": "Consultation", 
+            "icon_open": "static/img/achievements/Consultation_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Big_Pharma_closed_1.jpg", 
+            "book": 3, 
+            "name": "Big Pharma", 
+            "icon_open": "static/img/achievements/Big_Pharma_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Blunt_Trauma_closed_1.jpg", 
+            "book": 3, 
+            "name": "Blunt Trauma", 
+            "icon_open": "static/img/achievements/Blunt_Trauma_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Powerhouse_Offense_closed_1.jpg", 
+            "book": 3, 
+            "name": "Powerhouse Offense", 
+            "icon_open": "static/img/achievements/Powerhouse_Offense_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Medical_Intervention_closed_1.jpg", 
+            "book": 3, 
+            "name": "Medical Intervention", 
+            "icon_open": "static/img/achievements/Medical_Intervention_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Autopsy_Report_closed_1.jpg", 
+            "book": 3, 
+            "name": "Autopsy Report", 
+            "icon_open": "static/img/achievements/Autopsy_Report_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Blast_Assist_closed_1.jpg", 
+            "book": 3, 
+            "name": "Blast Assist", 
+            "icon_open": "static/img/achievements/Blast_Assist_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Medic_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Medic Milestone 1", 
+            "icon_open": "static/img/achievements/Medic_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Combined_Fire_closed_1.jpg", 
+            "book": 3, 
+            "name": "Combined Fire", 
+            "icon_open": "static/img/achievements/Combined_Fire_open_1.jpg"
         }
     }, 
     {
         "pk": 278, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Pincushion_closed_1.jpg", 
             "book": 3, 
-            "name": "Pincushion"
-        }
-    }, 
-    {
-        "pk": 279, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Number One Assistant"
+            "name": "Pincushion", 
+            "icon_open": "static/img/achievements/Pincushion_open_1.jpg"
         }
     }, 
     {
         "pk": 280, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Shafted_closed_1.jpg", 
             "book": 3, 
-            "name": "Shafted"
-        }
-    }, 
-    {
-        "pk": 281, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "For Your Eyes Only"
-        }
-    }, 
-    {
-        "pk": 282, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "The Man from P.U.N.C.T.U.R.E."
+            "name": "Shafted", 
+            "icon_open": "static/img/achievements/Shafted_open_1.jpg"
         }
     }, 
     {
         "pk": 283, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/FYI_I_am_a_Spy_closed_1.jpg", 
             "book": 3, 
-            "name": "FYI I am a Spy"
-        }
-    }, 
-    {
-        "pk": 284, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "The Man with the Broken Guns"
+            "name": "FYI I am a Spy", 
+            "icon_open": "static/img/achievements/FYI_I_am_a_Spy_open_1.jpg"
         }
     }, 
     {
         "pk": 285, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Sapsucker_closed_1.jpg", 
             "book": 3, 
-            "name": "Sapsucker"
-        }
-    }, 
-    {
-        "pk": 286, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Agent Provocateur"
-        }
-    }, 
-    {
-        "pk": 287, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "On Her Majesty's Secret Surface"
+            "name": "Sapsucker", 
+            "icon_open": "static/img/achievements/Sapsucker_open_1.jpg"
         }
     }, 
     {
         "pk": 288, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Insurance_Fraud_closed_1.jpg", 
             "book": 3, 
-            "name": "Insurance Fraud"
-        }
-    }, 
-    {
-        "pk": 289, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Point Breaker"
-        }
-    }, 
-    {
-        "pk": 290, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Come in From the Cold"
+            "name": "Insurance Fraud", 
+            "icon_open": "static/img/achievements/Insurance_Fraud_open_1.jpg"
         }
     }, 
     {
         "pk": 291, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Wetwork_closed_1.jpg", 
             "book": 3, 
-            "name": "Wetwork"
+            "name": "Wetwork", 
+            "icon_open": "static/img/achievements/Wetwork_open_1.jpg"
         }
     }, 
     {
         "pk": 292, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Spymaster_closed_1.jpg", 
             "book": 3, 
-            "name": "Spymaster"
-        }
-    }, 
-    {
-        "pk": 293, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Sap Auteur"
-        }
-    }, 
-    {
-        "pk": 294, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Joint Operation"
+            "name": "Spymaster", 
+            "icon_open": "static/img/achievements/Spymaster_open_1.jpg"
         }
     }, 
     {
         "pk": 295, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Is_It_Safe_closed.jpg", 
             "book": 3, 
-            "name": "Is It Safe?"
-        }
-    }, 
-    {
-        "pk": 296, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Diplomacy"
-        }
-    }, 
-    {
-        "pk": 297, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Skullpluggery"
+            "name": "Is It Safe?", 
+            "icon_open": "static/img/achievements/Is_It_Safe_open.jpg"
         }
     }, 
     {
         "pk": 298, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Sleeper_Agent_closed_1.jpg", 
             "book": 3, 
-            "name": "Sleeper Agent"
-        }
-    }, 
-    {
-        "pk": 299, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Who's Your Daddy?"
-        }
-    }, 
-    {
-        "pk": 300, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Deep Undercover"
+            "name": "Sleeper Agent", 
+            "icon_open": "static/img/achievements/Sleeper_Agent_open_1.jpg"
         }
     }, 
     {
         "pk": 301, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Spy_Milestone_3_closed_1.jpg", 
             "book": 3, 
-            "name": "Spy Milestone 3"
-        }
-    }, 
-    {
-        "pk": 302, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Attack o' Lantern"
-        }
-    }, 
-    {
-        "pk": 303, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Costume Contest"
+            "name": "Spy Milestone 3", 
+            "icon_open": "static/img/achievements/Spy_Milestone_3_open_1.jpg"
         }
     }, 
     {
         "pk": 304, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Tri-Splatteral_Damage_closed_1.jpg", 
             "book": 3, 
-            "name": "Tri-Splatteral Damage"
-        }
-    }, 
-    {
-        "pk": 305, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Death from Above"
-        }
-    }, 
-    {
-        "pk": 306, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Spray of Defeat"
+            "name": "Tri-Splatteral Damage", 
+            "icon_open": "static/img/achievements/Tri-Splatteral_Damage_open_1.jpg"
         }
     }, 
     {
         "pk": 307, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Trench_Warfare_closed_1.jpg", 
             "book": 3, 
-            "name": "Trench Warfare"
-        }
-    }, 
-    {
-        "pk": 308, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Bomb Squaddie"
-        }
-    }, 
-    {
-        "pk": 309, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Banner of Brothers"
+            "name": "Trench Warfare", 
+            "icon_open": "static/img/achievements/Trench_Warfare_open_1.jpg"
         }
     }, 
     {
         "pk": 310, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/The_Longest_Daze_closed_1.jpg", 
             "book": 3, 
-            "name": "The Longest Daze"
-        }
-    }, 
-    {
-        "pk": 311, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Gore-a! Gore-a! Gore-a!"
+            "name": "The Longest Daze", 
+            "icon_open": "static/img/achievements/The_Longest_Daze_open_1.jpg"
         }
     }, 
     {
         "pk": 312, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Hamburger_Hill_closed_1.jpg", 
             "book": 3, 
-            "name": "Hamburger Hill"
-        }
-    }, 
-    {
-        "pk": 313, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Frags of our Fathers"
-        }
-    }, 
-    {
-        "pk": 314, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Duty Bound"
+            "name": "Hamburger Hill", 
+            "icon_open": "static/img/achievements/Hamburger_Hill_open_1.jpg"
         }
     }, 
     {
         "pk": 315, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/The_Boostie_Boys_closed_1.jpg", 
             "book": 3, 
-            "name": "The Boostie Boys"
-        }
-    }, 
-    {
-        "pk": 316, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Out, Damned Scot!"
-        }
-    }, 
-    {
-        "pk": 317, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Ain't Got Time to Bleed"
+            "name": "The Boostie Boys", 
+            "icon_open": "static/img/achievements/The_Boostie_Boys_open_1.jpg"
         }
     }, 
     {
         "pk": 318, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Near_Death_Experience_closed_1.jpg", 
             "book": 3, 
-            "name": "Near Death Experience"
-        }
-    }, 
-    {
-        "pk": 319, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "For Whom the Shell Trolls"
-        }
-    }, 
-    {
-        "pk": 320, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Death From Below"
+            "name": "Near Death Experience", 
+            "icon_open": "static/img/achievements/Near_Death_Experience_open_1.jpg"
         }
     }, 
     {
         "pk": 321, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Worth_a_Thousand_Words_closed_1.jpg", 
             "book": 3, 
-            "name": "Worth a Thousand Words"
-        }
-    }, 
-    {
-        "pk": 322, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "S*M*A*S*H"
-        }
-    }, 
-    {
-        "pk": 323, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Kilt in Action"
+            "name": "Worth a Thousand Words", 
+            "icon_open": "static/img/achievements/Worth_a_Thousand_Words_open_1.jpg"
         }
     }, 
     {
         "pk": 324, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Tam_O_Shatter_closed_1.jpg", 
             "book": 3, 
-            "name": "Tam O'Shatter"
-        }
-    }, 
-    {
-        "pk": 325, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Shorn Connery"
-        }
-    }, 
-    {
-        "pk": 326, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Laddy Macdeth"
+            "name": "Tam O'Shatter", 
+            "icon_open": "static/img/achievements/Tam_O_Shatter_open_1.jpg"
         }
     }, 
     {
         "pk": 327, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Brainspotting_closed_1.jpg", 
             "book": 3, 
-            "name": "Brainspotting"
-        }
-    }, 
-    {
-        "pk": 328, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Left 4 Heads"
-        }
-    }, 
-    {
-        "pk": 329, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Slammy Slayvis Woundya"
+            "name": "Brainspotting", 
+            "icon_open": "static/img/achievements/Brainspotting_open_1.jpg"
         }
     }, 
     {
         "pk": 330, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/The_Scottish_Play_closed_1.jpg", 
             "book": 3, 
-            "name": "The Scottish Play"
-        }
-    }, 
-    {
-        "pk": 331, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Three Times a Laddy"
-        }
-    }, 
-    {
-        "pk": 332, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Double Mauled Scotch"
+            "name": "The Scottish Play", 
+            "icon_open": "static/img/achievements/The_Scottish_Play_open_1.jpg"
         }
     }, 
     {
         "pk": 333, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/There_Can_Be_Only_One_closed_1.jpg", 
             "book": 3, 
-            "name": "There Can Be Only One"
-        }
-    }, 
-    {
-        "pk": 334, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Tartan Spartan"
-        }
-    }, 
-    {
-        "pk": 335, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Demoman Milestone 2"
+            "name": "There Can Be Only One", 
+            "icon_open": "static/img/achievements/There_Can_Be_Only_One_open_1.jpg"
         }
     }, 
     {
         "pk": 336, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Demoman_Milestone_3_closed_1.jpg", 
             "book": 3, 
-            "name": "Demoman Milestone 3"
-        }
-    }, 
-    {
-        "pk": 337, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "The Argyle Sap"
+            "name": "Demoman Milestone 3", 
+            "icon_open": "static/img/achievements/Demoman_Milestone_3_open_1.jpg"
         }
     }, 
     {
         "pk": 338, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Scotch_Guard_closed_1.jpg", 
             "book": 3, 
-            "name": "Scotch Guard"
-        }
-    }, 
-    {
-        "pk": 339, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Bravehurt"
-        }
-    }, 
-    {
-        "pk": 340, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Cry Some Moor!"
+            "name": "Scotch Guard", 
+            "icon_open": "static/img/achievements/Scotch_Guard_open_1.jpg"
         }
     }, 
     {
         "pk": 341, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/The_Stickening_closed_1.jpg", 
             "book": 3, 
-            "name": "The Stickening"
-        }
-    }, 
-    {
-        "pk": 342, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Glasg0wned"
-        }
-    }, 
-    {
-        "pk": 343, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Scotch Tap"
+            "name": "The Stickening", 
+            "icon_open": "static/img/achievements/The_Stickening_open_1.jpg"
         }
     }, 
     {
         "pk": 344, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/The_Targe_Charge_closed_1.jpg", 
             "book": 3, 
-            "name": "The Targe Charge"
-        }
-    }, 
-    {
-        "pk": 345, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Beat Me Up, Scotty"
-        }
-    }, 
-    {
-        "pk": 346, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Something Stickied This Way Comes"
+            "name": "The Targe Charge", 
+            "icon_open": "static/img/achievements/The_Targe_Charge_open_1.jpg"
         }
     }, 
     {
         "pk": 347, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/The_High_Road_closed_1.jpg", 
             "book": 3, 
-            "name": "The High Road"
-        }
-    }, 
-    {
-        "pk": 348, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Bloody Merry"
+            "name": "The High Road", 
+            "icon_open": "static/img/achievements/The_High_Road_open_1.jpg"
         }
     }, 
     {
         "pk": 349, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Second_Eye_closed_1.jpg", 
             "book": 3, 
-            "name": "Second Eye"
-        }
-    }, 
-    {
-        "pk": 350, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "He Who Celt It"
-        }
-    }, 
-    {
-        "pk": 351, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Robbed Royal"
-        }
-    }, 
-    {
-        "pk": 352, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Highland Fling"
-        }
-    }, 
-    {
-        "pk": 353, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Spynal Tap"
-        }
-    }, 
-    {
-        "pk": 354, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Sticky Thump"
+            "name": "Second Eye", 
+            "icon_open": "static/img/achievements/Second_Eye_open_1.jpg"
         }
     }, 
     {
         "pk": 355, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Pownd_on_the_Range_closed_1.jpg", 
             "book": 3, 
-            "name": "Pownd on the Range"
-        }
-    }, 
-    {
-        "pk": 356, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Search Engine"
-        }
-    }, 
-    {
-        "pk": 357, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Building Block"
+            "name": "Pownd on the Range", 
+            "icon_open": "static/img/achievements/Pownd_on_the_Range_open_1.jpg"
         }
     }, 
     {
         "pk": 358, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Silent_Pardner_closed_1.jpg", 
             "book": 3, 
-            "name": "Silent Pardner"
-        }
-    }, 
-    {
-        "pk": 359, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Fistful of Sappers"
-        }
-    }, 
-    {
-        "pk": 360, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Best Little Slaughterhouse in Texas"
+            "name": "Silent Pardner", 
+            "icon_open": "static/img/achievements/Silent_Pardner_open_1.jpg"
         }
     }, 
     {
         "pk": 361, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Six-String_Stinger_closed_1.jpg", 
             "book": 3, 
-            "name": "Six-String Stinger"
-        }
-    }, 
-    {
-        "pk": 362, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Trade Secrets"
+            "name": "Six-String Stinger", 
+            "icon_open": "static/img/achievements/Six-String_Stinger_open_1.jpg"
         }
     }, 
     {
         "pk": 363, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Death_Metal_closed_1.jpg", 
             "book": 3, 
-            "name": "Death Metal"
-        }
-    }, 
-    {
-        "pk": 364, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Land Grab"
-        }
-    }, 
-    {
-        "pk": 365, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Get Along!"
-        }
-    }, 
-    {
-        "pk": 366, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "How the Pests Was Gunned"
+            "name": "Death Metal", 
+            "icon_open": "static/img/achievements/Death_Metal_open_1.jpg"
         }
     }, 
     {
         "pk": 367, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Honky_Tonk_Man_closed_1.jpg", 
             "book": 3, 
-            "name": "Honky Tonk Man"
-        }
-    }, 
-    {
-        "pk": 368, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Breaking Morant"
+            "name": "Honky Tonk Man", 
+            "icon_open": "static/img/achievements/Honky_Tonk_Man_open_1.jpg"
         }
     }, 
     {
         "pk": 369, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Rio_Grind_closed_1.jpg", 
             "book": 3, 
-            "name": "Rio Grind"
-        }
-    }, 
-    {
-        "pk": 370, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Patent Protection"
-        }
-    }, 
-    {
-        "pk": 371, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Circle the Wagons"
-        }
-    }, 
-    {
-        "pk": 372, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "(Not So) Lonely Are the Brave"
+            "name": "Rio Grind", 
+            "icon_open": "static/img/achievements/Rio_Grind_open_1.jpg"
         }
     }, 
     {
         "pk": 373, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Sleepy_Holl0WND_closed_1.jpg", 
             "book": 3, 
-            "name": "Sleepy Holl0WND"
+            "name": "Sleepy Holl0WND", 
+            "icon_open": "static/img/achievements/Sleepy_Holl0WND_open_1.jpg"
         }
     }, 
     {
         "pk": 374, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Masked_Mann_closed_1.jpg", 
             "book": 3, 
-            "name": "Masked Mann"
-        }
-    }, 
-    {
-        "pk": 375, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Sackston Hale"
-        }
-    }, 
-    {
-        "pk": 376, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Gored!"
+            "name": "Masked Mann", 
+            "icon_open": "static/img/achievements/Masked_Mann_open_1.jpg"
         }
     }, 
     {
         "pk": 377, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/That_s_a_Wrap_closed_1.jpg", 
             "book": 3, 
-            "name": "That's a Wrap"
-        }
-    }, 
-    {
-        "pk": 378, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "We Can Fix It In Post"
-        }
-    }, 
-    {
-        "pk": 379, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Time For Your Close-Up, Mr. Hale"
+            "name": "That's a Wrap", 
+            "icon_open": "static/img/achievements/That_s_a_Wrap_open_1.jpg"
         }
     }, 
     {
         "pk": 380, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Ready_for_Duty_closed_1.jpg", 
             "book": 3, 
-            "name": "Ready for Duty"
-        }
-    }, 
-    {
-        "pk": 381, 
-        "model": "contents.achievement", 
-        "fields": {
-            "book": 3, 
-            "name": "Indie Film Sensation"
+            "name": "Ready for Duty", 
+            "icon_open": "static/img/achievements/Ready_for_Duty_open_1.jpg"
         }
     }, 
     {
         "pk": 382, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Blockbuster_closed_1.jpg", 
             "book": 3, 
-            "name": "Blockbuster"
+            "name": "Blockbuster", 
+            "icon_open": "static/img/achievements/Blockbuster_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Camp_Fire_closed_1.jpg", 
+            "book": 3, 
+            "name": "Camp Fire", 
+            "icon_open": "static/img/achievements/Camp_Fire_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Clearcutter_closed_1.jpg", 
+            "book": 3, 
+            "name": "Clearcutter", 
+            "icon_open": "static/img/achievements/Clearcutter_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Second_Degree_Burn_closed_1.jpg", 
+            "book": 3, 
+            "name": "Second Degree Burn", 
+            "icon_open": "static/img/achievements/Second_Degree_Burn_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Heavy_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Heavy Milestone 1", 
+            "icon_open": "static/img/achievements/Heavy_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Heavy_Milestone_2_closed_1.jpg", 
+            "book": 3, 
+            "name": "Heavy Milestone 2", 
+            "icon_open": "static/img/achievements/Heavy_Milestone_2_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Red_Oktoberfest_closed_1.jpg", 
+            "book": 3, 
+            "name": "Red Oktoberfest", 
+            "icon_open": "static/img/achievements/Red_Oktoberfest_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Soviet_Union_closed_1.jpg", 
+            "book": 3, 
+            "name": "Soviet Union", 
+            "icon_open": "static/img/achievements/Soviet_Union_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/0wn_the_Means_of_Production_closed_1.jpg", 
+            "book": 3, 
+            "name": "0wn the Means of Production", 
+            "icon_open": "static/img/achievements/0wn_the_Means_of_Production_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Icing_on_the_Cake_closed_1.jpg", 
+            "book": 3, 
+            "name": "Icing on the Cake", 
+            "icon_open": "static/img/achievements/Icing_on_the_Cake_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Crock_Block_closed_1.jpg", 
+            "book": 3, 
+            "name": "Crock Block", 
+            "icon_open": "static/img/achievements/Crock_Block_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Permanent_Revolution_closed_1.jpg", 
+            "book": 3, 
+            "name": "Permanent Revolution", 
+            "icon_open": "static/img/achievements/Permanent_Revolution_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Communist_Mani-Fisto_closed_1.jpg", 
+            "book": 3, 
+            "name": "Communist Mani-Fisto", 
+            "icon_open": "static/img/achievements/Communist_Mani-Fisto_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Rationing_closed_1.jpg", 
+            "book": 3, 
+            "name": "Rationing", 
+            "icon_open": "static/img/achievements/Rationing_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Vanguard_Party_closed_1.jpg", 
+            "book": 3, 
+            "name": "Vanguard Party", 
+            "icon_open": "static/img/achievements/Vanguard_Party_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Marxman_closed_1.jpg", 
+            "book": 3, 
+            "name": "Marxman", 
+            "icon_open": "static/img/achievements/Marxman_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Lenin_A_Hand_closed_1.jpg", 
+            "book": 3, 
+            "name": "Lenin A Hand", 
+            "icon_open": "static/img/achievements/Lenin_A_Hand_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Closer_closed_1.jpg", 
+            "book": 3, 
+            "name": "Closer", 
+            "icon_open": "static/img/achievements/Closer_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/If_You_Build_It_closed_1.jpg", 
+            "book": 3, 
+            "name": "If You Build It", 
+            "icon_open": "static/img/achievements/If_You_Build_It_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Batting_the_Doctor_closed_1.jpg", 
+            "book": 3, 
+            "name": "Batting the Doctor", 
+            "icon_open": "static/img/achievements/Batting_the_Doctor_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/I_m_Bat_Man_closed_1.jpg", 
+            "book": 3, 
+            "name": "I'm Bat Man", 
+            "icon_open": "static/img/achievements/I_m_Bat_Man_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Stealing_Home_closed_1.jpg", 
+            "book": 3, 
+            "name": "Stealing Home", 
+            "icon_open": "static/img/achievements/Stealing_Home_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Race_for_the_Pennant_closed_1.jpg", 
+            "book": 3, 
+            "name": "Race for the Pennant", 
+            "icon_open": "static/img/achievements/Race_for_the_Pennant_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Kill_Everyone_You_Meet_closed_1.jpg", 
+            "book": 3, 
+            "name": "Kill Everyone You Meet", 
+            "icon_open": "static/img/achievements/Kill_Everyone_You_Meet_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Self-destruct_Sequence_closed_1.jpg", 
+            "book": 3, 
+            "name": "Self-destruct Sequence", 
+            "icon_open": "static/img/achievements/Self-destruct_Sequence_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/De-sentry-lized_closed_1.jpg", 
+            "book": 3, 
+            "name": "De-sentry-lized", 
+            "icon_open": "static/img/achievements/De-sentry-lized_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Dropped_Dead_closed_1.jpg", 
+            "book": 3, 
+            "name": "Dropped Dead", 
+            "icon_open": "static/img/achievements/Dropped_Dead_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Australian_Rules_closed_1.jpg", 
+            "book": 3, 
+            "name": "Australian Rules", 
+            "icon_open": "static/img/achievements/Australian_Rules_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Socket_to_Him_closed_1.jpg", 
+            "book": 3, 
+            "name": "Socket to Him", 
+            "icon_open": "static/img/achievements/Socket_to_Him_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Trust_Your_Feelings_closed_1.jpg", 
+            "book": 3, 
+            "name": "Trust Your Feelings", 
+            "icon_open": "static/img/achievements/Trust_Your_Feelings_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Consolation_Prize_closed_1.jpg", 
+            "book": 3, 
+            "name": "Consolation Prize", 
+            "icon_open": "static/img/achievements/Consolation_Prize_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Enemy_at_the_Gate_closed_1.jpg", 
+            "book": 3, 
+            "name": "Enemy at the Gate", 
+            "icon_open": "static/img/achievements/Enemy_at_the_Gate_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Shock_Treatment_closed_1.jpg", 
+            "book": 3, 
+            "name": "Shock Treatment", 
+            "icon_open": "static/img/achievements/Shock_Treatment_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Jarate_Chop_closed_1.jpg", 
+            "book": 3, 
+            "name": "Jarate Chop", 
+            "icon_open": "static/img/achievements/Jarate_Chop_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Triplecrossed_closed_1.jpg", 
+            "book": 3, 
+            "name": "Triplecrossed", 
+            "icon_open": "static/img/achievements/Triplecrossed_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Counter_Espionage_closed_1.jpg", 
+            "book": 3, 
+            "name": "Counter Espionage", 
+            "icon_open": "static/img/achievements/Counter_Espionage_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/May_I_Cut_In_closed.jpg", 
+            "book": 3, 
+            "name": "May I Cut In?", 
+            "icon_open": "static/img/achievements/May_I_Cut_In_open.jpg"
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/The_Melbourne_Supremacy_closed_1.jpg", 
+            "book": 3, 
+            "name": "The Melbourne Supremacy", 
+            "icon_open": "static/img/achievements/The_Melbourne_Supremacy_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/A_Cut_Above_closed_1.jpg", 
+            "book": 3, 
+            "name": "A Cut Above", 
+            "icon_open": "static/img/achievements/A_Cut_Above_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Die_Another_Way_closed_1.jpg", 
+            "book": 3, 
+            "name": "Die Another Way", 
+            "icon_open": "static/img/achievements/Die_Another_Way_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Constructus_Interruptus_closed_1.jpg", 
+            "book": 3, 
+            "name": "Constructus Interruptus", 
+            "icon_open": "static/img/achievements/Constructus_Interruptus_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/You_Only_Shiv_Thrice_closed_1.jpg", 
+            "book": 3, 
+            "name": "You Only Shiv Thrice", 
+            "icon_open": "static/img/achievements/You_Only_Shiv_Thrice_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 100, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Dr._Nooooo_closed_1.jpg", 
+            "book": 3, 
+            "name": "Dr. Nooooo", 
+            "icon_open": "static/img/achievements/Dr._Nooooo_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 102, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Sniper_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Sniper Milestone 1", 
+            "icon_open": "static/img/achievements/Sniper_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 103, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Sniper_Milestone_2_closed_1.jpg", 
+            "book": 3, 
+            "name": "Sniper Milestone 2", 
+            "icon_open": "static/img/achievements/Sniper_Milestone_2_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 105, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Spy_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Spy Milestone 1", 
+            "icon_open": "static/img/achievements/Spy_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 106, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Spy_Milestone_2_closed_1.jpg", 
+            "book": 3, 
+            "name": "Spy Milestone 2", 
+            "icon_open": "static/img/achievements/Spy_Milestone_2_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 108, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Ghastly_Gibus_Grab_closed_1.jpg", 
+            "book": 3, 
+            "name": "Ghastly Gibus Grab", 
+            "icon_open": "static/img/achievements/Ghastly_Gibus_Grab_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 110, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Soldier_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Soldier Milestone 1", 
+            "icon_open": "static/img/achievements/Soldier_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 113, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Dominator_closed_1.jpg", 
+            "book": 3, 
+            "name": "Dominator", 
+            "icon_open": "static/img/achievements/Dominator_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 114, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/War_Crime_and_Punishment_closed_1.jpg", 
+            "book": 3, 
+            "name": "War Crime and Punishment", 
+            "icon_open": "static/img/achievements/War_Crime_and_Punishment_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 115, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Guns_of_the_Navar0wned_closed_1.jpg", 
+            "book": 3, 
+            "name": "Guns of the Navar0wned", 
+            "icon_open": "static/img/achievements/Guns_of_the_Navar0wned_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 117, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Wings_of_Glory_closed_1.jpg", 
+            "book": 3, 
+            "name": "Wings of Glory", 
+            "icon_open": "static/img/achievements/Wings_of_Glory_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 118, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Engineer_to_Eternity_closed_1.jpg", 
+            "book": 3, 
+            "name": "Engineer to Eternity", 
+            "icon_open": "static/img/achievements/Engineer_to_Eternity_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 120, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Screamin__Eagle_closed_1.jpg", 
+            "book": 3, 
+            "name": "Screamin' Eagle", 
+            "icon_open": "static/img/achievements/Screamin__Eagle_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 121, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Crockets_Are_Such_B.S._closed_1.jpg", 
+            "book": 3, 
+            "name": "Crockets Are Such B.S.", 
+            "icon_open": "static/img/achievements/Crockets_Are_Such_B.S._open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 123, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Semper_Fry_closed_1.jpg", 
+            "book": 3, 
+            "name": "Semper Fry", 
+            "icon_open": "static/img/achievements/Semper_Fry_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 125, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Backdraft_Dodger_closed_1.jpg", 
+            "book": 3, 
+            "name": "Backdraft Dodger", 
+            "icon_open": "static/img/achievements/Backdraft_Dodger_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 126, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Brothers_in_Harms_closed_1.jpg", 
+            "book": 3, 
+            "name": "Brothers in Harms", 
+            "icon_open": "static/img/achievements/Brothers_in_Harms_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 130, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Blind_Fire_closed_1.jpg", 
+            "book": 3, 
+            "name": "Blind Fire", 
+            "icon_open": "static/img/achievements/Blind_Fire_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 131, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Loch_Ness_Bombster_closed_1.jpg", 
+            "book": 3, 
+            "name": "Loch Ness Bombster", 
+            "icon_open": "static/img/achievements/Loch_Ness_Bombster_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 133, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Demoman_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Demoman Milestone 1", 
+            "icon_open": "static/img/achievements/Demoman_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 134, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Pipebagger_closed_1.jpg", 
+            "book": 3, 
+            "name": "Pipebagger", 
+            "icon_open": "static/img/achievements/Pipebagger_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 136, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Engineer_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Engineer Milestone 1", 
+            "icon_open": "static/img/achievements/Engineer_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 137, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Engineer_Milestone_2_closed_1.jpg", 
+            "book": 3, 
+            "name": "Engineer Milestone 2", 
+            "icon_open": "static/img/achievements/Engineer_Milestone_2_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 138, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Engineer_Milestone_3_closed_1.jpg", 
+            "book": 3, 
+            "name": "Engineer Milestone 3", 
+            "icon_open": "static/img/achievements/Engineer_Milestone_3_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 139, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Battle_Rustler_closed_1.jpg", 
+            "book": 3, 
+            "name": "Battle Rustler", 
+            "icon_open": "static/img/achievements/Battle_Rustler_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 140, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/The_Extinguished_Gentleman_closed_1.jpg", 
+            "book": 3, 
+            "name": "The Extinguished Gentleman", 
+            "icon_open": "static/img/achievements/The_Extinguished_Gentleman_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 142, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Quick_Draw_closed_1.jpg", 
+            "book": 3, 
+            "name": "Quick Draw", 
+            "icon_open": "static/img/achievements/Quick_Draw_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 143, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/The_Wrench_Connection_closed_1.jpg", 
+            "book": 3, 
+            "name": "The Wrench Connection", 
+            "icon_open": "static/img/achievements/The_Wrench_Connection_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 145, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Frontier_Justice_closed_1.jpg", 
+            "book": 3, 
+            "name": "Frontier Justice", 
+            "icon_open": "static/img/achievements/Frontier_Justice_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 146, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Uncivil_Engineer_closed_1.jpg", 
+            "book": 3, 
+            "name": "Uncivil Engineer", 
+            "icon_open": "static/img/achievements/Uncivil_Engineer_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 148, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Doc_Holiday_closed_1.jpg", 
+            "book": 3, 
+            "name": "Doc Holiday", 
+            "icon_open": "static/img/achievements/Doc_Holiday_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 150, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/If_You_Build_It_They_Will_Die_closed.jpg", 
+            "book": 3, 
+            "name": "If You Build It, They Will Die", 
+            "icon_open": "static/img/achievements/If_You_Build_It_They_Will_Die_open.jpg"
+        }
+    }, 
+    {
+        "pk": 151, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Texas_Ranger_closed_1.jpg", 
+            "book": 3, 
+            "name": "Texas Ranger", 
+            "icon_open": "static/img/achievements/Texas_Ranger_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 153, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Drugstore_Cowboy_closed_1.jpg", 
+            "book": 3, 
+            "name": "Drugstore Cowboy", 
+            "icon_open": "static/img/achievements/Drugstore_Cowboy_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 154, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Built_to_Last_closed_1.jpg", 
+            "book": 3, 
+            "name": "Built to Last", 
+            "icon_open": "static/img/achievements/Built_to_Last_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 156, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Home_Movie_closed_1.jpg", 
+            "book": 3, 
+            "name": "Home Movie", 
+            "icon_open": "static/img/achievements/Home_Movie_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 158, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Star_of_My_Own_Show_closed_1.jpg", 
+            "book": 3, 
+            "name": "Star of My Own Show", 
+            "icon_open": "static/img/achievements/Star_of_My_Own_Show_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 159, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Escape_the_Heat_closed_1.jpg", 
+            "book": 3, 
+            "name": "Escape the Heat", 
+            "icon_open": "static/img/achievements/Escape_the_Heat_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 161, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Head_of_the_Class_closed_1.jpg", 
+            "book": 3, 
+            "name": "Head of the Class", 
+            "icon_open": "static/img/achievements/Head_of_the_Class_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 162, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/World_Traveler_closed_1.jpg", 
+            "book": 3, 
+            "name": "World Traveler", 
+            "icon_open": "static/img/achievements/World_Traveler_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 166, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Preventive_Medicine_closed_1.jpg", 
+            "book": 3, 
+            "name": "Preventive Medicine", 
+            "icon_open": "static/img/achievements/Preventive_Medicine_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 167, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Does_It_Hurt_When_I_Do_This_closed.jpg", 
+            "book": 3, 
+            "name": "Does It Hurt When I Do This?", 
+            "icon_open": "static/img/achievements/Does_It_Hurt_When_I_Do_This_open.jpg"
+        }
+    }, 
+    {
+        "pk": 169, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/You_ll_Feel_a_Little_Prick_closed_1.jpg", 
+            "book": 3, 
+            "name": "You'll Feel a Little Prick", 
+            "icon_open": "static/img/achievements/You_ll_Feel_a_Little_Prick_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 170, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Ubi_concordia_ibi_victoria_closed.jpg", 
+            "book": 3, 
+            "name": "Ubi concordia, ibi victoria", 
+            "icon_open": "static/img/achievements/Ubi_concordia_ibi_victoria_open.jpg"
+        }
+    }, 
+    {
+        "pk": 172, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Lightning_Offense_closed_1.jpg", 
+            "book": 3, 
+            "name": "Lightning Offense", 
+            "icon_open": "static/img/achievements/Lightning_Offense_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 174, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Impenetrable_Defense_closed_1.jpg", 
+            "book": 3, 
+            "name": "Impenetrable Defense", 
+            "icon_open": "static/img/achievements/Impenetrable_Defense_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 175, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Impossible_Defense_closed_1.jpg", 
+            "book": 3, 
+            "name": "Impossible Defense", 
+            "icon_open": "static/img/achievements/Impossible_Defense_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 177, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Doctor_Assisted_Homicide_closed_1.jpg", 
+            "book": 3, 
+            "name": "Doctor Assisted Homicide", 
+            "icon_open": "static/img/achievements/Doctor_Assisted_Homicide_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 178, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Placebo_Effect_closed_1.jpg", 
+            "book": 3, 
+            "name": "Placebo Effect", 
+            "icon_open": "static/img/achievements/Placebo_Effect_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 180, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Specialist_closed_1.jpg", 
+            "book": 3, 
+            "name": "Specialist", 
+            "icon_open": "static/img/achievements/Specialist_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 182, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Hypocritical_Oath_closed_1.jpg", 
+            "book": 3, 
+            "name": "Hypocritical Oath", 
+            "icon_open": "static/img/achievements/Hypocritical_Oath_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 183, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Second_Opinion_closed_1.jpg", 
+            "book": 3, 
+            "name": "Second Opinion", 
+            "icon_open": "static/img/achievements/Second_Opinion_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 185, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Family_Practice_closed_1.jpg", 
+            "book": 3, 
+            "name": "Family Practice", 
+            "icon_open": "static/img/achievements/Family_Practice_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 188, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Baptism_by_Fire_closed_1.jpg", 
+            "book": 3, 
+            "name": "Baptism by Fire", 
+            "icon_open": "static/img/achievements/Baptism_by_Fire_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 189, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Fire_and_Forget_closed_1.jpg", 
+            "book": 3, 
+            "name": "Fire and Forget", 
+            "icon_open": "static/img/achievements/Fire_and_Forget_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 191, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Cooking_the_Books_closed_1.jpg", 
+            "book": 3, 
+            "name": "Cooking the Books", 
+            "icon_open": "static/img/achievements/Cooking_the_Books_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 192, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Spontaneous_Combustion_closed_1.jpg", 
+            "book": 3, 
+            "name": "Spontaneous Combustion", 
+            "icon_open": "static/img/achievements/Spontaneous_Combustion_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 194, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Lumberjack_closed_1.jpg", 
+            "book": 3, 
+            "name": "Lumberjack", 
+            "icon_open": "static/img/achievements/Lumberjack_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 196, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Firewatch_closed_1.jpg", 
+            "book": 3, 
+            "name": "Firewatch", 
+            "icon_open": "static/img/achievements/Firewatch_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 197, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Burn_Ward_closed_1.jpg", 
+            "book": 3, 
+            "name": "Burn Ward", 
+            "icon_open": "static/img/achievements/Burn_Ward_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 199, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Plan_B_closed_1.jpg", 
+            "book": 3, 
+            "name": "Plan B", 
+            "icon_open": "static/img/achievements/Plan_B_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 200, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Pyrotechnics_closed_1.jpg", 
+            "book": 3, 
+            "name": "Pyrotechnics", 
+            "icon_open": "static/img/achievements/Pyrotechnics_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 202, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Controlled_Burn_closed_1.jpg", 
+            "book": 3, 
+            "name": "Controlled Burn", 
+            "icon_open": "static/img/achievements/Controlled_Burn_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 203, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Firefighter_closed_1.jpg", 
+            "book": 3, 
+            "name": "Firefighter", 
+            "icon_open": "static/img/achievements/Firefighter_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 205, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/OMGWTFBBQ_closed_1.jpg", 
+            "book": 3, 
+            "name": "OMGWTFBBQ", 
+            "icon_open": "static/img/achievements/OMGWTFBBQ_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 207, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/BarbeQueQ_closed_1.jpg", 
+            "book": 3, 
+            "name": "BarbeQueQ", 
+            "icon_open": "static/img/achievements/BarbeQueQ_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 208, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Pilot_Light_closed_1.jpg", 
+            "book": 3, 
+            "name": "Pilot Light", 
+            "icon_open": "static/img/achievements/Pilot_Light_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 211, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Hotshot_closed_1.jpg", 
+            "book": 3, 
+            "name": "Hotshot", 
+            "icon_open": "static/img/achievements/Hotshot_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 213, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Attention_Getter_closed_1.jpg", 
+            "book": 3, 
+            "name": "Attention Getter", 
+            "icon_open": "static/img/achievements/Attention_Getter_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 214, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Hot_Potato_closed_1.jpg", 
+            "book": 3, 
+            "name": "Hot Potato", 
+            "icon_open": "static/img/achievements/Hot_Potato_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 216, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Pyro_Milestone_2_closed_1.jpg", 
+            "book": 3, 
+            "name": "Pyro Milestone 2", 
+            "icon_open": "static/img/achievements/Pyro_Milestone_2_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 217, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Pyro_Milestone_3_closed_1.jpg", 
+            "book": 3, 
+            "name": "Pyro Milestone 3", 
+            "icon_open": "static/img/achievements/Pyro_Milestone_3_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 219, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Party_Loyalty_closed_1.jpg", 
+            "book": 3, 
+            "name": "Party Loyalty", 
+            "icon_open": "static/img/achievements/Party_Loyalty_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 220, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Division_of_Labor_closed_1.jpg", 
+            "book": 3, 
+            "name": "Division of Labor", 
+            "icon_open": "static/img/achievements/Division_of_Labor_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 222, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Crime_and_Punishment_closed_1.jpg", 
+            "book": 3, 
+            "name": "Crime and Punishment", 
+            "icon_open": "static/img/achievements/Crime_and_Punishment_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 224, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Soviet_Block_closed_1.jpg", 
+            "book": 3, 
+            "name": "Soviet Block", 
+            "icon_open": "static/img/achievements/Soviet_Block_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 225, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Stalin_the_Kart_closed_1.jpg", 
+            "book": 3, 
+            "name": "Stalin the Kart", 
+            "icon_open": "static/img/achievements/Stalin_the_Kart_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 227, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Krazy_Ivan_closed_1.jpg", 
+            "book": 3, 
+            "name": "Krazy Ivan", 
+            "icon_open": "static/img/achievements/Krazy_Ivan_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 228, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Kollectivization_closed_1.jpg", 
+            "book": 3, 
+            "name": "Kollectivization", 
+            "icon_open": "static/img/achievements/Kollectivization_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 230, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Gorky_Parked_closed_1.jpg", 
+            "book": 3, 
+            "name": "Gorky Parked", 
+            "icon_open": "static/img/achievements/Gorky_Parked_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 231, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Purge_closed_1.jpg", 
+            "book": 3, 
+            "name": "Purge", 
+            "icon_open": "static/img/achievements/Purge_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 233, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Konspicuous_Konsumption_closed_1.jpg", 
+            "book": 3, 
+            "name": "Konspicuous Konsumption", 
+            "icon_open": "static/img/achievements/Konspicuous_Konsumption_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 234, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Don_t_Touch_Sandvich_closed_1.jpg", 
+            "book": 3, 
+            "name": "Don't Touch Sandvich", 
+            "icon_open": "static/img/achievements/Don_t_Touch_Sandvich_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 236, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/First_Blood_closed_1.jpg", 
+            "book": 3, 
+            "name": "First Blood", 
+            "icon_open": "static/img/achievements/First_Blood_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 238, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Quick_Hook_closed_1.jpg", 
+            "book": 3, 
+            "name": "Quick Hook", 
+            "icon_open": "static/img/achievements/Quick_Hook_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 239, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/A_Year_to_Remember_closed_1.jpg", 
+            "book": 3, 
+            "name": "A Year to Remember", 
+            "icon_open": "static/img/achievements/A_Year_to_Remember_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 241, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Gun_Down_closed_1.jpg", 
+            "book": 3, 
+            "name": "Gun Down", 
+            "icon_open": "static/img/achievements/Gun_Down_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 242, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Scout_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Scout Milestone 1", 
+            "icon_open": "static/img/achievements/Scout_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 244, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Scout_Milestone_3_closed_1.jpg", 
+            "book": 3, 
+            "name": "Scout Milestone 3", 
+            "icon_open": "static/img/achievements/Scout_Milestone_3_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 247, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Pop_Fly_closed_1.jpg", 
+            "book": 3, 
+            "name": "Pop Fly", 
+            "icon_open": "static/img/achievements/Pop_Fly_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 248, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Round-Tripper_closed_1.jpg", 
+            "book": 3, 
+            "name": "Round-Tripper", 
+            "icon_open": "static/img/achievements/Round-Tripper_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 250, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Artful_Dodger_closed_1.jpg", 
+            "book": 3, 
+            "name": "Artful Dodger", 
+            "icon_open": "static/img/achievements/Artful_Dodger_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 251, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Fall_Classic_closed_1.jpg", 
+            "book": 3, 
+            "name": "Fall Classic", 
+            "icon_open": "static/img/achievements/Fall_Classic_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 253, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Foul_Territory_closed_1.jpg", 
+            "book": 3, 
+            "name": "Foul Territory", 
+            "icon_open": "static/img/achievements/Foul_Territory_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 255, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Brushback_closed_1.jpg", 
+            "book": 3, 
+            "name": "Brushback", 
+            "icon_open": "static/img/achievements/Brushback_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 258, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Retire_the_Runner_closed_1.jpg", 
+            "book": 3, 
+            "name": "Retire the Runner", 
+            "icon_open": "static/img/achievements/Retire_the_Runner_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 259, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Caught_Napping_closed_1.jpg", 
+            "book": 3, 
+            "name": "Caught Napping", 
+            "icon_open": "static/img/achievements/Caught_Napping_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 261, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Set_the_Table_closed_1.jpg", 
+            "book": 3, 
+            "name": "Set the Table", 
+            "icon_open": "static/img/achievements/Set_the_Table_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 262, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Block_the_Plate_closed_1.jpg", 
+            "book": 3, 
+            "name": "Block the Plate", 
+            "icon_open": "static/img/achievements/Block_the_Plate_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 264, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/No-Hitter_closed_1.jpg", 
+            "book": 3, 
+            "name": "No-Hitter", 
+            "icon_open": "static/img/achievements/No-Hitter_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 265, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Out_of_the_Park_closed_1.jpg", 
+            "book": 3, 
+            "name": "Out of the Park", 
+            "icon_open": "static/img/achievements/Out_of_the_Park_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 267, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Be_Polite_closed_1.jpg", 
+            "book": 3, 
+            "name": "Be Polite", 
+            "icon_open": "static/img/achievements/Be_Polite_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 268, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Have_a_Plan_closed_1.jpg", 
+            "book": 3, 
+            "name": "Have a Plan", 
+            "icon_open": "static/img/achievements/Have_a_Plan_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 273, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Jarring_Transition_closed_1.jpg", 
+            "book": 3, 
+            "name": "Jarring Transition", 
+            "icon_open": "static/img/achievements/Jarring_Transition_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 274, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Friendship_is_Golden_closed_1.jpg", 
+            "book": 3, 
+            "name": "Friendship is Golden", 
+            "icon_open": "static/img/achievements/Friendship_is_Golden_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 276, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Beaux_and_Arrows_closed_1.jpg", 
+            "book": 3, 
+            "name": "Beaux and Arrows", 
+            "icon_open": "static/img/achievements/Beaux_and_Arrows_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 277, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Robbin__Hood_closed_1.jpg", 
+            "book": 3, 
+            "name": "Robbin' Hood", 
+            "icon_open": "static/img/achievements/Robbin__Hood_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 279, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Number_One_Assistant_closed_1.jpg", 
+            "book": 3, 
+            "name": "Number One Assistant", 
+            "icon_open": "static/img/achievements/Number_One_Assistant_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 281, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/For_Your_Eyes_Only_closed_1.jpg", 
+            "book": 3, 
+            "name": "For Your Eyes Only", 
+            "icon_open": "static/img/achievements/For_Your_Eyes_Only_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 282, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/The_Man_from_P.U.N.C.T.U.R.E._closed_1.jpg", 
+            "book": 3, 
+            "name": "The Man from P.U.N.C.T.U.R.E.", 
+            "icon_open": "static/img/achievements/The_Man_from_P.U.N.C.T.U.R.E._open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 284, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/The_Man_with_the_Broken_Guns_closed_1.jpg", 
+            "book": 3, 
+            "name": "The Man with the Broken Guns", 
+            "icon_open": "static/img/achievements/The_Man_with_the_Broken_Guns_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 286, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Agent_Provocateur_closed_1.jpg", 
+            "book": 3, 
+            "name": "Agent Provocateur", 
+            "icon_open": "static/img/achievements/Agent_Provocateur_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 287, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/On_Her_Majesty_s_Secret_Surface_closed_1.jpg", 
+            "book": 3, 
+            "name": "On Her Majesty's Secret Surface", 
+            "icon_open": "static/img/achievements/On_Her_Majesty_s_Secret_Surface_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 289, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Point_Breaker_closed_1.jpg", 
+            "book": 3, 
+            "name": "Point Breaker", 
+            "icon_open": "static/img/achievements/Point_Breaker_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 290, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Come_in_From_the_Cold_closed_1.jpg", 
+            "book": 3, 
+            "name": "Come in From the Cold", 
+            "icon_open": "static/img/achievements/Come_in_From_the_Cold_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 293, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Sap_Auteur_closed_1.jpg", 
+            "book": 3, 
+            "name": "Sap Auteur", 
+            "icon_open": "static/img/achievements/Sap_Auteur_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 294, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Joint_Operation_closed_1.jpg", 
+            "book": 3, 
+            "name": "Joint Operation", 
+            "icon_open": "static/img/achievements/Joint_Operation_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 296, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Diplomacy_closed_1.jpg", 
+            "book": 3, 
+            "name": "Diplomacy", 
+            "icon_open": "static/img/achievements/Diplomacy_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 297, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Skullpluggery_closed_1.jpg", 
+            "book": 3, 
+            "name": "Skullpluggery", 
+            "icon_open": "static/img/achievements/Skullpluggery_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 299, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Who_s_Your_Daddy_closed.jpg", 
+            "book": 3, 
+            "name": "Who's Your Daddy?", 
+            "icon_open": "static/img/achievements/Who_s_Your_Daddy_open.jpg"
+        }
+    }, 
+    {
+        "pk": 300, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Deep_Undercover_closed_1.jpg", 
+            "book": 3, 
+            "name": "Deep Undercover", 
+            "icon_open": "static/img/achievements/Deep_Undercover_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 302, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Attack_o__Lantern_closed_1.jpg", 
+            "book": 3, 
+            "name": "Attack o' Lantern", 
+            "icon_open": "static/img/achievements/Attack_o__Lantern_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 303, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Costume_Contest_closed_1.jpg", 
+            "book": 3, 
+            "name": "Costume Contest", 
+            "icon_open": "static/img/achievements/Costume_Contest_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 305, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Death_from_Above_closed_1.jpg", 
+            "book": 3, 
+            "name": "Death from Above", 
+            "icon_open": "static/img/achievements/Death_from_Above_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 306, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Spray_of_Defeat_closed_1.jpg", 
+            "book": 3, 
+            "name": "Spray of Defeat", 
+            "icon_open": "static/img/achievements/Spray_of_Defeat_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 308, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Bomb_Squaddie_closed_1.jpg", 
+            "book": 3, 
+            "name": "Bomb Squaddie", 
+            "icon_open": "static/img/achievements/Bomb_Squaddie_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 309, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Banner_of_Brothers_closed_1.jpg", 
+            "book": 3, 
+            "name": "Banner of Brothers", 
+            "icon_open": "static/img/achievements/Banner_of_Brothers_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 313, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Frags_of_our_Fathers_closed_1.jpg", 
+            "book": 3, 
+            "name": "Frags of our Fathers", 
+            "icon_open": "static/img/achievements/Frags_of_our_Fathers_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 314, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Duty_Bound_closed_1.jpg", 
+            "book": 3, 
+            "name": "Duty Bound", 
+            "icon_open": "static/img/achievements/Duty_Bound_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 316, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Out_Damned_Scot_closed.jpg", 
+            "book": 3, 
+            "name": "Out, Damned Scot!", 
+            "icon_open": "static/img/achievements/Out_Damned_Scot_open.jpg"
+        }
+    }, 
+    {
+        "pk": 317, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Ain_t_Got_Time_to_Bleed_closed_1.jpg", 
+            "book": 3, 
+            "name": "Ain't Got Time to Bleed", 
+            "icon_open": "static/img/achievements/Ain_t_Got_Time_to_Bleed_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 319, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/For_Whom_the_Shell_Trolls_closed_1.jpg", 
+            "book": 3, 
+            "name": "For Whom the Shell Trolls", 
+            "icon_open": "static/img/achievements/For_Whom_the_Shell_Trolls_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 320, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Death_From_Below_closed_1.jpg", 
+            "book": 3, 
+            "name": "Death From Below", 
+            "icon_open": "static/img/achievements/Death_From_Below_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 322, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/SMASH_closed.jpg", 
+            "book": 3, 
+            "name": "S*M*A*S*H", 
+            "icon_open": "static/img/achievements/SMASH_open.jpg"
+        }
+    }, 
+    {
+        "pk": 323, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Kilt_in_Action_closed_1.jpg", 
+            "book": 3, 
+            "name": "Kilt in Action", 
+            "icon_open": "static/img/achievements/Kilt_in_Action_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 325, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Shorn_Connery_closed_1.jpg", 
+            "book": 3, 
+            "name": "Shorn Connery", 
+            "icon_open": "static/img/achievements/Shorn_Connery_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 326, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Laddy_Macdeth_closed_1.jpg", 
+            "book": 3, 
+            "name": "Laddy Macdeth", 
+            "icon_open": "static/img/achievements/Laddy_Macdeth_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 328, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Left_4_Heads_closed_1.jpg", 
+            "book": 3, 
+            "name": "Left 4 Heads", 
+            "icon_open": "static/img/achievements/Left_4_Heads_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 329, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Slammy_Slayvis_Woundya_closed_1.jpg", 
+            "book": 3, 
+            "name": "Slammy Slayvis Woundya", 
+            "icon_open": "static/img/achievements/Slammy_Slayvis_Woundya_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 331, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Three_Times_a_Laddy_closed_1.jpg", 
+            "book": 3, 
+            "name": "Three Times a Laddy", 
+            "icon_open": "static/img/achievements/Three_Times_a_Laddy_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 332, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Double_Mauled_Scotch_closed_1.jpg", 
+            "book": 3, 
+            "name": "Double Mauled Scotch", 
+            "icon_open": "static/img/achievements/Double_Mauled_Scotch_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 334, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Tartan_Spartan_closed_1.jpg", 
+            "book": 3, 
+            "name": "Tartan Spartan", 
+            "icon_open": "static/img/achievements/Tartan_Spartan_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 335, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Demoman_Milestone_2_closed_1.jpg", 
+            "book": 3, 
+            "name": "Demoman Milestone 2", 
+            "icon_open": "static/img/achievements/Demoman_Milestone_2_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 337, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/The_Argyle_Sap_closed_1.jpg", 
+            "book": 3, 
+            "name": "The Argyle Sap", 
+            "icon_open": "static/img/achievements/The_Argyle_Sap_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 339, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Bravehurt_closed_1.jpg", 
+            "book": 3, 
+            "name": "Bravehurt", 
+            "icon_open": "static/img/achievements/Bravehurt_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 340, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Cry_Some_Moor_closed.jpg", 
+            "book": 3, 
+            "name": "Cry Some Moor!", 
+            "icon_open": "static/img/achievements/Cry_Some_Moor_open.jpg"
+        }
+    }, 
+    {
+        "pk": 342, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Glasg0wned_closed_1.jpg", 
+            "book": 3, 
+            "name": "Glasg0wned", 
+            "icon_open": "static/img/achievements/Glasg0wned_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 343, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Scotch_Tap_closed_1.jpg", 
+            "book": 3, 
+            "name": "Scotch Tap", 
+            "icon_open": "static/img/achievements/Scotch_Tap_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 345, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Beat_Me_Up_Scotty_closed.jpg", 
+            "book": 3, 
+            "name": "Beat Me Up, Scotty", 
+            "icon_open": "static/img/achievements/Beat_Me_Up_Scotty_open.jpg"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Team_Doctor_closed_1.jpg", 
+            "book": 3, 
+            "name": "Team Doctor", 
+            "icon_open": "static/img/achievements/Team_Doctor_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Grey_Matter_closed_1.jpg", 
+            "book": 3, 
+            "name": "Grey Matter", 
+            "icon_open": "static/img/achievements/Grey_Matter_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Quadruple_Bypass_closed_1.jpg", 
+            "book": 3, 
+            "name": "Quadruple Bypass", 
+            "icon_open": "static/img/achievements/Quadruple_Bypass_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Medical_Breakthrough_closed_1.jpg", 
+            "book": 3, 
+            "name": "Medical Breakthrough", 
+            "icon_open": "static/img/achievements/Medical_Breakthrough_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Dance_Dance_Immolation_closed_1.jpg", 
+            "book": 3, 
+            "name": "Dance Dance Immolation", 
+            "icon_open": "static/img/achievements/Dance_Dance_Immolation_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Shoot_the_Breeze_closed_1.jpg", 
+            "book": 3, 
+            "name": "Shoot the Breeze", 
+            "icon_open": "static/img/achievements/Shoot_the_Breeze_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Not_a_Crazed_Gunman_Dad_closed.jpg", 
+            "book": 3, 
+            "name": "Not a Crazed Gunman, Dad", 
+            "icon_open": "static/img/achievements/Not_a_Crazed_Gunman_Dad_open.jpg"
+        }
+    }, 
+    {
+        "pk": 111, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Soldier_Milestone_2_closed_1.jpg", 
+            "book": 3, 
+            "name": "Soldier Milestone 2", 
+            "icon_open": "static/img/achievements/Soldier_Milestone_2_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 128, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Ride_of_the_Valkartie_closed_1.jpg", 
+            "book": 3, 
+            "name": "Ride of the Valkartie", 
+            "icon_open": "static/img/achievements/Ride_of_the_Valkartie_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 144, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Doc_Stock_and_Barrel_closed.jpg", 
+            "book": 3, 
+            "name": "Doc, Stock, and Barrel", 
+            "icon_open": "static/img/achievements/Doc_Stock_and_Barrel_open.jpg"
+        }
+    }, 
+    {
+        "pk": 163, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/With_Friends_Like_these..._closed_1.jpg", 
+            "book": 3, 
+            "name": "With Friends Like these...", 
+            "icon_open": "static/img/achievements/With_Friends_Like_these..._open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 186, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/House_Call_closed_1.jpg", 
+            "book": 3, 
+            "name": "House Call", 
+            "icon_open": "static/img/achievements/House_Call_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 210, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Hot_on_Your_Heels_closed_1.jpg", 
+            "book": 3, 
+            "name": "Hot on Your Heels", 
+            "icon_open": "static/img/achievements/Hot_on_Your_Heels_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 215, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Pyro_Milestone_1_closed_1.jpg", 
+            "book": 3, 
+            "name": "Pyro Milestone 1", 
+            "icon_open": "static/img/achievements/Pyro_Milestone_1_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 245, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Doctoring_the_Ball_closed_1.jpg", 
+            "book": 3, 
+            "name": "Doctoring the Ball", 
+            "icon_open": "static/img/achievements/Doctoring_the_Ball_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 270, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Parting_Shot_closed_1.jpg", 
+            "book": 3, 
+            "name": "Parting Shot", 
+            "icon_open": "static/img/achievements/Parting_Shot_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 271, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Saturation_Bombing_closed_1.jpg", 
+            "book": 3, 
+            "name": "Saturation Bombing", 
+            "icon_open": "static/img/achievements/Saturation_Bombing_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 311, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Gore-a_Gore-a_Gore-a_closed.jpg", 
+            "book": 3, 
+            "name": "Gore-a! Gore-a! Gore-a!", 
+            "icon_open": "static/img/achievements/Gore-a_Gore-a_Gore-a_open.jpg"
+        }
+    }, 
+    {
+        "pk": 346, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Something_Stickied_This_Way_Comes_closed_1.jpg", 
+            "book": 3, 
+            "name": "Something Stickied This Way Comes", 
+            "icon_open": "static/img/achievements/Something_Stickied_This_Way_Comes_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 348, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Bloody_Merry_closed_1.jpg", 
+            "book": 3, 
+            "name": "Bloody Merry", 
+            "icon_open": "static/img/achievements/Bloody_Merry_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 350, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/He_Who_Celt_It_closed_1.jpg", 
+            "book": 3, 
+            "name": "He Who Celt It", 
+            "icon_open": "static/img/achievements/He_Who_Celt_It_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 351, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Robbed_Royal_closed_1.jpg", 
+            "book": 3, 
+            "name": "Robbed Royal", 
+            "icon_open": "static/img/achievements/Robbed_Royal_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 352, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Highland_Fling_closed_1.jpg", 
+            "book": 3, 
+            "name": "Highland Fling", 
+            "icon_open": "static/img/achievements/Highland_Fling_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 353, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Spynal_Tap_closed_1.jpg", 
+            "book": 3, 
+            "name": "Spynal Tap", 
+            "icon_open": "static/img/achievements/Spynal_Tap_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 354, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Sticky_Thump_closed_1.jpg", 
+            "book": 3, 
+            "name": "Sticky Thump", 
+            "icon_open": "static/img/achievements/Sticky_Thump_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 356, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Search_Engine_closed_1.jpg", 
+            "book": 3, 
+            "name": "Search Engine", 
+            "icon_open": "static/img/achievements/Search_Engine_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 357, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Building_Block_closed_1.jpg", 
+            "book": 3, 
+            "name": "Building Block", 
+            "icon_open": "static/img/achievements/Building_Block_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 359, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Fistful_of_Sappers_closed_1.jpg", 
+            "book": 3, 
+            "name": "Fistful of Sappers", 
+            "icon_open": "static/img/achievements/Fistful_of_Sappers_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 360, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Best_Little_Slaughterhouse_in_Texas_closed_1.jpg", 
+            "book": 3, 
+            "name": "Best Little Slaughterhouse in Texas", 
+            "icon_open": "static/img/achievements/Best_Little_Slaughterhouse_in_Texas_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 362, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Trade_Secrets_closed_1.jpg", 
+            "book": 3, 
+            "name": "Trade Secrets", 
+            "icon_open": "static/img/achievements/Trade_Secrets_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 364, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Land_Grab_closed_1.jpg", 
+            "book": 3, 
+            "name": "Land Grab", 
+            "icon_open": "static/img/achievements/Land_Grab_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 365, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Get_Along_closed.jpg", 
+            "book": 3, 
+            "name": "Get Along!", 
+            "icon_open": "static/img/achievements/Get_Along_open.jpg"
+        }
+    }, 
+    {
+        "pk": 366, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/How_the_Pests_Was_Gunned_closed_1.jpg", 
+            "book": 3, 
+            "name": "How the Pests Was Gunned", 
+            "icon_open": "static/img/achievements/How_the_Pests_Was_Gunned_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 368, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Breaking_Morant_closed_1.jpg", 
+            "book": 3, 
+            "name": "Breaking Morant", 
+            "icon_open": "static/img/achievements/Breaking_Morant_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 370, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Patent_Protection_closed_1.jpg", 
+            "book": 3, 
+            "name": "Patent Protection", 
+            "icon_open": "static/img/achievements/Patent_Protection_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 371, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Circle_the_Wagons_closed_1.jpg", 
+            "book": 3, 
+            "name": "Circle the Wagons", 
+            "icon_open": "static/img/achievements/Circle_the_Wagons_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 372, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Not_So_Lonely_Are_the_Brave_closed_1.jpg", 
+            "book": 3, 
+            "name": "(Not So) Lonely Are the Brave", 
+            "icon_open": "static/img/achievements/Not_So_Lonely_Are_the_Brave_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 375, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Sackston_Hale_closed_1.jpg", 
+            "book": 3, 
+            "name": "Sackston Hale", 
+            "icon_open": "static/img/achievements/Sackston_Hale_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 376, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Gored_closed.jpg", 
+            "book": 3, 
+            "name": "Gored!", 
+            "icon_open": "static/img/achievements/Gored_open.jpg"
+        }
+    }, 
+    {
+        "pk": 378, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/We_Can_Fix_It_In_Post_closed_1.jpg", 
+            "book": 3, 
+            "name": "We Can Fix It In Post", 
+            "icon_open": "static/img/achievements/We_Can_Fix_It_In_Post_open_1.jpg"
+        }
+    }, 
+    {
+        "pk": 379, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Time_For_Your_Close-Up_Mr._Hale_closed.jpg", 
+            "book": 3, 
+            "name": "Time For Your Close-Up, Mr. Hale", 
+            "icon_open": "static/img/achievements/Time_For_Your_Close-Up_Mr._Hale_open.jpg"
+        }
+    }, 
+    {
+        "pk": 381, 
+        "model": "contents.achievement", 
+        "fields": {
+            "icon_closed": "static/img/achievements/Indie_Film_Sensation_closed_1.jpg", 
+            "book": 3, 
+            "name": "Indie Film Sensation", 
+            "icon_open": "static/img/achievements/Indie_Film_Sensation_open_1.jpg"
         }
     }, 
     {
         "pk": 383, 
         "model": "contents.achievement", 
         "fields": {
+            "icon_closed": "static/img/achievements/Dive_Into_a_Good_Book_closed_1.jpg", 
             "book": 3, 
-            "name": "Dive Into a Good Book"
+            "name": "Dive Into a Good Book", 
+            "icon_open": "static/img/achievements/Dive_Into_a_Good_Book_open_1.jpg"
         }
     }, 
     {

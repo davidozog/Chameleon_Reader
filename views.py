@@ -146,11 +146,14 @@ def load_account(request):
             tree = ElementTree.parse(data)
 
             achievements = []
+            iconClosed = {}
+            iconOpen = {}
             for achievement in tree.getroot().find("achievements").findall(
                 "achievement"):
                 if not achievement.find("unlockTimestamp") == None:
                     achievements.append(achievement.find("name").text)
-                    #TODO: grab the iconClosed and iconOpen images and save with achievements
+                    iconClosed[achievement.find("name").text] = achievement.find("iconClosed").text
+                    iconOpen[achievement.find("name").text] = achievement.find("iconOpen").text
 
             _age = form.cleaned_data['age']
             _language = form.cleaned_data['language']
@@ -162,12 +165,27 @@ def load_account(request):
             updated_prof.save()
 
             for achie in achievements:
-                achiModel = Achievement.objects.filter(name=achie)[0]
+                achiModel = Achievement.objects.get(name=achie)
+                # This code was used to gather all the Achievement Icon images
+                #ach_IC_path = os.getcwd() + '/static/img/achievements/' + achiModel.name.replace(' ', '_').replace('\'','_').replace('(', '').replace(')', '') + '_closed.jpg'
+                #ach_IO_path = os.getcwd() + '/static/img/achievements/' + achiModel.name.replace(' ', '_').replace('\'','_').replace('(', '').replace(')', '') + '_open.jpg'
+                #ach_IC = subprocess.call('wget ' + iconClosed[achiModel.name] + ' -O ' + ach_IC_path, shell=True)
+                #ach_IO = subprocess.call('wget ' + iconOpen[achiModel.name] + ' -O ' + ach_IO_path, shell=True)
+                #ach_IC_file = open(ach_IC_path)
+                #ach_IO_file = open(ach_IO_path)
+                #ach_IC_f = File(ach_IC_file)
+                #ach_IO_f = File(ach_IO_file)
+                
+                #achiModel.icon_closed = ach_IC_f
+                #achiModel.icon_open = ach_IO_f
+                #achiModel.save()
+
                 updated_prof.achievements.add(achiModel)
                 
             updated_prof.save()
             
             avatar_img = updated_prof.avatar_large.name
+            achievements = updated_prof.achievements.all()
 
         else:
             achievements = []

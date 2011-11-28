@@ -23,6 +23,8 @@ class Tag(models.Model):
 class Achievement(models.Model):
     name = models.CharField(max_length=50)
     book = models.ForeignKey(Book)
+    icon_closed = models.FileField(blank=True, null=True, upload_to="static/img/achievements")
+    icon_open = models.FileField(blank=True, null=True, upload_to="static/img/achievements")
 
     def __unicode__(self):
         return self.name

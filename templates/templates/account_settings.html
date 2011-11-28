@@ -86,7 +86,7 @@ Achievements : </br>
   {{ ach_message }}
 {% else %}
   {% for achievement in achievements %} 
-  {{ achievement }} </br>
+  <img name="ach_icon" src="/{{ achievement.icon_closed }}" border="0" /> {{ achievement }} </br>
   {% endfor %}
 {% endif %}
 </div>
