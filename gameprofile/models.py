@@ -8,3 +8,6 @@ class UserProfile(models.Model):
     achievements = models.ManyToManyField(Achievement)
     language = models.CharField(max_length=50)
     steamid = models.CharField(max_length=50)
+    avatar_large = models.FileField(blank=True, null=True, upload_to="static/img/avatars")
+    avatar_medium = models.FileField(blank=True, null=True, upload_to="static/img/avatars")
+    avatar_small = models.FileField(blank=True, null=True, upload_to="static/img/avatars")

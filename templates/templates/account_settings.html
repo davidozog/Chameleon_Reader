@@ -65,7 +65,7 @@ Email : {{ user.email }} </br>
    For customization based on your achievements, Please submit your Steam&copy; username:
    </div>
 
-   <form action="/account/settings" method="post">{% csrf_token %}
+   <form action="/account/" method="post">{% csrf_token %}
    {{ form.as_p }}
    <input type="submit" value="Submit" />
    </form>
@@ -73,6 +73,7 @@ Email : {{ user.email }} </br>
 </br>
 </br>
 {% else %}
+<img name="avatar_L" src="/{{ avatar_img }}" border="0" /> </br>
 Steam ID: {{steamID}} </br>
 Age: {{age}} </br>
 Language: {{language}} </br>

@@ -3,6 +3,7 @@ from django.http import HttpResponseRedirect
 from django.template import RequestContext
 from django.contrib.auth import authenticate, login
 from django.views.generic.list_detail import object_list
+from django.core.files import File
 
 from notes.models import Notes
 from contents.models import Article, Node, Achievement, Book
@@ -12,6 +13,8 @@ from contents.views import AccountForm
 
 from xml.etree import ElementTree
 import urllib2
+import subprocess
+import os
 
 def home(request, user=None):
     return render_to_response('templates/DAGuide.html')
@@ -94,21 +97,21 @@ def load_book(request):
 
 def load_account(request):
     USER = request.user
-    gameprofile = UserProfile.objects.filter(user=USER)
+    gameprofile = UserProfile.objects.get(user=USER)
     ach_message = ''
+    avatar_img = ''
     try:
-        user_ach = gameprofile[0].achievements.all()
+        user_ach = gameprofile.achievements.all()
         ach_message = ''
     except:
         user_ach = []
         ach_message = 'You don\'t have any achievements'
 
-    if gameprofile[0].steamid:
-        steamID = gameprofile[0].steamid
+    if gameprofile.steamid:
+        steamID = gameprofile.steamid
     else:
         steamID = ''
     
-
     if request.method == 'POST':  # If the form has been submitted...
         form = AccountForm(request.POST)  # A form bound to the POST data
         if form.is_valid():  # All validation rules pass
@@ -118,6 +121,23 @@ def load_account(request):
             data = urllib2.urlopen("http://steamcommunity.com/id/%s?xml=1" % steamID)
             tree = ElementTree.parse(data)
             steam64ID = tree.find("steamID64").text
+            avatar_S = tree.find("avatarIcon").text
+            avatar_M = tree.find("avatarMedium").text
+            avatar_L = tree.find("avatarFull").text
+            spS = subprocess.call('wget ' + avatar_S + ' -O ' + os.getcwd() + '/static/img/avatars/' + USER.username + '_S.jpg', shell=True)
+            spM = subprocess.call('wget ' + avatar_M + ' -O ' + os.getcwd() + '/static/img/avatars/' + USER.username + '_M.jpg', shell=True)
+            spL = subprocess.call('wget ' + avatar_L + ' -O ' + os.getcwd() + '/static/img/avatars/' + USER.username + '_L.jpg', shell=True)
+
+
+            av_L_path = os.getcwd() + '/static/img/avatars/' + USER.username + '_L.jpg'
+            av_M_path = os.getcwd() + '/static/img/avatars/' + USER.username + '_M.jpg'
+            av_S_path = os.getcwd() + '/static/img/avatars/' + USER.username + '_S.jpg'
+            av_L_file = open(av_L_path)
+            av_M_file = open(av_M_path)
+            av_S_file = open(av_S_path)
+            avLf = File(av_L_file)
+            avMf = File(av_M_file)
+            avSf = File(av_S_file)
 
             # Get achievements
             data = urllib2.urlopen(
@@ -130,13 +150,14 @@ def load_account(request):
                 "achievement"):
                 if not achievement.find("unlockTimestamp") == None:
                     achievements.append(achievement.find("name").text)
+                    #TODO: grab the iconClosed and iconOpen images and save with achievements
 
             _age = form.cleaned_data['age']
             _language = form.cleaned_data['language']
             to_remove = UserProfile.objects.filter(user=USER)
             to_remove.delete()
-            # TODO: Add all user achievements to the database:
-            updated_prof = UserProfile(user=USER, age=_age, language=_language, steamid=steamID)
+            updated_prof = UserProfile(user=USER, age=_age, language=_language, steamid=steamID,
+                                       avatar_large = avLf, avatar_medium = avMf, avatar_small = avSf)
 
             updated_prof.save()
 
@@ -146,23 +167,24 @@ def load_account(request):
                 
             updated_prof.save()
             
-            #print achievements
-            #return HttpResponseRedirect('/book/display_achievements')  # Redirect after POST
+            avatar_img = updated_prof.avatar_large.name
+
         else:
             achievements = []
             _age = ''
             _language = ''
 
-        return render_to_response('templates/account_settings.html', {'user':USER, 'username':USER.username, 'achievements':achievements, 'ach_message':ach_message, 'steamID':steamID, 'age':_age, 'language':_language, 'form':form }, context_instance=RequestContext(request))
+        return render_to_response('templates/account_settings.html', {'user':USER, 'username':USER.username, 'achievements':achievements, 'ach_message':ach_message, 'steamID':steamID, 'age':_age, 'language':_language, 'form':form, 'avatar_img':avatar_img }, context_instance=RequestContext(request))
 
     else:
         if steamID:
-            age = gameprofile[0].age
-            language = gameprofile[0].language
+            age = gameprofile.age
+            language = gameprofile.language
             form = None
+            avatar_img = gameprofile.avatar_large.name
         else:
             form = AccountForm()  # An unbound form
             age = ''
             language = ''
 
-        return render_to_response('templates/account_settings.html', {'user':USER, 'username':USER.username, 'achievements':user_ach, 'ach_message':ach_message, 'form':form, 'steamID':steamID, 'age':age, 'language':language }, context_instance=RequestContext(request))
+        return render_to_response('templates/account_settings.html', {'user':USER, 'username':USER.username, 'achievements':user_ach, 'ach_message':ach_message, 'form':form, 'steamID':steamID, 'age':age, 'language':language, 'avatar_img':avatar_img }, context_instance=RequestContext(request))
