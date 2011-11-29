@@ -63,17 +63,18 @@ $(document).ready(function(){
             <ul>
             {% recursetree toc %}
                   <li>
-                      {% if not node.is_leaf_node %}
-                      <a href="#">
-                      {{ node.name }}
-                          <ul class="children">
-                              {{ children }}
-                          </ul>
-                      </a>
-                      {% else %}
+                      {% if node.is_leaf_node %}
                       <a href={% url contents.views.display_article book_name|slugify node.article.title|slugify %}>
                       {{ node.article.title }}
                       </a>
+                      {% else %}
+                      <a href="#">
+                      {{ node.name }}
+                      </a>
+                      <ul class="children">
+                          {{ children }}
+                      </ul>
+                      
                       {% endif %}
                   </li>
               {% endrecursetree %}
