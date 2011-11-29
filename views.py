@@ -4,6 +4,7 @@ from django.template import RequestContext
 from django.contrib.auth import authenticate, login
 from django.views.generic.list_detail import object_list
 from django.core.files import File
+from Chameleon_Reader import settings
 
 from notes.models import Notes
 from contents.models import Article, Node, Achievement, Book
@@ -124,14 +125,15 @@ def load_account(request):
             avatar_S = tree.find("avatarIcon").text
             avatar_M = tree.find("avatarMedium").text
             avatar_L = tree.find("avatarFull").text
-            spS = subprocess.call('wget ' + avatar_S + ' -O ' + os.getcwd() + '/static/img/avatars/' + USER.username + '_S.jpg', shell=True)
-            spM = subprocess.call('wget ' + avatar_M + ' -O ' + os.getcwd() + '/static/img/avatars/' + USER.username + '_M.jpg', shell=True)
-            spL = subprocess.call('wget ' + avatar_L + ' -O ' + os.getcwd() + '/static/img/avatars/' + USER.username + '_L.jpg', shell=True)
+            spS = subprocess.call('wget ' + avatar_S + ' -O ' + settings.PREFIX + '/static/img/avatars/' + USER.username + '_S.jpg', shell=True)
+            spM = subprocess.call('wget ' + avatar_M + ' -O ' + settings.PREFIX + '/static/img/avatars/' + USER.username + '_M.jpg', shell=True)
+            spL = subprocess.call('wget ' + avatar_L + ' -O ' + settings.PREFIX + '/static/img/avatars/' + USER.username + '_L.jpg', shell=True)
 
+            print 'TESTING'
 
-            av_L_path = os.getcwd() + '/static/img/avatars/' + USER.username + '_L.jpg'
-            av_M_path = os.getcwd() + '/static/img/avatars/' + USER.username + '_M.jpg'
-            av_S_path = os.getcwd() + '/static/img/avatars/' + USER.username + '_S.jpg'
+            av_L_path = settings.PREFIX + '/static/img/avatars/' + USER.username + '_L.jpg'
+            av_M_path = settings.PREFIX + '/static/img/avatars/' + USER.username + '_M.jpg'
+            av_S_path = settings.PREFIX + '/static/img/avatars/' + USER.username + '_S.jpg'
             av_L_file = open(av_L_path)
             av_M_file = open(av_M_path)
             av_S_file = open(av_S_path)
