@@ -1,16 +1,233 @@
-@charset "utf-8";body {	background-color: #fff;	background-attachment: scroll;	background-image: url(images/bg2.png);	background-repeat: no-repeat;	font-size: 62.5%;	margin: 0;	padding: 0;}
+@charset "utf-8";
 
-.welcomeuser{
-  margin: 10px 0 10px 20px;
-  font-size: 18px;
-  color: white !important;
+body {
+	background-color: #fff;
+	background-attachment: scroll;
+	background-image: url(/static/img/article/bg3.png);
+	background-repeat: repeat-x;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+p {
+	margin-bottom: 1.1em;
+	margin-top: 0;
+}
+#main p.lastNode {
+	margin-bottom: 0;
+}
+a:link img, a:visited img {
+	border: none;
+}
+div.clearFloat {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0px;
+}
+li.clearFloat {
+	clear: both;
+}
+ul.symbolList {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.AbsWrap {
+	position: relative;
+	width: 100%;
+}
+.rowWrap {
+	width: 100%;
+}
+#Div {
+	left: 0px;
+	position: absolute;
+	top: 24px;
+	margin-bottom: 0;
+	background-color: #6d7265;
+	border: 1px solid #333;
+	width: 1081px;
+	padding-top: 0px;
+	height: 767px;
+}
+html > body #Div {
+	height: auto;
+	min-height: 766px;
+}
+#Box3SliceContainer {
+	left: 0px;
+	position: absolute;
+	top: 48px;
+	margin-bottom: 0;
+	width: 1024px;
+	background-image: url(/static/img/article/book_mid.png);
+	background-repeat: repeat;
+}
+#Box3SliceContainer_top_1 {
+	margin-left: 0px;
+	margin-top: 0px;
+	background-image: url(/static/img/article/library_r3_c1.png);
+	overflow: hidden;
+	display: inline;
+	float: left;
+	height: 31px;
+	margin-bottom: 0;
+	width: 1024px;
+}
+#Box3SliceContainer_bottom_1 {
+	margin-left: 0px;
+	margin-top: 629px;
+	background-image: url(/static/img/article/book_bottom.png);
+	overflow: hidden;
+	display: inline;
+	float: left;
+	height: 40px;
+	margin-bottom: 0;
+	width: 1024px;
+}
+#welcomeuser{
+	
+	padding-left:700px;
+	
+	
+	width: auto;
+	font-color:ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	//padding-top: 0px;
+	height: auto;
+	font-size:25px;
 }
 
-.welcomeuser a  {
-  color: white;
-  text-decoration: none;
+#welcomeuser a{
+	
+	width: auto;
+	//font-color:ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	//padding-top: 0px;
+	height: auto;
+	font-size:25px;
 }
 
-.usercolor{
-  color: #33ff33;
+
+#welcomeuser a:visited {
+	font-color:ffffff;
+	text-decoration:none;
+	
+}
+#welcomeuser a:link{
+		font-color:ffffff;
+	text-decoration:none;
+}
+#welcomeuser a:hover{
+		font-color:ffffff;
+	text-decoration:none;
+	
+}
+
+#Div2 {
+	left: 10px;
+	position: absolute;
+	top: 52px;
+	margin-bottom: 0;
+	background-color: #fff;
+	width: 1004px;
+	padding-top: 0px;
+	height: 699px;
+}
+html > body #Div2 {
+	height: auto;
+	min-height: 700px;
+}
+#library_r1_c1 {
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	height: 41px;
+	margin-bottom: 0;
+	width: 520px;
+}
+#library_r2_c1 {
+	left: 0px;
+	position: absolute;
+	top: 41px;
+	background-image: url(/static/img/article/library_r2_c1.png);
+	overflow: hidden;
+	height: 7px;
+	margin-bottom: 0;
+	width: 1024px;
+}
+#teamfortress {
+	left: 37px;
+	position: absolute;
+	top: 132px;
+	height: 232px;
+	margin-bottom: 0;
+	width: 174px;
+}
+#wow {
+	left: 231px;
+	position: absolute;
+	top: 132px;
+	height: 233px;
+	margin-bottom: 0;
+	width: 175px;
+}
+#newvegas {
+	left: 428px;
+	position: absolute;
+	top: 133px;
+	height: 233px;
+	margin-bottom: 0;
+	width: 174px;
+}
+#witcher2 {
+	left: 623px;
+	position: absolute;
+	top: 133px;
+	height: 233px;
+	margin-bottom: 0;
+	width: 174px;
+}
+#dungeonsiege {
+	left: 818px;
+	position: absolute;
+	top: 133px;
+	height: 233px;
+	margin-bottom: 0;
+	width: 174px;
+}
+#skyrim {
+	left: 37px;
+	position: absolute;
+	top: 404px;
+	height: 233px;
+	margin-bottom: 0;
+	width: 174px;
+}
+#diablo3 {
+	left: 232px;
+	position: absolute;
+	top: 404px;
+	height: 233px;
+	margin-bottom: 0;
+	width: 174px;
+}
+#chameleon {
+	left: 428px;
+	position: absolute;
+	top: 550px;
+	height: 178px;
+	margin-bottom: 0;
+	width: 596px;
 }

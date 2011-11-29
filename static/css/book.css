@@ -179,3 +179,39 @@ font-size:20px;
 	margin-bottom: 0;
 	width: 651px;
 }
+
+a.LibraryButton {
+    background: transparent url('/static/img/article/library_a.png') no-repeat scroll top right;
+    color: #ffffff;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 37px;
+	width:100px;
+    margin-right: 1px;
+	margin-top: 240px;
+	margin-left: 90px;
+    padding-right: 10px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.LibraryButton span {
+    background: transparent url('/static/img/article/library_span.png') no-repeat;
+    display: block;
+    line-height: 27px;
+    padding: 5px 0 5px 18px;
+}
+
+
+a.LibraryButton:active {
+    background-position: bottom right;
+    color: #ffffff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+
+a.LibraryButton:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
