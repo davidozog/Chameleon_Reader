@@ -54,11 +54,11 @@ def display_article(request, book_name, article_title):
         total_user_Ach = 0
         for ua in user_ach:
             try:
-                if article_Ach.index(ua) >= 0:
+                if article_Ach.filter(name=ua.name):
                     total_user_Ach = total_user_Ach + 1
             except:
                 pass
-        if total_user_Ach != 0:
+        if total_article_Ach != 0:
           percentage_Ach = total_user_Ach / float( total_article_Ach )
         else:
           percentage_Ach = 0
