@@ -68,7 +68,7 @@ a.LibraryButton:active span {
 
 .as_setting_ach {
     color: #3f3;
-    padding-bottom: 15px;
+    position: relative;
     font-size: 17px;
 }
 
