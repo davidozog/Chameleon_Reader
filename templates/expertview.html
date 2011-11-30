@@ -105,10 +105,10 @@ $(document).ready(function(){
 			<div id="main"><!--this is for the main page contain article and table of contents-->
 				<div id="mainArticle"><!--this is for the main article-->
 					<div id="Box3SliceContainer_top_1"> </div>
-          <div style="padding-right:100px; float:right">
+          <div class="paging">
           {% if prev_node %}
             Previous: <a href={% url contents.views.display_article book_name|slugify prev_node.article.title|slugify %}>
-                      {{prev_node.article.title}} </a>
+                      {{prev_node.article.title}} </a> &nbsp;&nbsp;&nbsp;
           {% endif %}
           {% if next_node %}
             Next: <a href={% url contents.views.display_article book_name|slugify next_node.article.title|slugify %}>

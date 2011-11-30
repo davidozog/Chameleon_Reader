@@ -58,7 +58,10 @@ def display_article(request, book_name, article_title):
                     total_user_Ach = total_user_Ach + 1
             except:
                 pass
-        percentage_Ach = total_user_Ach / float( total_article_Ach )
+        if total_user_Ach != 0:
+          percentage_Ach = total_user_Ach / float( total_article_Ach )
+        else:
+          percentage_Ach = 0
         if percentage_Ach >= 0.33:
             view_state = 'expert'
             other_state = 'novice'
