@@ -372,7 +372,7 @@ a.LogoutButton {
     background: transparent url('/static/img/article/button_a.png') no-repeat scroll top right;
     color: #ffffff;
     display: block;
-    float: left;
+    float: right;
     font: normal 12px arial, sans-serif;
     height: 24px;
     margin-right: 1px;
