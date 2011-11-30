@@ -11,5 +11,74 @@
 }
 
 .userachlist{
-  margin-left: 20px;
+  margin: 20px 0 0 50px;
+}
+
+a.LibraryButton {
+    background: transparent url('/static/img/article/library_a.png') no-repeat scroll top right;
+    color: #ffffff;
+    display: block;
+    font: normal 12px arial, sans-serif;
+    height: 37px;
+    width:104px;
+    margin-right: 5px;
+    margin-top: -5px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+a.LibraryButton span {
+    background: transparent url('/static/img/article/library_span.png') no-repeat;
+    display: block;
+    line-height: 27px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+a.LibraryButton:active {
+    background-position: bottom right;
+    color: #ffffff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+
+a.LibraryButton:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+.as_avatar {
+    margin: 25px 0 25px 80px;
+}
+
+.as1 {
+    font-size: 18px;
+    color: white;
+    margin: -15px 0 5px -50px;
+}
+
+.as1_param {
+    font-size: 17px; 
+    color: white;
+}
+
+.as_setting {
+    color: #3f3;
+}
+
+.as_setting_ach {
+    color: #3f3;
+    position: relative;
+    font-size: 17px;
+}
+
+.as_bg {
+    background-color: #434343;
+    width: 994px;
+    margin-left: 10px;
+}
+
+.as_content{
+    margin: 0 0 0 60px;
+    padding: 20px 0 0 0;
 }

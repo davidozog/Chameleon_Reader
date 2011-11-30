@@ -372,7 +372,7 @@ a.LogoutButton {
     background: transparent url('/static/img/article/button_a.png') no-repeat scroll top right;
     color: #ffffff;
     display: block;
-    float: right;
+    float: left;
     font: normal 12px arial, sans-serif;
     height: 24px;
     margin-right: 1px;
@@ -398,4 +398,33 @@ a.LogoutButton:active {
 a.LogoutButton:active span {
     background-position: bottom left;
     padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+.usercolor{
+
+color:#ffffff;
+
+text-decoration:none;
+
+}
+
+.usercolor:hover{
+color:#009900;
+
+
+}
+.welcomeuser{
+padding-top:8px;
+//padding-left:800px;
+}
+
+.welcomeuser a{
+
+
+//padding-left:700px;
+color:#009900;
+text-decoration:none;
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+
 }

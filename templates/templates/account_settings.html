@@ -50,49 +50,60 @@ Welcome, <span class="usercolor">{{ user.username }}</span>. </br>
 </table>
 </br>
 
-<a href="/book/"> Library </a> </br>
+<div id="wrap"><div id="LibraryButton">
+	<a class="LibraryButton" href="/book/"><span>&nbsp;</span></a>
+</div> </br>
 
-Here are your account settings: </br>
+<div class="as_bg">
+  <div class="as_content">
+    <div class="as1"><span class="as_setting">{{ username }}</span>, here are your account settings: </div>
+    <div class="as_avatar">
+    <img name="avatar_L" src="/{{ avatar_img }}" border="0" /> </br>
+    </div>
+    
+    <div class="as1_param">Username : <span class="as_setting"> {{ username }} </span> </div>
+    
+    <div class="as1_param">Email : <span class="as_setting"> {{ user.email }} </span> </div>
+    
+    {% if not steamID %}
+    </br>
+    </br>
+       <div class="steam_explanation">
+       For customization based on your achievements, Please submit your Steam&copy; username:
+       </div>
+    
+       <form action="/account/" method="post">{% csrf_token %}
+       {{ form.as_p }}
+       <input type="submit" value="Submit" />
+       </form>
+    
+    </br>
+    </br>
+    {% else %}
+    <div class="as1_param">Steam ID: <span class="as_setting"> {{steamID}} </span> </div>
+    <div class="as1_param">Age: <span class="as_setting"> {{age}} </span> </div>
+    <div class="as1_param">Language: <span class="as_setting"> {{language}} </span> </div>
+    </br>
+    {% endif %}
+    
+    <div class="as1_param">Achievements : </div>
+    <div class="userachlist">
+    {% if ach_message %}
+      {{ ach_message }}
+    {% else %}
+      {% for achievement in achievements %} 
+      <img name="ach_icon" src="/{{ achievement.icon_closed }}" border="0" /> 
+         <span class="as_setting_ach"> {{ achievement }} </span> </br>
+         <hr align="left" width="300px"/>
+      {% endfor %}
+    {% endif %}
+    </div>
+    
+    </br>
 
-Username : {{ username }} </br>
-
-Email : {{ user.email }} </br>
-
-{% if not steamID %}
-</br>
-</br>
-   <div class="steam_explanation">
-   For customization based on your achievements, Please submit your Steam&copy; username:
-   </div>
-
-   <form action="/account/" method="post">{% csrf_token %}
-   {{ form.as_p }}
-   <input type="submit" value="Submit" />
-   </form>
-
-</br>
-</br>
-{% else %}
-<img name="avatar_L" src="/{{ avatar_img }}" border="0" /> </br>
-Steam ID: {{steamID}} </br>
-Age: {{age}} </br>
-Language: {{language}} </br>
-</br>
-{% endif %}
-
-Achievements : </br>
-<div class="userachlist">
-{% if ach_message %}
-  {{ ach_message }}
-{% else %}
-  {% for achievement in achievements %} 
-  <img name="ach_icon" src="/{{ achievement.icon_closed }}" border="0" /> {{ achievement }} </br>
-  {% endfor %}
-{% endif %}
+  </div>
+  
 </div>
-
-</br>
-
 
 </body>
 </html>
