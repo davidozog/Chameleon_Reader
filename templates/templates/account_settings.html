@@ -30,11 +30,6 @@ function MM_swapImgRestore() { //v3.0
 </head>
 <body style="background-color:#63665b">
 <div class="welcomeuser">
-{% if user.is_authenticated %}
-Welcome, <span class="usercolor">{{ user.username }}</span>. </br>
-<!--<span id="here_books">Here are the available books:<span></br>-->
-</div>
-{% endif %}
 <table style="display: inline-table;" border="0" cellpadding="0" cellspacing="0" width="1024">
 <!-- fwtable fwsrc="library.png" fwpage="Page 1" fwbase="library.png" fwstyle="Dreamweaver" fwdocid = "1847320917" fwnested="1" -->
   <tr>
@@ -57,9 +52,12 @@ Welcome, <span class="usercolor">{{ user.username }}</span>. </br>
 <div class="as_bg">
   <div class="as_content">
     <div class="as1"><span class="as_setting">{{ username }}</span>, here are your account settings: </div>
+    
+    {% if steamID %}
     <div class="as_avatar">
     <img name="avatar_L" src="/{{ avatar_img }}" border="0" /> </br>
     </div>
+    {% endif %}
     
     <div class="as1_param">Username : <span class="as_setting"> {{ username }} </span> </div>
     
@@ -69,10 +67,10 @@ Welcome, <span class="usercolor">{{ user.username }}</span>. </br>
     </br>
     </br>
        <div class="steam_explanation">
-       For customization based on your achievements, Please submit your Steam&copy; username:
+        <span class="as1_param">For customization based on your achievements, Please submit your <span class="as_setting">Steam&copy;</span> username: </span>
        </div>
     
-       <form action="/account/" method="post">{% csrf_token %}
+       <form class="steam" action="/account/" method="post">{% csrf_token %}
        {{ form.as_p }}
        <input type="submit" value="Submit" />
        </form>
@@ -89,7 +87,7 @@ Welcome, <span class="usercolor">{{ user.username }}</span>. </br>
     <div class="as1_param">Achievements : </div>
     <div class="userachlist">
     {% if ach_message %}
-      {{ ach_message }}
+      <span class="as_setting_ach">{{ ach_message }} </span>
     {% else %}
       {% for achievement in achievements %} 
       <img name="ach_icon" src="/{{ achievement.icon_closed }}" border="0" /> 

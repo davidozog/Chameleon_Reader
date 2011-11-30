@@ -103,6 +103,35 @@ html > body #book_r2_c1 {
 	font-size:11pt;
 	width: 500px;
 }
+.usercolor{
+
+color:#ffffff;
+
+text-decoration:none;
+
+}
+
+.usercolor:hover{
+color:#009900;
+
+
+}
+.welcomeuser{
+padding-top:8px;
+//padding-left:800px;
+}
+
+.welcomeuser a{
+
+
+//padding-left:700px;
+color:#009900;
+text-decoration:none;
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
 
 #tableofcontents a{
 	
@@ -151,7 +180,7 @@ font-size:20px;
 	top: 0px;
 	height: 41px;
 	margin-bottom: 0;
-	width: 1024px;
+	width: 520px;
 }
 #wow {
 	left: 56px;
@@ -228,4 +257,51 @@ a.LibraryButton:active span {
     background-position: bottom left;
     padding: 6px 0 4px 18px; /* push text down 1px */
 }
+
+#topmenu{
+padding-left:755px;
+
+}
+
+#logoout{
+
+padding-left:100px;
+
+
+}
+
+a.LogoutButton {
+    background: transparent url('/static/img/article/button_a.png') no-repeat scroll top right;
+    color: #ffffff;
+  //  display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+  //  margin-right: 100px;
+	//margin-top: 10px;
+  //  margin-left:400px;
+  //  padding-left:500;
+    padding-right: 10px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.LogoutButton span {
+    background: transparent url('/static/img/article/logout_span.png') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+
+a.LogoutButton:active {
+    background-position: bottom right;
+    color: #ffffff;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.LogoutButton:active span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
 
