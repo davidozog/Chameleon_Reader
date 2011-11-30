@@ -4,3 +4,4 @@ gamereader
 *.DS_Store
 *.swp
 todo
+static/img/avatars/*.jpg

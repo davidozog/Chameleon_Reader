@@ -37,7 +37,9 @@ def load_profile(request):
 
             login(request, USER)
             book_list = Book.objects.all()
-            return render_to_response('library/library.html', {'book_list': book_list, 'user':USER})
+            ft2_book = book_list.filter(name="Team Fortress 2")[0]
+            wow_book = book_list.filter(name="World of Warcraft")[0]
+            return render_to_response('library/library.html', {'book_list':book_list, 'user':USER, 'ft2_book':ft2_book, 'wow_book':wow_book})
         else:
           return render_to_response('templates/login_error.html')
     else:
