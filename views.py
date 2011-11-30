@@ -103,10 +103,11 @@ def load_account(request):
     avatar_img = ''
     try:
         user_ach = gameprofile.achievements.all()
-        ach_message = ''
+        #if len(user_ach) == 0:
+        #  ach_message = 'You don\'t have any achievements.'
     except:
         user_ach = []
-        ach_message = 'You don\'t have any achievements'
+        ach_message = 'You don\'t have any achievements.'
 
     if gameprofile.steamid:
         steamID = gameprofile.steamid
@@ -193,6 +194,7 @@ def load_account(request):
             achievements = []
             _age = ''
             _language = ''
+            ach_message = 'None'
 
         return render_to_response('templates/account_settings.html', {'user':USER, 'username':USER.username, 'achievements':achievements, 'ach_message':ach_message, 'steamID':steamID, 'age':_age, 'language':_language, 'form':form, 'avatar_img':avatar_img }, context_instance=RequestContext(request))
 
@@ -206,5 +208,6 @@ def load_account(request):
             form = AccountForm()  # An unbound form
             age = ''
             language = ''
+            ach_message = 'None'
 
         return render_to_response('templates/account_settings.html', {'user':USER, 'username':USER.username, 'achievements':user_ach, 'ach_message':ach_message, 'form':form, 'steamID':steamID, 'age':age, 'language':language, 'avatar_img':avatar_img }, context_instance=RequestContext(request))
