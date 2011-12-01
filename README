@@ -56,6 +56,49 @@ To set up the development server
        * Note: you can log into the admin interface by visiting:
                http://localhost:8000/admin
 
+Project File Structure
+======================
+The project settings are located in the root-level settings.py file.  That file contains
+the list of software modules in the INSTALLED_APPS setting.  These are the major modules:
+
+- Contents
+- GameProfile
+- Registration
+- Notes* 
+
+*The Notes module was dumped in Project 2.
+
+These modules correspond to directories in the Project:
+
+- contents/
+- gameprofile/
+- registration/
+- notes/
+
+Each of these modules is a "Django App" that contains a subset of these files:
+
+- urls.pyt
+    * This file holds the URLs associated with the module.
+- models.py
+    * holds the objects and methods for the module.
+- views.pyt
+    * directs the user through the URL landscape of the project, interacting 
+      with the database when needed and selecting the appropriate UI attributes.
+- forms.py 
+    * an optional file that contains forms for defining module object via user input.
+- fixtures/
+    * This directory holds the database backup information (see the next section for
+      more information).
+
+settings.py also defines how media objects (images, CSS, and javascript files) are servered.  
+Static files are stored in the root-level static/ directory, organized as follows:
+
+- static/img   :    where images are stored
+- static/js    :    where javascript files are stored
+- static/css   :    where CSS files for styling are stored
+
+
+
 Save changes made to the database
 ==================================
 Problem
