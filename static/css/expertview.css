@@ -96,10 +96,10 @@ html > body #expertview_r1_c14 {
 
 #content{
 	padding:20px 20px 20px 30px;
-	font-size:12px;
-	font-color:whihte;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #CCCCCC;
+	font-size:11pt;
+/*	font-color:/*white*/;
+*/	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
 	width:600px;
 	max-width:600px;	
 	}
@@ -112,6 +112,11 @@ html > body #expertview_r1_c14 {
 	max-width:600px;
 	height:auto;
 	
+}
+#content h1{
+    font-size:14pt;
+   // color: #00cc33;
+    text-decoration:underline
 }
 #main {
 	margin-left: 0px;
@@ -435,10 +440,10 @@ font-family: Arial, Helvetica, sans-serif;
 .paging {
   padding-right:100px; 
   float:right;
-  color:white;
-  font-size:12px;
+  color:#cccccc;
+  font-size:9pt;
 }
 
 .paging a {
-  color: #0c3;
+  color: #cccccc;
 }
