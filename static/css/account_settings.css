@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-	background-color: #fff;
+	background-color: #6b6b6b;
 	background-attachment: scroll;
 	background-image: url(/static/img/article/bg3.png);
 	background-repeat: repeat-x;
