@@ -447,3 +447,23 @@ font-family: Arial, Helvetica, sans-serif;
 .paging a {
   color: #cccccc;
 }
+
+#percentage {
+  margin: 50px 0 0 260px;
+  width: 258px;
+  background-color: #333;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #adb1a3;
+  color: #090;
+  padding: 3px 0 0 3px;
+  font-size: 12px;
+}
+
+#percentage ul {
+ margin-left: -10px;
+}
+
+.whitey {
+  color: #ccc;
+}

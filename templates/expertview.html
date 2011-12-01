@@ -132,8 +132,18 @@ $(document).ready(function(){
 				<div id="tableofcontents">
                                      Chapter Contents:
                                      </br>
-                                </div>
+        </div>
 				<div id="Box3SliceContainer_bottom_2"> </div>
+        <div id="percentage">
+         <div id="percentage_text">
+         <ul>
+           <li>This article has <span class="whitey">{{ article_ach }}</span> achievements.</li>
+           <li>You have <span class="whitey">{{ user_ach }}</span> achievements.</li>
+           <li><span class="whitey">{{ percentage|floatformat }}%</span> of achievements gained </li>
+           <li>You are {%if view_state == "novice"%} a {% else %} an {% endif %} <span class="whitey">{{ view_state }}</span>.</li>
+
+         </div>
+        </div>
 			</div>
     </div>
 	</body>

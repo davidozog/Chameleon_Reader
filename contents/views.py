@@ -61,14 +61,16 @@ def display_article(request, book_name, article_title):
         if total_article_Ach != 0:
           percentage_Ach = total_user_Ach / float( total_article_Ach )
         else:
-          percentage_Ach = 0
+          percentage_Ach = 1.0
         if percentage_Ach >= 0.33:
             view_state = 'expert'
             other_state = 'novice'
+        
+        percentage_Ach = percentage_Ach * 100
 
     return render_to_response('expertview.html', {'article': art, 'username':username, 'user':USER,
         'next_node': nextNode, 'prev_node': prevNode, 'toc': toc, 'book_name': book_name,
-        'view_state': view_state, 'other_state':other_state})
+        'view_state': view_state, 'other_state':other_state, 'percentage':percentage_Ach, 'user_ach':total_user_Ach, 'article_ach':total_article_Ach})
 
 
 def display_table_of_contents(request, book_name):
