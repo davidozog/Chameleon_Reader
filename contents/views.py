@@ -30,6 +30,7 @@ def display_article(request, book_name, article_title):
     USER = request.user
     username = USER.username
     gameprofile = UserProfile.objects.filter(user=USER)
+    percentage_Ach = 0.0
 
     try:
         user_ach = gameprofile[0].achievements.all()
