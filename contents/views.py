@@ -47,11 +47,15 @@ def display_article(request, book_name, article_title):
     view_state = 'novice'
     other_state = 'expert'
 
+    # default to novice if no steam ID
+    percentage_Ach = 0.0
+    total_user_Ach = 0
+    article_Ach = art.achievements.all()
+    total_article_Ach = len(article_Ach)
+
     # If a steam game, then see if the user has more than 33% of the achievements,
     # if so, then default to the expert view.
     if steamID:
-        article_Ach = art.achievements.all()
-        total_article_Ach = len(article_Ach)
         total_user_Ach = 0
         for ua in user_ach:
             try:
