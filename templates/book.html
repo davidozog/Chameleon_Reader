@@ -57,7 +57,7 @@
     {% recursetree toc %}
         <li>
             {% if not node.is_leaf_node %}
-            <a href=#>
+            <a href={% url contents.views.display_article book.name|slugify node.article.title|slugify %}>
             {{ node.name }}
             </a>
                 <ul class="children">
